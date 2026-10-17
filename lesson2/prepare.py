@@ -5,7 +5,7 @@ Run from the repository root:
 """
 import pandas as pd
 
-from prep import audit, clean, config, inventory, load
+from prep import audit, checks, clean, config, inventory, load, merge
 from prep.export import write_csv
 
 DATE_COLS = {
@@ -14,6 +14,7 @@ DATE_COLS = {
     "billing_clean": ("billing_month",),
     "support_clean": (),
     "quarantine": ("created_month",),
+    "customer_month": ("billing_month", "activation_date"),
 }
 
 
@@ -57,11 +58,26 @@ def main() -> None:
     audit_after = audit.run_clean(written)
     write_csv(audit_after, out / "audit_after.csv")
 
+    # Step 4: monthly table
+    customer_month = merge.build_customer_month(billing, subscribers, support, quarantine)
+    write_csv(customer_month, out / "customer_month.csv", DATE_COLS["customer_month"])
+    coverage = merge.ticket_coverage(support, billing[merge.KEY + ["available_at"]])
+
+    # Step 5: availability and join checks
+    check_results = checks.run(customer_month, billing, coverage)
+    write_csv(check_results, out / "checks.csv")
+
     show("Источники:", summary.drop(columns="read_method"))
     show("Решения (decisions.csv):", log.frame().drop(columns="rationale"))
     show("Проблемы после очистки (ненулевые; полный список — audit_after.csv):",
          audit_after[(audit_after.rows > 0) | (audit_after.copies > 0)])
+    tables["customer_month"] = customer_month
     show("Строки подготовленных таблиц:", pd.DataFrame({"table": list(tables), "rows": [len(t) for t in tables.values()]}))
+    show("Проверки (checks.csv):", check_results)
+
+    failed = check_results[~check_results.passed]
+    if len(failed):
+        raise SystemExit(f"Не пройдено проверок: {len(failed)} — см. checks.csv")
 
 
 if __name__ == "__main__":
