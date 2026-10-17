@@ -117,7 +117,23 @@ def check_real(customer_month: pd.DataFrame, billing: pd.DataFrame, coverage: di
     ]
 
 
-def run(customer_month: pd.DataFrame, billing: pd.DataFrame, coverage: dict) -> pd.DataFrame:
+# Tables whose remaining columns are described under another table of the dictionary.
+INHERITS = {"customer_month": ["billing_clean", "subscribers_clean"], "quarantine": ["support_clean"]}
+
+
+def check_dictionary(tables: dict[str, pd.DataFrame], dictionary: pd.DataFrame) -> dict:
+    described = dictionary.groupby("table").field.agg(set).to_dict()
+    missing = []
+    for name, df in tables.items():
+        known = set().union(described.get(name, set()), *(described.get(p, set()) for p in INHERITS.get(name, [])))
+        missing += [f"{name}.{c}" for c in df.columns if c not in known]
+    return result("Словарь данных", "Описан каждый столбец подготовленных таблиц",
+                  f"не описаны: {missing or 'нет'}", not missing)
+
+
+def run(customer_month: pd.DataFrame, billing: pd.DataFrame, coverage: dict,
+        tables: dict[str, pd.DataFrame], dictionary: pd.DataFrame) -> pd.DataFrame:
     rows = [check_repeated_row(), *check_late_arrival(), check_customer_without_tickets(),
-            check_closure_after_snapshot(), *check_real(customer_month, billing, coverage)]
+            check_closure_after_snapshot(), *check_real(customer_month, billing, coverage),
+            check_dictionary(tables, dictionary)]
     return pd.DataFrame(rows)

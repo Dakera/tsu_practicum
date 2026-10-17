@@ -18,6 +18,7 @@ DICTIONARY = LESSON1_RAW / "data_dictionary.csv"
 SUPPORT_DB = LESSON2_RAW / "support.sqlite"
 SUPPORT_LEGACY = LESSON2_RAW / "support_legacy_sep_oct_2025.csv"
 SUPPORT_SCHEMA = ROOT / "lesson2" / "schema_support.csv"
+DICTIONARY_V2 = ROOT / "lesson2" / "docs" / "data_dictionary.csv"  # prepared tables, maintained by hand
 
 # CSV-экспорт SQLite намеренно не входит в список: это копия той же таблицы,
 # читаем один источник — саму базу.

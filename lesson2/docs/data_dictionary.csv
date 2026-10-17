@@ -1,0 +1,52 @@
+﻿table;field;data_type;description;unit;availability;notes
+subscribers_clean;customer_id;String;Идентификатор абонента;—;Постоянная характеристика: допустима на любой исторической дате после подключения;Ключ. Используется для связи, не как признак.
+subscribers_clean;activation_date;Date;Дата подключения;дата;Постоянная характеристика: допустима на любой исторической дате после подключения;65 пропусков восстановлены по activation из contract_events.
+subscribers_clean;region;String;Регион обслуживания;—;Постоянная характеристика: допустима на любой исторической дате после подключения;
+subscribers_clean;acquisition_channel;String;Канал подключения: online, store, partner;—;Постоянная характеристика: допустима на любой исторической дате после подключения;
+subscribers_clean;customer_segment;String;Сегмент: individual, small_business;—;Постоянная характеристика: допустима на любой исторической дате после подключения;
+subscribers_clean;activation_date_restored;Boolean;Дата подключения восстановлена по журналу договора;—;Служебное поле, не признак;True у 65 абонентов.
+contract_events_clean;event_id;String;Идентификатор события;—;С 00:00 event_date МСК;Ключ.
+contract_events_clean;customer_id;String;Идентификатор абонента;—;С 00:00 event_date МСК;
+contract_events_clean;event_date;Date;Дата события;дата;С 00:00 event_date МСК;termination после даты снимка — будущее, в признаки не входит.
+contract_events_clean;event_type;String;activation или termination;—;С 00:00 event_date МСК;Источник целевой переменной на следующих этапах.
+billing_clean;customer_id;String;Идентификатор абонента;—;billing_month + 1 месяц, 00:00 МСК (available_at строки);Ключ вместе с billing_month.
+billing_clean;billing_month;Date;Месяц оказания услуг, первое число;месяц;billing_month + 1 месяц, 00:00 МСК (available_at строки);400 значений DD.MM.YYYY приведены к YYYY-MM-DD.
+billing_clean;available_at;DateTime;Момент доступности месячной строки;дата и время +03:00;billing_month + 1 месяц, 00:00 МСК (available_at строки);Момент снимка для customer_month.
+billing_clean;tariff;String;Тариф: Basic, Comfort, Premium;—;billing_month + 1 месяц, 00:00 МСК (available_at строки);200 вариантов написания приведены к канону.
+billing_clean;monthly_fee_rub;Decimal;Полная месячная цена тарифа;руб.;billing_month + 1 месяц, 00:00 МСК (available_at строки);
+billing_clean;charged_rub;Decimal;Начислено за месяц;руб.;billing_month + 1 месяц, 00:00 МСК (available_at строки);
+billing_clean;paid_rub;Decimal;Оплачено за месяц, включая погашение долга;руб.;billing_month + 1 месяц, 00:00 МСК (available_at строки);120 значений с запятой приведены к точке.
+billing_clean;opening_debt_rub;Decimal;Долг на начало месяца;руб.;billing_month + 1 месяц, 00:00 МСК (available_at строки);
+billing_clean;closing_debt_rub;Decimal;Долг на конец месяца;руб.;billing_month + 1 месяц, 00:00 МСК (available_at строки);40 пропусков восстановлены как opening + charged − paid.
+billing_clean;traffic_gb;Decimal nullable;Интернет-трафик;ГБ;billing_month + 1 месяц, 00:00 МСК (available_at строки);Пропуск — неизвестное значение, не ноль.
+billing_clean;voice_minutes;Integer nullable;Минуты связи;мин.;billing_month + 1 месяц, 00:00 МСК (available_at строки);80 отрицательных значений заменены пропуском.
+billing_clean;active_days;Integer;Дни действия договора в месяце;дни;billing_month + 1 месяц, 00:00 МСК (available_at строки);
+billing_clean;payment_delay_days;Integer;Учебный показатель задержки оплаты;дни;billing_month + 1 месяц, 00:00 МСК (available_at строки);
+billing_clean;tariff_changes_count;Integer;Число смен тарифа за месяц, 0 или 1;шт.;billing_month + 1 месяц, 00:00 МСК (available_at строки);
+billing_clean;closing_debt_restored;Boolean;closing_debt_rub восстановлен по тождеству долга;—;billing_month + 1 месяц, 00:00 МСК (available_at строки);
+billing_clean;traffic_gb_missing;Boolean;traffic_gb отсутствует в источнике;—;billing_month + 1 месяц, 00:00 МСК (available_at строки);Признак отсутствия значения по указанию заказчика.
+billing_clean;voice_minutes_invalid;Boolean;voice_minutes в источнике отрицательный;—;billing_month + 1 месяц, 00:00 МСК (available_at строки);Признак некорректного значения по указанию заказчика.
+support_clean;ticket_id;String;Идентификатор обращения;—;available_at обращения;Ключ. Уникален в обеих системах.
+support_clean;customer_id;String;Идентификатор абонента из реестра;—;available_at обращения;Пробелы удалены. Записи без связи с реестром — в карантине.
+support_clean;source_system;String;legacy (сентябрь–октябрь 2025) или current;—;Служебное поле, не признак;
+support_clean;created_at;DateTime;Создание обращения;дата и время +03:00;available_at обращения;Определяет месяц обращения по Москве.
+support_clean;available_at;DateTime;Доступность записи о создании;дата и время +03:00;available_at обращения;Обращение входит в снимок, только если available_at ≤ момента снимка.
+support_clean;topic;String;network, billing, tariff, services или unknown;—;available_at обращения;unknown — тема отсутствовала в источнике.
+support_clean;channel;String;phone, chat, office;—;available_at обращения;
+support_clean;resolved_at;DateTime nullable;Закрытие обращения;дата и время +03:00;resolution_available_at обращения;Пусто: закрытие не подтверждено или недостоверно (resolution_invalid).
+support_clean;resolution_available_at;DateTime nullable;Доступность закрытия и оценки;дата и время +03:00;resolution_available_at обращения;
+support_clean;satisfaction_score;Integer nullable;Оценка обслуживания 1–5;балл;resolution_available_at обращения;Пусто: оценки нет, она недопустима или закрытие недостоверно.
+support_clean;resolution_invalid;Boolean;Закрытие в источнике раньше создания, поля закрытия очищены;—;Служебное поле, не признак;
+support_clean;score_invalid;Boolean;Оценка в источнике вне 1–5, заменена пропуском;—;Служебное поле, не признак;
+quarantine;reason;String;Причина исключения из расчётов;—;Служебное поле, не признак;Остальные поля — как в support_clean, значения после приведения форматов.
+quarantine;linked_to_customer;Boolean;customer_id найден в реестре;—;Служебное поле, не признак;
+quarantine;created_month;Date;Месяц создания для связанных записей;месяц;Служебное поле, не признак;Пусто, если абонент не установлен.
+customer_month;support_count;Integer;Обращения, созданные в billing_month и доступные к моменту снимка;шт.;billing_month + 1 месяц, 00:00 МСК (available_at строки);0 — нет доступных корректно связанных записей, а не доказательство отсутствия обращений.
+customer_month;support_network_count;Integer;Из них с темой network (качество связи);шт.;billing_month + 1 месяц, 00:00 МСК (available_at строки);
+customer_month;support_billing_count;Integer;Из них с темой billing (оплата и начисления);шт.;billing_month + 1 месяц, 00:00 МСК (available_at строки);
+customer_month;support_unknown_topic_count;Integer;Из них с неизвестной темой;шт.;billing_month + 1 месяц, 00:00 МСК (available_at строки);
+customer_month;support_flagged_count;Integer;Из них с флагом качества resolution_invalid или score_invalid;шт.;billing_month + 1 месяц, 00:00 МСК (available_at строки);Служебный показатель качества связанных записей.
+customer_month;support_resolved_count;Integer;Из них с закрытием, доступным к моменту снимка;шт.;billing_month + 1 месяц, 00:00 МСК (available_at строки);Учитывается только при resolution_available_at ≤ момента снимка.
+customer_month;support_score_count;Integer;Число оценок, доступных к моменту снимка;шт.;billing_month + 1 месяц, 00:00 МСК (available_at строки);
+customer_month;support_score_mean;Decimal nullable;Средняя доступная оценка;балл;billing_month + 1 месяц, 00:00 МСК (available_at строки);Пусто, если support_score_count = 0. Не заменять нулём.
+customer_month;support_quarantined_linked_count;Integer;Записи карантина этого абонента, созданные в billing_month;шт.;Служебное поле, не признак;Момент доступности не установлен — не признак.

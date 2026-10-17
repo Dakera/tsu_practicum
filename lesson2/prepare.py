@@ -5,7 +5,7 @@ Run from the repository root:
 """
 import pandas as pd
 
-from prep import audit, checks, clean, config, inventory, load, merge
+from prep import audit, checks, clean, config, inventory, load, merge, summary
 from prep.export import write_csv
 
 DATE_COLS = {
@@ -32,8 +32,8 @@ def main() -> None:
     sources = load.load_sources()
 
     # Step 1: inventory
-    summary, columns = inventory.build(sources)
-    write_csv(summary, out / "inventory_sources.csv")
+    inventory_summary, columns = inventory.build(sources)
+    write_csv(inventory_summary, out / "inventory_sources.csv")
     write_csv(columns, out / "inventory_columns.csv")
 
     # Step 2: audit of the raw sources
@@ -64,14 +64,18 @@ def main() -> None:
     coverage = merge.ticket_coverage(support, billing[merge.KEY + ["available_at"]])
 
     # Step 5: availability and join checks
-    check_results = checks.run(customer_month, billing, coverage)
+    tables["customer_month"] = customer_month
+    check_results = checks.run(customer_month, billing, coverage, tables, load.read_raw_csv(config.DICTIONARY_V2))
     write_csv(check_results, out / "checks.csv")
 
-    show("Источники:", summary.drop(columns="read_method"))
+    # Machine-readable summary of all counts
+    summary.write(summary.build(sources, tables, audit_before, audit_after, log.frame(), coverage, check_results),
+                  out / "summary.json")
+
+    show("Источники:", inventory_summary.drop(columns="read_method"))
     show("Решения (decisions.csv):", log.frame().drop(columns="rationale"))
     show("Проблемы после очистки (ненулевые; полный список — audit_after.csv):",
          audit_after[(audit_after.rows > 0) | (audit_after.copies > 0)])
-    tables["customer_month"] = customer_month
     show("Строки подготовленных таблиц:", pd.DataFrame({"table": list(tables), "rows": [len(t) for t in tables.values()]}))
     show("Проверки (checks.csv):", check_results)
 
