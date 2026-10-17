@@ -1,0 +1,6 @@
+﻿source;read_method;unit;key;rows;columns;distinct_keys;rows_with_repeated_key
+subscribers;pandas.read_csv, все поля как строки;абонент;customer_id;2600;5;2600;0
+billing;pandas.read_csv, все поля как строки;абонент × месяц;customer_id+billing_month;24248;14;24098;300
+contract_events;pandas.read_csv, все поля как строки;событие договора;event_id;3299;4;3299;0
+support_legacy;pandas.read_csv, все поля как строки;обращение;ticket_no;1615;9;1585;60
+support_current;sqlite3 (mode=ro) + prep/sql/support_current.sql;обращение;ticket_id;9373;9;9273;200
