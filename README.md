@@ -26,7 +26,7 @@
 
 Документы: [отчёт о качестве](lesson2/docs/quality_report.md), [словарь данных](lesson2/docs/data_dictionary.csv). Код: `lesson2/prepare.py` (точка входа) и модули `lesson2/prep/`: `load` → `inventory` → `audit` → `clean` → `merge` → `checks`.
 
-### Комплект сдачи
+### Навигация по пунктам
 
 | № | Требование задания | Где |
 |---|---|---|
