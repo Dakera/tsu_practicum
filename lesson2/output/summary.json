@@ -1,0 +1,256 @@
+{
+  "source_rows": {
+    "subscribers": 2600,
+    "billing": 24248,
+    "contract_events": 3299,
+    "support_legacy": 1615,
+    "support_current": 9373
+  },
+  "prepared_rows": {
+    "subscribers_clean": 2600,
+    "contract_events_clean": 3299,
+    "billing_clean": 24098,
+    "support_clean": 10818,
+    "quarantine": 40,
+    "customer_month": 24098
+  },
+  "audit_before": {
+    "subscribers": {
+      "problem_rows": 65,
+      "problem_cells": 65,
+      "copies": 0
+    },
+    "contract_events": {
+      "problem_rows": 0,
+      "problem_cells": 0,
+      "copies": 0
+    },
+    "billing": {
+      "problem_rows": 1080,
+      "problem_cells": 1080,
+      "copies": 150
+    },
+    "support_legacy": {
+      "problem_rows": 0,
+      "problem_cells": 0,
+      "copies": 30
+    },
+    "support_current": {
+      "problem_rows": 290,
+      "problem_cells": 255,
+      "copies": 100
+    }
+  },
+  "audit_after": {
+    "subscribers_clean": {
+      "problem_rows": 0,
+      "problem_cells": 0,
+      "copies": 0
+    },
+    "contract_events_clean": {
+      "problem_rows": 0,
+      "problem_cells": 0,
+      "copies": 0
+    },
+    "billing_clean": {
+      "problem_rows": 320,
+      "problem_cells": 320,
+      "copies": 0
+    },
+    "support_clean": {
+      "problem_rows": 0,
+      "problem_cells": 0,
+      "copies": 0
+    }
+  },
+  "decisions": [
+    {
+      "source": "contract_events",
+      "field": "*",
+      "problem": "Полная повторная копия строки",
+      "affected": 0,
+      "unit": "копии"
+    },
+    {
+      "source": "subscribers",
+      "field": "*",
+      "problem": "Полная повторная копия строки",
+      "affected": 0,
+      "unit": "копии"
+    },
+    {
+      "source": "subscribers",
+      "field": "activation_date",
+      "problem": "Пропуск даты подключения",
+      "affected": 65,
+      "unit": "строки"
+    },
+    {
+      "source": "subscribers",
+      "field": "activation_date",
+      "problem": "Пропуск, не восстанавливаемый по журналу",
+      "affected": 0,
+      "unit": "строки"
+    },
+    {
+      "source": "billing",
+      "field": "*",
+      "problem": "Полная повторная копия строки",
+      "affected": 150,
+      "unit": "копии"
+    },
+    {
+      "source": "billing",
+      "field": "billing_month",
+      "problem": "Формат DD.MM.YYYY",
+      "affected": 400,
+      "unit": "строки"
+    },
+    {
+      "source": "billing",
+      "field": "tariff",
+      "problem": "Регистр, пробелы, русское написание",
+      "affected": 200,
+      "unit": "строки"
+    },
+    {
+      "source": "billing",
+      "field": "paid_rub",
+      "problem": "Десятичная запятая",
+      "affected": 120,
+      "unit": "строки"
+    },
+    {
+      "source": "billing",
+      "field": "closing_debt_rub",
+      "problem": "Пропуск конечного долга",
+      "affected": 40,
+      "unit": "строки"
+    },
+    {
+      "source": "billing",
+      "field": "traffic_gb",
+      "problem": "Пропуск",
+      "affected": 240,
+      "unit": "строки"
+    },
+    {
+      "source": "billing",
+      "field": "voice_minutes",
+      "problem": "Отрицательное значение",
+      "affected": 80,
+      "unit": "строки"
+    },
+    {
+      "source": "support_legacy",
+      "field": "*",
+      "problem": "Полная повторная копия строки",
+      "affected": 30,
+      "unit": "копии"
+    },
+    {
+      "source": "support_legacy",
+      "field": "*",
+      "problem": "Русские названия полей, тем, каналов; местное время",
+      "affected": 1585,
+      "unit": "строки"
+    },
+    {
+      "source": "support_current",
+      "field": "*",
+      "problem": "Полная повторная копия строки",
+      "affected": 100,
+      "unit": "копии"
+    },
+    {
+      "source": "support_current",
+      "field": "created_at",
+      "problem": "Время без часового пояса",
+      "affected": 40,
+      "unit": "строки"
+    },
+    {
+      "source": "support_current",
+      "field": "*_at",
+      "problem": "Время в UTC (суффикс Z)",
+      "affected": 9273,
+      "unit": "строки"
+    },
+    {
+      "source": "support_current",
+      "field": "customer_id",
+      "problem": "Пробелы вокруг идентификатора",
+      "affected": 30,
+      "unit": "строки"
+    },
+    {
+      "source": "support_current",
+      "field": "topic",
+      "problem": "Пропуск темы",
+      "affected": 120,
+      "unit": "строки"
+    },
+    {
+      "source": "support",
+      "field": "*",
+      "problem": "available_at раньше created_at: безопасный момент доступности не установлен",
+      "affected": 20,
+      "unit": "строки"
+    },
+    {
+      "source": "support",
+      "field": "*",
+      "problem": "customer_id нет в реестре абонентов",
+      "affected": 12,
+      "unit": "строки"
+    },
+    {
+      "source": "support",
+      "field": "*",
+      "problem": "customer_id пуст: нельзя связать с абонентом",
+      "affected": 8,
+      "unit": "строки"
+    },
+    {
+      "source": "support_current",
+      "field": "resolved_at",
+      "problem": "Закрытие раньше создания",
+      "affected": 35,
+      "unit": "строки"
+    },
+    {
+      "source": "support_current",
+      "field": "satisfaction_score",
+      "problem": "Оценка вне 1–5",
+      "affected": 25,
+      "unit": "строки"
+    }
+  ],
+  "quarantine": {
+    "by_reason": {
+      "available_at раньше created_at: безопасный момент доступности не установлен": 20,
+      "customer_id нет в реестре абонентов": 12,
+      "customer_id пуст: нельзя связать с абонентом": 8
+    },
+    "linked_to_customer": 20
+  },
+  "support_coverage": {
+    "tickets_clean": 10818,
+    "tickets_in_snapshot": 10568,
+    "tickets_after_snapshot": 250,
+    "tickets_without_billing_row": 0
+  },
+  "customer_month": {
+    "rows": 24098,
+    "customers": 2550,
+    "rows_with_zero_support": 16046,
+    "share_rows_with_zero_support": 0.6659,
+    "customers_without_available_tickets": 268,
+    "rows_with_score_mean": 4914,
+    "subscribers_without_billing": 50
+  },
+  "checks": {
+    "total": 10,
+    "passed": 10
+  }
+}
