@@ -1,12 +1,12 @@
 ﻿source;column;observed_types;min_msk;max_msk;unparsed_nonempty
 subscribers;customer_id;text:2600;;;
-subscribers;activation_date;"date_iso:2535; empty:65";2019-01-02 00:00:00+03:00;2026-09-29 00:00:00+03:00;0
+subscribers;activation_date;"date_iso:2535; empty:65";2019-01-02T00:00:00+03:00;2026-09-29T00:00:00+03:00;0
 subscribers;region;text:2600;;;
 subscribers;acquisition_channel;text:2600;;;
 subscribers;customer_segment;text:2600;;;
 billing;customer_id;text:24248;;;
-billing;billing_month;"date_iso:23848; date_ru:400";2025-09-01 00:00:00+03:00;2026-08-01 00:00:00+03:00;0
-billing;available_at;datetime_space:24248;2025-10-01 00:00:00+03:00;2026-09-01 00:00:00+03:00;0
+billing;billing_month;"date_iso:23848; date_ru:400";2025-09-01T00:00:00+03:00;2026-08-01T00:00:00+03:00;0
+billing;available_at;datetime_space:24248;2025-10-01T00:00:00+03:00;2026-09-01T00:00:00+03:00;0
 billing;tariff;text:24248;;;
 billing;monthly_fee_rub;decimal_dot:24248;;;
 billing;charged_rub;decimal_dot:24248;;;
@@ -20,23 +20,23 @@ billing;payment_delay_days;int:24248;;;
 billing;tariff_changes_count;int:24248;;;
 contract_events;event_id;text:3299;;;
 contract_events;customer_id;text:3299;;;
-contract_events;event_date;date_iso:3299;2019-01-02 00:00:00+03:00;2026-09-30 00:00:00+03:00;0
+contract_events;event_date;date_iso:3299;2019-01-02T00:00:00+03:00;2026-09-30T00:00:00+03:00;0
 contract_events;event_type;text:3299;;;
 support_legacy;ticket_no;text:1615;;;
 support_legacy;abonent_id;text:1615;;;
-support_legacy;opened_local;datetime_ru:1615;2025-09-01 00:53:16+03:00;2025-10-31 20:54:30+03:00;0
-support_legacy;loaded_local;datetime_ru:1615;2025-09-01 12:40:29+03:00;2025-11-01 23:02:30+03:00;0
+support_legacy;opened_local;datetime_ru:1615;2025-09-01T00:53:16+03:00;2025-10-31T20:54:30+03:00;0
+support_legacy;loaded_local;datetime_ru:1615;2025-09-01T12:40:29+03:00;2025-11-01T23:02:30+03:00;0
 support_legacy;issue_ru;text:1615;;;
 support_legacy;contact_ru;text:1615;;;
-support_legacy;closed_local;"datetime_ru:1481; empty:134";2025-09-02 00:45:30+03:00;2025-11-13 22:25:27+03:00;0
-support_legacy;closed_loaded_local;"datetime_ru:1481; empty:134";2025-09-02 10:28:16+03:00;2025-11-14 13:51:27+03:00;0
+support_legacy;closed_local;"datetime_ru:1481; empty:134";2025-09-02T00:45:30+03:00;2025-11-13T22:25:27+03:00;0
+support_legacy;closed_loaded_local;"datetime_ru:1481; empty:134";2025-09-02T10:28:16+03:00;2025-11-14T13:51:27+03:00;0
 support_legacy;rating;"int:1148; empty:467";;;
 support_current;ticket_id;text:9373;;;
 support_current;customer_id;"text:9365; empty:8";;;
-support_current;created_at;"datetime_utc_z:9333; datetime_no_tz:40";2025-11-01 00:24:49+03:00;2026-08-31 23:44:15+03:00;0
-support_current;available_at;datetime_utc_z:9373;2025-11-01 06:37:49+03:00;2026-09-02 04:35:56+03:00;0
+support_current;created_at;"datetime_utc_z:9333; datetime_no_tz:40";2025-11-01T00:24:49+03:00;2026-08-31T23:44:15+03:00;0
+support_current;available_at;datetime_utc_z:9373;2025-11-01T06:37:49+03:00;2026-09-02T04:35:56+03:00;0
 support_current;topic;"text:9253; empty:120";;;
 support_current;channel;text:9373;;;
-support_current;resolved_at;"datetime_utc_z:8493; empty:880";2025-11-01 13:53:39+03:00;2026-09-13 23:35:15+03:00;0
-support_current;resolution_available_at;"datetime_utc_z:8493; empty:880";2025-11-02 10:18:39+03:00;2026-09-14 08:00:37+03:00;0
+support_current;resolved_at;"datetime_utc_z:8493; empty:880";2025-11-01T13:53:39+03:00;2026-09-13T23:35:15+03:00;0
+support_current;resolution_available_at;"datetime_utc_z:8493; empty:880";2025-11-02T10:18:39+03:00;2026-09-14T08:00:37+03:00;0
 support_current;satisfaction_score;"int:6616; empty:2757";;;

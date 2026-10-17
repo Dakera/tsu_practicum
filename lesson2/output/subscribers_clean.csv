@@ -1,0 +1,2601 @@
+﻿customer_id;activation_date;region;acquisition_channel;customer_segment;activation_date_restored
+C000001;26/04/2019;Москва;online;individual;FALSE
+C000002;26/09/2024;Московская область;store;individual;FALSE
+C000003;18/08/2022;Томская область;online;individual;FALSE
+C000004;04/10/2023;Москва;partner;individual;FALSE
+C000005;02/10/2021;Красноярский край;online;individual;FALSE
+C000006;18/12/2019;Новосибирская область;store;individual;FALSE
+C000007;22/07/2020;Московская область;online;individual;FALSE
+C000008;07/02/2020;Красноярский край;online;individual;FALSE
+C000009;08/05/2024;Московская область;partner;individual;FALSE
+C000010;10/12/2023;Москва;online;individual;FALSE
+C000011;26/11/2024;Томская область;partner;individual;FALSE
+C000012;07/07/2020;Новосибирская область;online;individual;FALSE
+C000013;10/01/2021;Московская область;store;individual;FALSE
+C000014;30/08/2022;Москва;store;individual;FALSE
+C000015;03/01/2021;Томская область;partner;individual;FALSE
+C000016;23/08/2025;Красноярский край;online;individual;FALSE
+C000017;22/08/2019;Красноярский край;partner;individual;FALSE
+C000018;24/11/2022;Новосибирская область;online;individual;FALSE
+C000019;30/07/2021;Томская область;online;individual;FALSE
+C000020;26/12/2021;Новосибирская область;store;individual;FALSE
+C000021;05/07/2023;Томская область;store;individual;FALSE
+C000022;23/02/2025;Томская область;store;individual;FALSE
+C000023;24/03/2024;Московская область;online;individual;FALSE
+C000024;26/08/2025;Красноярский край;store;individual;FALSE
+C000025;28/04/2024;Московская область;store;individual;FALSE
+C000026;26/01/2023;Томская область;online;individual;FALSE
+C000027;27/03/2022;Новосибирская область;partner;individual;FALSE
+C000028;15/08/2025;Красноярский край;partner;individual;FALSE
+C000029;25/05/2021;Новосибирская область;online;small_business;FALSE
+C000030;09/01/2020;Москва;store;individual;FALSE
+C000031;01/10/2020;Москва;online;individual;FALSE
+C000032;31/12/2023;Новосибирская область;store;individual;FALSE
+C000033;20/05/2025;Московская область;store;individual;FALSE
+C000034;06/07/2023;Красноярский край;online;individual;FALSE
+C000035;07/08/2024;Красноярский край;online;individual;FALSE
+C000036;27/04/2025;Москва;store;individual;FALSE
+C000037;07/01/2021;Томская область;online;individual;FALSE
+C000038;17/02/2021;Москва;store;individual;FALSE
+C000039;20/10/2020;Московская область;online;small_business;FALSE
+C000040;21/04/2022;Москва;online;individual;FALSE
+C000041;02/03/2024;Новосибирская область;online;individual;FALSE
+C000042;23/09/2023;Томская область;store;small_business;FALSE
+C000043;01/02/2023;Новосибирская область;store;individual;FALSE
+C000044;07/08/2020;Томская область;store;individual;FALSE
+C000045;19/04/2019;Новосибирская область;store;individual;FALSE
+C000046;07/03/2020;Красноярский край;partner;individual;FALSE
+C000047;12/09/2019;Новосибирская область;online;individual;FALSE
+C000048;03/09/2024;Москва;online;individual;FALSE
+C000049;04/10/2020;Московская область;store;individual;FALSE
+C000050;03/09/2023;Московская область;online;individual;FALSE
+C000051;13/04/2022;Красноярский край;online;individual;FALSE
+C000052;13/12/2021;Новосибирская область;online;individual;FALSE
+C000053;29/12/2019;Томская область;online;individual;FALSE
+C000054;03/01/2019;Красноярский край;partner;individual;FALSE
+C000055;22/03/2019;Москва;partner;small_business;FALSE
+C000056;29/01/2023;Красноярский край;partner;individual;FALSE
+C000057;17/07/2019;Московская область;online;individual;FALSE
+C000058;14/02/2023;Томская область;store;individual;FALSE
+C000059;24/09/2020;Красноярский край;store;individual;FALSE
+C000060;19/10/2022;Новосибирская область;online;individual;FALSE
+C000061;05/09/2024;Красноярский край;online;individual;FALSE
+C000062;27/05/2023;Томская область;store;individual;FALSE
+C000063;28/06/2020;Красноярский край;online;individual;FALSE
+C000064;14/04/2019;Новосибирская область;store;individual;FALSE
+C000065;01/12/2021;Томская область;partner;individual;FALSE
+C000066;15/03/2019;Новосибирская область;online;individual;FALSE
+C000067;03/02/2021;Московская область;partner;small_business;FALSE
+C000068;21/01/2019;Москва;online;individual;FALSE
+C000069;19/09/2023;Московская область;store;small_business;FALSE
+C000070;10/01/2024;Новосибирская область;online;individual;FALSE
+C000071;21/03/2019;Московская область;online;individual;FALSE
+C000072;06/08/2025;Красноярский край;online;small_business;FALSE
+C000073;20/12/2020;Томская область;store;individual;TRUE
+C000074;30/03/2020;Красноярский край;online;individual;FALSE
+C000075;24/05/2020;Московская область;partner;individual;FALSE
+C000076;26/02/2020;Красноярский край;store;individual;FALSE
+C000077;16/06/2023;Московская область;online;individual;FALSE
+C000078;11/01/2022;Красноярский край;online;individual;FALSE
+C000079;11/02/2019;Московская область;online;small_business;FALSE
+C000080;17/01/2025;Московская область;partner;individual;FALSE
+C000081;01/12/2023;Новосибирская область;store;individual;FALSE
+C000082;06/09/2020;Новосибирская область;partner;individual;FALSE
+C000083;16/09/2020;Красноярский край;online;individual;FALSE
+C000084;13/06/2019;Московская область;online;individual;FALSE
+C000085;01/02/2021;Московская область;online;individual;FALSE
+C000086;02/07/2019;Москва;partner;individual;FALSE
+C000087;28/08/2025;Красноярский край;store;small_business;FALSE
+C000088;31/10/2020;Новосибирская область;store;individual;FALSE
+C000089;28/06/2021;Новосибирская область;store;individual;FALSE
+C000090;09/10/2022;Красноярский край;partner;individual;TRUE
+C000091;30/03/2024;Московская область;store;small_business;FALSE
+C000092;07/05/2024;Томская область;online;individual;FALSE
+C000093;22/08/2022;Московская область;online;individual;FALSE
+C000094;20/09/2019;Московская область;store;individual;FALSE
+C000095;08/02/2025;Томская область;online;individual;FALSE
+C000096;17/08/2019;Томская область;store;individual;FALSE
+C000097;17/07/2019;Московская область;online;small_business;FALSE
+C000098;13/08/2019;Новосибирская область;store;individual;FALSE
+C000099;28/01/2019;Московская область;store;small_business;FALSE
+C000100;28/09/2024;Томская область;online;small_business;FALSE
+C000101;07/02/2025;Красноярский край;store;individual;FALSE
+C000102;02/03/2023;Томская область;store;individual;FALSE
+C000103;13/04/2023;Красноярский край;store;small_business;FALSE
+C000104;10/04/2025;Красноярский край;store;individual;FALSE
+C000105;11/12/2020;Новосибирская область;online;small_business;FALSE
+C000106;14/01/2025;Новосибирская область;online;individual;FALSE
+C000107;09/11/2024;Москва;store;individual;FALSE
+C000108;27/08/2021;Красноярский край;online;individual;FALSE
+C000109;25/01/2019;Московская область;store;individual;FALSE
+C000110;28/01/2020;Москва;online;individual;FALSE
+C000111;25/11/2024;Москва;store;individual;FALSE
+C000112;24/07/2021;Томская область;partner;individual;FALSE
+C000113;15/07/2022;Московская область;store;individual;FALSE
+C000114;18/10/2023;Новосибирская область;store;individual;FALSE
+C000115;01/11/2022;Томская область;store;individual;FALSE
+C000116;16/10/2023;Томская область;online;individual;FALSE
+C000117;31/01/2022;Томская область;online;individual;FALSE
+C000118;23/12/2024;Москва;store;small_business;FALSE
+C000119;25/11/2023;Томская область;store;individual;FALSE
+C000120;14/11/2019;Томская область;partner;individual;FALSE
+C000121;20/07/2023;Новосибирская область;store;individual;FALSE
+C000122;26/02/2019;Москва;store;individual;FALSE
+C000123;13/06/2019;Новосибирская область;store;individual;FALSE
+C000124;15/06/2021;Московская область;store;individual;FALSE
+C000125;20/03/2024;Москва;partner;individual;TRUE
+C000126;03/01/2024;Красноярский край;partner;individual;FALSE
+C000127;05/08/2025;Москва;store;individual;FALSE
+C000128;19/02/2020;Красноярский край;online;individual;FALSE
+C000129;06/10/2019;Московская область;online;individual;FALSE
+C000130;28/05/2020;Московская область;online;individual;FALSE
+C000131;30/06/2019;Томская область;store;individual;FALSE
+C000132;06/03/2019;Новосибирская область;store;individual;FALSE
+C000133;26/04/2025;Москва;online;individual;FALSE
+C000134;27/04/2020;Московская область;online;individual;FALSE
+C000135;09/12/2024;Московская область;online;individual;FALSE
+C000136;04/05/2019;Москва;online;individual;FALSE
+C000137;18/05/2019;Новосибирская область;online;individual;FALSE
+C000138;05/12/2019;Москва;online;individual;FALSE
+C000139;29/07/2021;Красноярский край;store;individual;FALSE
+C000140;21/02/2021;Новосибирская область;online;individual;FALSE
+C000141;20/11/2022;Московская область;online;individual;FALSE
+C000142;03/01/2023;Новосибирская область;store;individual;FALSE
+C000143;08/04/2025;Московская область;store;individual;FALSE
+C000144;28/02/2019;Москва;online;individual;FALSE
+C000145;09/08/2019;Томская область;store;individual;FALSE
+C000146;19/02/2021;Томская область;online;individual;FALSE
+C000147;14/03/2023;Новосибирская область;store;individual;FALSE
+C000148;17/04/2023;Московская область;online;small_business;FALSE
+C000149;10/03/2020;Московская область;online;small_business;FALSE
+C000150;06/05/2023;Красноярский край;partner;individual;FALSE
+C000151;17/03/2025;Томская область;partner;individual;FALSE
+C000152;13/04/2020;Московская область;store;individual;FALSE
+C000153;07/09/2024;Красноярский край;online;individual;FALSE
+C000154;26/08/2022;Московская область;online;individual;FALSE
+C000155;07/04/2019;Красноярский край;partner;individual;FALSE
+C000156;31/10/2021;Московская область;online;individual;FALSE
+C000157;11/08/2024;Красноярский край;store;individual;FALSE
+C000158;24/09/2021;Красноярский край;online;individual;FALSE
+C000159;17/05/2020;Красноярский край;online;individual;FALSE
+C000160;18/06/2024;Красноярский край;online;individual;FALSE
+C000161;12/05/2023;Новосибирская область;online;individual;FALSE
+C000162;06/09/2022;Москва;store;individual;FALSE
+C000163;28/01/2022;Томская область;online;small_business;FALSE
+C000164;07/06/2023;Москва;partner;individual;FALSE
+C000165;24/07/2024;Томская область;online;individual;FALSE
+C000166;28/08/2024;Новосибирская область;online;individual;FALSE
+C000167;12/09/2019;Томская область;online;individual;FALSE
+C000168;14/10/2021;Новосибирская область;store;individual;FALSE
+C000169;15/11/2024;Новосибирская область;online;individual;FALSE
+C000170;29/06/2022;Новосибирская область;store;individual;FALSE
+C000171;20/08/2025;Московская область;store;individual;FALSE
+C000172;09/02/2022;Новосибирская область;partner;individual;FALSE
+C000173;27/05/2022;Томская область;online;small_business;FALSE
+C000174;29/09/2019;Москва;partner;individual;FALSE
+C000175;18/04/2022;Томская область;online;individual;FALSE
+C000176;02/08/2025;Томская область;online;individual;FALSE
+C000177;21/07/2023;Томская область;partner;individual;FALSE
+C000178;08/02/2021;Томская область;online;small_business;FALSE
+C000179;31/10/2020;Москва;online;individual;FALSE
+C000180;28/10/2023;Томская область;store;individual;FALSE
+C000181;22/09/2023;Красноярский край;online;individual;FALSE
+C000182;02/04/2023;Красноярский край;online;individual;FALSE
+C000183;28/10/2024;Новосибирская область;online;individual;FALSE
+C000184;19/02/2023;Московская область;partner;individual;FALSE
+C000185;19/05/2024;Новосибирская область;store;small_business;FALSE
+C000186;24/11/2019;Красноярский край;store;individual;FALSE
+C000187;25/02/2023;Москва;store;individual;FALSE
+C000188;19/08/2021;Красноярский край;online;individual;FALSE
+C000189;02/01/2022;Московская область;partner;individual;FALSE
+C000190;16/04/2025;Томская область;online;individual;FALSE
+C000191;04/01/2025;Москва;online;individual;FALSE
+C000192;03/09/2024;Москва;partner;individual;FALSE
+C000193;21/03/2023;Новосибирская область;online;individual;FALSE
+C000194;04/08/2024;Московская область;store;individual;FALSE
+C000195;17/03/2023;Красноярский край;store;individual;FALSE
+C000196;19/04/2025;Москва;store;individual;FALSE
+C000197;29/07/2020;Московская область;store;individual;FALSE
+C000198;08/04/2025;Новосибирская область;store;individual;FALSE
+C000199;28/03/2025;Томская область;store;individual;FALSE
+C000200;08/01/2019;Красноярский край;store;individual;FALSE
+C000201;29/11/2022;Московская область;partner;individual;FALSE
+C000202;07/03/2024;Москва;partner;individual;FALSE
+C000203;26/11/2024;Красноярский край;store;individual;FALSE
+C000204;20/11/2022;Московская область;store;individual;FALSE
+C000205;23/12/2023;Томская область;online;small_business;FALSE
+C000206;21/12/2022;Красноярский край;store;individual;FALSE
+C000207;06/02/2024;Москва;partner;individual;FALSE
+C000208;09/01/2023;Московская область;partner;individual;FALSE
+C000209;18/06/2025;Новосибирская область;partner;individual;FALSE
+C000210;25/01/2019;Томская область;online;individual;FALSE
+C000211;17/12/2024;Московская область;online;individual;FALSE
+C000212;29/01/2023;Москва;online;individual;FALSE
+C000213;17/10/2022;Красноярский край;store;individual;FALSE
+C000214;30/06/2025;Новосибирская область;online;individual;FALSE
+C000215;12/01/2025;Новосибирская область;online;individual;FALSE
+C000216;04/11/2019;Московская область;store;individual;FALSE
+C000217;17/11/2020;Москва;online;individual;FALSE
+C000218;25/01/2021;Новосибирская область;online;individual;FALSE
+C000219;09/12/2021;Красноярский край;online;individual;FALSE
+C000220;24/04/2024;Москва;online;individual;FALSE
+C000221;21/08/2025;Москва;online;individual;FALSE
+C000222;10/01/2020;Новосибирская область;store;individual;TRUE
+C000223;25/02/2021;Томская область;online;individual;FALSE
+C000224;14/08/2022;Новосибирская область;online;individual;FALSE
+C000225;28/07/2025;Красноярский край;store;individual;FALSE
+C000226;08/12/2021;Красноярский край;partner;individual;FALSE
+C000227;27/12/2024;Новосибирская область;partner;individual;FALSE
+C000228;02/03/2020;Москва;store;individual;FALSE
+C000229;16/05/2024;Московская область;online;individual;FALSE
+C000230;16/04/2019;Красноярский край;online;individual;FALSE
+C000231;01/08/2025;Красноярский край;online;individual;TRUE
+C000232;30/04/2025;Новосибирская область;store;individual;FALSE
+C000233;20/12/2023;Томская область;partner;individual;FALSE
+C000234;16/09/2024;Красноярский край;online;individual;FALSE
+C000235;10/03/2021;Томская область;online;individual;FALSE
+C000236;22/10/2022;Томская область;online;individual;FALSE
+C000237;08/01/2021;Красноярский край;partner;individual;FALSE
+C000238;29/10/2022;Красноярский край;online;individual;FALSE
+C000239;21/07/2024;Московская область;store;individual;FALSE
+C000240;28/07/2020;Новосибирская область;online;small_business;FALSE
+C000241;04/11/2023;Красноярский край;store;individual;FALSE
+C000242;10/04/2020;Красноярский край;online;individual;FALSE
+C000243;14/07/2019;Красноярский край;online;individual;FALSE
+C000244;07/11/2023;Красноярский край;partner;individual;FALSE
+C000245;12/01/2021;Москва;online;individual;FALSE
+C000246;08/02/2024;Московская область;online;individual;FALSE
+C000247;12/05/2019;Красноярский край;store;individual;FALSE
+C000248;04/02/2023;Томская область;online;individual;FALSE
+C000249;15/03/2025;Томская область;partner;individual;FALSE
+C000250;21/03/2025;Новосибирская область;online;individual;TRUE
+C000251;15/07/2024;Москва;online;individual;FALSE
+C000252;24/05/2025;Томская область;store;individual;FALSE
+C000253;30/07/2022;Томская область;partner;individual;FALSE
+C000254;17/02/2024;Москва;online;individual;FALSE
+C000255;18/05/2021;Новосибирская область;online;individual;FALSE
+C000256;27/08/2023;Московская область;online;individual;FALSE
+C000257;22/04/2024;Красноярский край;online;individual;FALSE
+C000258;15/08/2025;Красноярский край;store;individual;FALSE
+C000259;26/09/2021;Московская область;store;individual;FALSE
+C000260;02/04/2022;Красноярский край;online;individual;FALSE
+C000261;27/10/2019;Красноярский край;online;individual;FALSE
+C000262;25/01/2022;Новосибирская область;online;individual;FALSE
+C000263;29/02/2024;Московская область;online;individual;FALSE
+C000264;17/11/2023;Московская область;online;individual;FALSE
+C000265;19/07/2020;Новосибирская область;online;individual;FALSE
+C000266;11/11/2022;Красноярский край;online;individual;FALSE
+C000267;11/09/2021;Москва;online;individual;FALSE
+C000268;13/05/2019;Новосибирская область;partner;individual;FALSE
+C000269;26/02/2024;Красноярский край;store;individual;FALSE
+C000270;15/03/2022;Московская область;online;small_business;FALSE
+C000271;22/07/2023;Красноярский край;online;individual;FALSE
+C000272;04/09/2022;Москва;partner;individual;FALSE
+C000273;08/10/2021;Москва;store;individual;FALSE
+C000274;30/05/2024;Новосибирская область;store;individual;FALSE
+C000275;11/02/2024;Красноярский край;store;individual;FALSE
+C000276;24/07/2019;Московская область;partner;individual;FALSE
+C000277;02/02/2019;Красноярский край;online;individual;FALSE
+C000278;19/06/2025;Красноярский край;store;individual;FALSE
+C000279;15/02/2020;Томская область;online;individual;FALSE
+C000280;24/06/2025;Московская область;online;individual;FALSE
+C000281;18/03/2023;Новосибирская область;partner;individual;FALSE
+C000282;16/09/2021;Новосибирская область;partner;individual;FALSE
+C000283;25/08/2021;Новосибирская область;online;individual;FALSE
+C000284;30/04/2020;Москва;online;small_business;FALSE
+C000285;16/06/2020;Красноярский край;online;individual;FALSE
+C000286;08/12/2019;Новосибирская область;partner;individual;FALSE
+C000287;28/01/2021;Московская область;store;individual;FALSE
+C000288;04/08/2023;Томская область;online;individual;FALSE
+C000289;07/11/2022;Томская область;store;individual;FALSE
+C000290;23/06/2021;Московская область;partner;individual;FALSE
+C000291;28/05/2021;Красноярский край;online;individual;FALSE
+C000292;18/08/2021;Московская область;store;individual;FALSE
+C000293;29/11/2020;Москва;partner;individual;FALSE
+C000294;27/05/2019;Томская область;online;individual;FALSE
+C000295;26/02/2025;Новосибирская область;store;individual;FALSE
+C000296;11/11/2019;Томская область;store;individual;FALSE
+C000297;26/02/2020;Новосибирская область;online;individual;FALSE
+C000298;30/12/2019;Новосибирская область;store;individual;FALSE
+C000299;20/01/2024;Красноярский край;online;individual;FALSE
+C000300;18/10/2019;Красноярский край;store;individual;FALSE
+C000301;07/04/2022;Москва;store;individual;FALSE
+C000302;28/03/2022;Томская область;online;individual;FALSE
+C000303;05/10/2019;Томская область;online;individual;TRUE
+C000304;11/05/2025;Новосибирская область;online;individual;FALSE
+C000305;12/03/2019;Москва;store;individual;FALSE
+C000306;03/02/2020;Томская область;store;individual;FALSE
+C000307;30/05/2023;Томская область;store;individual;FALSE
+C000308;11/10/2023;Красноярский край;online;individual;FALSE
+C000309;28/01/2019;Москва;online;individual;FALSE
+C000310;11/03/2021;Новосибирская область;store;individual;FALSE
+C000311;30/12/2023;Московская область;partner;individual;FALSE
+C000312;16/08/2022;Красноярский край;online;individual;FALSE
+C000313;06/12/2021;Московская область;online;individual;FALSE
+C000314;27/04/2019;Томская область;partner;individual;FALSE
+C000315;03/02/2020;Томская область;store;individual;FALSE
+C000316;20/11/2022;Московская область;partner;individual;FALSE
+C000317;17/12/2022;Томская область;online;individual;FALSE
+C000318;04/05/2025;Красноярский край;partner;small_business;FALSE
+C000319;25/07/2022;Московская область;online;individual;FALSE
+C000320;31/10/2024;Московская область;store;individual;FALSE
+C000321;30/04/2025;Москва;online;individual;FALSE
+C000322;10/09/2024;Москва;online;individual;FALSE
+C000323;10/04/2021;Новосибирская область;partner;individual;FALSE
+C000324;09/11/2024;Томская область;store;individual;FALSE
+C000325;07/10/2024;Московская область;partner;individual;FALSE
+C000326;23/08/2025;Новосибирская область;online;individual;FALSE
+C000327;30/10/2022;Новосибирская область;store;individual;FALSE
+C000328;22/11/2020;Московская область;online;individual;FALSE
+C000329;25/08/2022;Красноярский край;partner;individual;FALSE
+C000330;21/04/2022;Новосибирская область;store;individual;FALSE
+C000331;10/01/2024;Томская область;online;individual;FALSE
+C000332;28/07/2025;Москва;store;individual;FALSE
+C000333;21/11/2023;Москва;partner;individual;FALSE
+C000334;29/05/2025;Новосибирская область;store;individual;FALSE
+C000335;12/12/2022;Москва;partner;small_business;FALSE
+C000336;28/10/2021;Московская область;store;individual;FALSE
+C000337;26/01/2023;Московская область;store;individual;FALSE
+C000338;29/10/2020;Москва;online;individual;FALSE
+C000339;20/01/2022;Красноярский край;partner;individual;FALSE
+C000340;29/05/2021;Москва;store;individual;FALSE
+C000341;21/03/2021;Красноярский край;online;individual;FALSE
+C000342;21/04/2021;Томская область;store;individual;FALSE
+C000343;27/06/2024;Москва;online;individual;FALSE
+C000344;31/05/2021;Московская область;partner;individual;FALSE
+C000345;14/06/2025;Новосибирская область;online;individual;FALSE
+C000346;21/10/2019;Новосибирская область;online;individual;FALSE
+C000347;09/08/2021;Московская область;partner;individual;FALSE
+C000348;07/03/2022;Томская область;store;individual;FALSE
+C000349;12/05/2025;Москва;store;individual;FALSE
+C000350;25/02/2019;Красноярский край;online;individual;FALSE
+C000351;16/01/2019;Томская область;online;small_business;FALSE
+C000352;10/10/2020;Московская область;store;individual;FALSE
+C000353;05/01/2021;Москва;store;individual;FALSE
+C000354;11/01/2024;Новосибирская область;online;individual;FALSE
+C000355;11/09/2024;Москва;store;individual;FALSE
+C000356;22/06/2023;Красноярский край;online;individual;FALSE
+C000357;16/10/2024;Московская область;partner;individual;FALSE
+C000358;20/04/2021;Москва;online;individual;FALSE
+C000359;30/07/2021;Томская область;online;individual;FALSE
+C000360;15/12/2023;Томская область;online;individual;FALSE
+C000361;13/04/2019;Москва;store;individual;FALSE
+C000362;25/06/2024;Новосибирская область;store;individual;FALSE
+C000363;21/04/2023;Красноярский край;online;individual;FALSE
+C000364;09/07/2021;Новосибирская область;online;individual;FALSE
+C000365;13/09/2020;Московская область;online;individual;FALSE
+C000366;01/08/2024;Московская область;online;individual;FALSE
+C000367;05/07/2025;Новосибирская область;store;individual;FALSE
+C000368;24/08/2021;Томская область;store;individual;FALSE
+C000369;18/02/2022;Томская область;online;individual;FALSE
+C000370;01/08/2023;Новосибирская область;store;individual;FALSE
+C000371;20/11/2023;Красноярский край;partner;individual;FALSE
+C000372;23/06/2023;Московская область;store;individual;FALSE
+C000373;07/07/2022;Москва;store;individual;FALSE
+C000374;09/04/2021;Новосибирская область;online;individual;FALSE
+C000375;09/03/2022;Москва;online;individual;FALSE
+C000376;07/04/2021;Москва;store;individual;FALSE
+C000377;16/05/2020;Московская область;store;small_business;FALSE
+C000378;08/11/2020;Москва;partner;individual;FALSE
+C000379;26/04/2021;Москва;store;individual;FALSE
+C000380;26/06/2021;Москва;online;individual;FALSE
+C000381;12/01/2020;Московская область;partner;individual;FALSE
+C000382;26/06/2021;Новосибирская область;store;individual;FALSE
+C000383;21/03/2020;Москва;online;small_business;FALSE
+C000384;19/10/2020;Московская область;online;individual;FALSE
+C000385;18/01/2025;Томская область;partner;individual;FALSE
+C000386;10/08/2025;Московская область;online;individual;FALSE
+C000387;25/01/2024;Московская область;online;individual;FALSE
+C000388;15/04/2025;Московская область;store;individual;TRUE
+C000389;29/06/2021;Томская область;online;individual;FALSE
+C000390;17/10/2019;Красноярский край;partner;individual;FALSE
+C000391;04/03/2022;Новосибирская область;partner;individual;FALSE
+C000392;24/12/2019;Красноярский край;online;individual;FALSE
+C000393;28/09/2021;Красноярский край;online;individual;FALSE
+C000394;14/12/2022;Новосибирская область;store;individual;FALSE
+C000395;27/03/2019;Новосибирская область;online;individual;FALSE
+C000396;04/08/2020;Москва;store;individual;FALSE
+C000397;29/04/2019;Томская область;online;individual;FALSE
+C000398;26/04/2020;Московская область;store;individual;FALSE
+C000399;07/03/2023;Московская область;partner;individual;FALSE
+C000400;19/12/2022;Московская область;partner;individual;FALSE
+C000401;25/09/2020;Москва;partner;individual;FALSE
+C000402;25/11/2022;Красноярский край;online;individual;FALSE
+C000403;20/02/2021;Московская область;online;individual;FALSE
+C000404;06/12/2021;Красноярский край;store;individual;FALSE
+C000405;15/03/2022;Москва;online;individual;FALSE
+C000406;09/01/2025;Красноярский край;store;individual;FALSE
+C000407;20/09/2019;Красноярский край;partner;individual;FALSE
+C000408;19/09/2019;Московская область;store;individual;FALSE
+C000409;09/02/2019;Томская область;store;individual;FALSE
+C000410;16/01/2025;Московская область;online;individual;FALSE
+C000411;24/09/2021;Москва;partner;individual;FALSE
+C000412;01/03/2019;Московская область;partner;individual;FALSE
+C000413;29/07/2024;Новосибирская область;store;individual;FALSE
+C000414;21/04/2021;Красноярский край;store;individual;FALSE
+C000415;03/03/2022;Красноярский край;store;small_business;FALSE
+C000416;01/06/2024;Москва;store;individual;FALSE
+C000417;11/05/2025;Новосибирская область;store;individual;FALSE
+C000418;24/08/2025;Красноярский край;online;individual;FALSE
+C000419;02/06/2024;Новосибирская область;online;individual;FALSE
+C000420;15/10/2021;Москва;partner;individual;FALSE
+C000421;27/03/2024;Москва;online;individual;FALSE
+C000422;20/02/2020;Томская область;partner;individual;FALSE
+C000423;23/06/2019;Новосибирская область;store;individual;FALSE
+C000424;02/02/2023;Красноярский край;online;individual;FALSE
+C000425;18/01/2019;Красноярский край;online;individual;FALSE
+C000426;14/11/2024;Московская область;online;individual;FALSE
+C000427;31/12/2020;Новосибирская область;store;individual;FALSE
+C000428;17/05/2024;Москва;store;individual;FALSE
+C000429;07/09/2023;Томская область;online;individual;FALSE
+C000430;09/02/2024;Томская область;store;individual;FALSE
+C000431;05/04/2022;Московская область;store;individual;FALSE
+C000432;03/03/2025;Томская область;partner;individual;FALSE
+C000433;07/03/2025;Новосибирская область;online;small_business;FALSE
+C000434;19/01/2023;Московская область;online;individual;FALSE
+C000435;08/02/2023;Москва;online;individual;FALSE
+C000436;26/02/2023;Москва;online;individual;FALSE
+C000437;18/05/2019;Москва;online;individual;FALSE
+C000438;19/08/2023;Москва;store;individual;FALSE
+C000439;14/11/2024;Новосибирская область;online;individual;FALSE
+C000440;01/04/2024;Новосибирская область;online;individual;FALSE
+C000441;01/04/2019;Новосибирская область;store;small_business;FALSE
+C000442;09/04/2025;Красноярский край;online;individual;FALSE
+C000443;17/07/2024;Томская область;online;individual;FALSE
+C000444;15/02/2020;Новосибирская область;online;individual;FALSE
+C000445;23/02/2019;Новосибирская область;partner;individual;FALSE
+C000446;13/04/2023;Московская область;online;individual;FALSE
+C000447;14/09/2020;Московская область;online;individual;FALSE
+C000448;20/11/2022;Московская область;online;individual;FALSE
+C000449;15/07/2021;Томская область;partner;individual;FALSE
+C000450;14/12/2024;Новосибирская область;store;individual;FALSE
+C000451;20/03/2024;Москва;online;individual;FALSE
+C000452;09/04/2020;Новосибирская область;store;individual;FALSE
+C000453;30/09/2023;Московская область;partner;individual;FALSE
+C000454;10/03/2023;Москва;online;individual;FALSE
+C000455;20/01/2022;Москва;store;individual;FALSE
+C000456;03/12/2024;Томская область;store;individual;FALSE
+C000457;04/09/2020;Красноярский край;partner;individual;FALSE
+C000458;26/10/2021;Новосибирская область;online;individual;FALSE
+C000459;06/04/2022;Красноярский край;store;individual;FALSE
+C000460;20/06/2020;Москва;online;individual;FALSE
+C000461;20/03/2020;Томская область;store;individual;FALSE
+C000462;11/04/2021;Московская область;store;individual;FALSE
+C000463;18/10/2020;Красноярский край;store;individual;FALSE
+C000464;27/09/2023;Москва;store;small_business;FALSE
+C000465;11/11/2022;Новосибирская область;store;individual;FALSE
+C000466;09/06/2020;Московская область;online;individual;FALSE
+C000467;21/04/2019;Красноярский край;partner;individual;FALSE
+C000468;22/02/2024;Московская область;store;small_business;FALSE
+C000469;04/08/2019;Томская область;partner;individual;FALSE
+C000470;30/10/2024;Томская область;store;individual;FALSE
+C000471;09/05/2019;Томская область;store;individual;FALSE
+C000472;07/05/2025;Томская область;store;individual;FALSE
+C000473;13/06/2021;Красноярский край;store;individual;FALSE
+C000474;13/05/2024;Москва;store;individual;FALSE
+C000475;30/04/2022;Красноярский край;store;individual;FALSE
+C000476;08/10/2019;Новосибирская область;partner;individual;FALSE
+C000477;24/10/2023;Новосибирская область;online;individual;FALSE
+C000478;26/05/2020;Новосибирская область;partner;individual;FALSE
+C000479;14/02/2020;Москва;partner;individual;FALSE
+C000480;19/04/2020;Московская область;online;individual;FALSE
+C000481;29/04/2021;Новосибирская область;online;individual;FALSE
+C000482;17/06/2021;Москва;online;individual;FALSE
+C000483;29/03/2023;Новосибирская область;partner;individual;FALSE
+C000484;02/05/2023;Москва;online;individual;TRUE
+C000485;19/02/2022;Московская область;online;individual;FALSE
+C000486;22/01/2022;Красноярский край;online;individual;FALSE
+C000487;21/05/2025;Московская область;online;individual;FALSE
+C000488;25/09/2021;Московская область;online;individual;FALSE
+C000489;04/07/2020;Москва;store;individual;FALSE
+C000490;21/12/2021;Красноярский край;partner;individual;FALSE
+C000491;28/11/2024;Новосибирская область;store;individual;FALSE
+C000492;01/08/2019;Московская область;store;individual;FALSE
+C000493;30/07/2025;Москва;store;individual;FALSE
+C000494;02/11/2021;Московская область;store;individual;FALSE
+C000495;02/04/2024;Московская область;store;individual;FALSE
+C000496;12/12/2020;Новосибирская область;store;individual;FALSE
+C000497;21/05/2019;Московская область;online;individual;FALSE
+C000498;05/04/2021;Томская область;online;individual;FALSE
+C000499;23/07/2021;Москва;partner;individual;FALSE
+C000500;17/10/2024;Новосибирская область;online;individual;FALSE
+C000501;12/12/2022;Томская область;store;individual;FALSE
+C000502;26/11/2023;Новосибирская область;store;individual;FALSE
+C000503;26/01/2019;Красноярский край;store;individual;FALSE
+C000504;31/10/2022;Москва;partner;individual;FALSE
+C000505;02/11/2019;Красноярский край;online;individual;FALSE
+C000506;23/07/2020;Томская область;online;individual;FALSE
+C000507;07/11/2024;Томская область;store;individual;FALSE
+C000508;02/11/2024;Красноярский край;online;individual;FALSE
+C000509;07/03/2025;Красноярский край;partner;individual;FALSE
+C000510;01/06/2023;Москва;store;individual;FALSE
+C000511;21/06/2020;Московская область;online;individual;FALSE
+C000512;09/06/2023;Новосибирская область;partner;individual;FALSE
+C000513;27/02/2023;Красноярский край;store;individual;FALSE
+C000514;10/05/2019;Томская область;store;individual;FALSE
+C000515;15/01/2022;Томская область;online;individual;FALSE
+C000516;15/03/2019;Новосибирская область;store;individual;FALSE
+C000517;14/12/2019;Москва;online;individual;FALSE
+C000518;25/10/2020;Новосибирская область;store;individual;FALSE
+C000519;19/07/2025;Москва;online;individual;TRUE
+C000520;05/02/2023;Московская область;online;individual;TRUE
+C000521;21/09/2019;Красноярский край;online;individual;FALSE
+C000522;26/11/2021;Новосибирская область;online;individual;FALSE
+C000523;04/03/2024;Красноярский край;online;individual;FALSE
+C000524;24/08/2022;Новосибирская область;store;individual;FALSE
+C000525;12/03/2024;Томская область;partner;individual;FALSE
+C000526;13/07/2020;Московская область;online;individual;FALSE
+C000527;17/08/2025;Москва;online;individual;FALSE
+C000528;26/02/2022;Красноярский край;store;individual;FALSE
+C000529;14/09/2023;Красноярский край;online;individual;FALSE
+C000530;18/07/2021;Красноярский край;partner;individual;FALSE
+C000531;29/05/2021;Новосибирская область;store;individual;FALSE
+C000532;17/01/2023;Новосибирская область;partner;individual;FALSE
+C000533;03/12/2023;Москва;store;individual;FALSE
+C000534;27/12/2020;Москва;online;individual;FALSE
+C000535;27/09/2021;Москва;store;individual;FALSE
+C000536;12/06/2025;Томская область;store;individual;FALSE
+C000537;01/07/2022;Москва;online;individual;FALSE
+C000538;30/08/2020;Москва;online;individual;TRUE
+C000539;20/06/2023;Томская область;partner;individual;FALSE
+C000540;30/09/2024;Новосибирская область;store;individual;FALSE
+C000541;11/08/2024;Москва;store;individual;FALSE
+C000542;14/03/2025;Москва;online;individual;FALSE
+C000543;06/05/2023;Московская область;online;individual;FALSE
+C000544;24/05/2019;Томская область;store;individual;FALSE
+C000545;07/07/2025;Томская область;online;individual;FALSE
+C000546;21/05/2020;Московская область;store;individual;FALSE
+C000547;27/07/2021;Красноярский край;store;individual;FALSE
+C000548;14/06/2021;Московская область;online;individual;FALSE
+C000549;23/05/2023;Новосибирская область;online;individual;FALSE
+C000550;09/03/2022;Москва;store;individual;FALSE
+C000551;07/04/2022;Московская область;store;individual;FALSE
+C000552;29/05/2019;Красноярский край;online;individual;FALSE
+C000553;02/01/2020;Новосибирская область;online;individual;FALSE
+C000554;08/08/2025;Новосибирская область;online;small_business;FALSE
+C000555;13/03/2025;Москва;online;individual;FALSE
+C000556;17/09/2020;Московская область;online;individual;FALSE
+C000557;25/03/2023;Томская область;partner;individual;FALSE
+C000558;25/05/2023;Красноярский край;store;individual;FALSE
+C000559;17/08/2019;Москва;online;individual;FALSE
+C000560;16/09/2021;Новосибирская область;online;individual;FALSE
+C000561;30/04/2023;Москва;online;individual;FALSE
+C000562;04/03/2020;Томская область;online;individual;FALSE
+C000563;15/05/2025;Москва;store;individual;FALSE
+C000564;18/05/2020;Москва;online;individual;FALSE
+C000565;07/03/2025;Новосибирская область;store;small_business;FALSE
+C000566;27/08/2023;Москва;store;individual;FALSE
+C000567;05/12/2019;Томская область;online;individual;FALSE
+C000568;20/10/2020;Новосибирская область;store;individual;FALSE
+C000569;11/05/2021;Москва;online;small_business;FALSE
+C000570;24/11/2021;Москва;online;individual;FALSE
+C000571;28/02/2020;Москва;store;individual;FALSE
+C000572;03/08/2024;Москва;online;individual;FALSE
+C000573;23/08/2023;Москва;store;individual;FALSE
+C000574;23/05/2025;Томская область;online;individual;FALSE
+C000575;24/04/2022;Новосибирская область;partner;small_business;FALSE
+C000576;12/06/2022;Московская область;online;individual;FALSE
+C000577;11/08/2023;Томская область;online;individual;FALSE
+C000578;30/05/2025;Новосибирская область;store;individual;FALSE
+C000579;08/04/2021;Москва;partner;individual;FALSE
+C000580;28/07/2019;Москва;store;small_business;FALSE
+C000581;20/01/2024;Томская область;online;individual;FALSE
+C000582;05/03/2023;Томская область;online;small_business;FALSE
+C000583;08/02/2025;Москва;online;individual;FALSE
+C000584;13/06/2022;Томская область;store;individual;FALSE
+C000585;11/07/2022;Новосибирская область;store;individual;FALSE
+C000586;15/01/2023;Красноярский край;store;individual;FALSE
+C000587;21/12/2019;Томская область;store;individual;FALSE
+C000588;25/12/2019;Московская область;store;individual;FALSE
+C000589;07/11/2020;Москва;online;individual;FALSE
+C000590;14/10/2022;Московская область;online;individual;FALSE
+C000591;13/01/2023;Новосибирская область;store;individual;FALSE
+C000592;27/02/2022;Московская область;online;individual;FALSE
+C000593;21/03/2022;Новосибирская область;partner;individual;FALSE
+C000594;25/06/2021;Московская область;online;individual;TRUE
+C000595;03/09/2020;Москва;online;small_business;FALSE
+C000596;23/09/2019;Томская область;partner;individual;FALSE
+C000597;12/03/2025;Томская область;online;individual;FALSE
+C000598;16/02/2022;Москва;online;individual;FALSE
+C000599;17/04/2023;Томская область;store;individual;FALSE
+C000600;30/08/2024;Москва;online;individual;FALSE
+C000601;12/08/2019;Новосибирская область;store;individual;FALSE
+C000602;05/09/2022;Москва;online;individual;FALSE
+C000603;19/07/2020;Новосибирская область;online;individual;FALSE
+C000604;13/07/2024;Москва;store;individual;FALSE
+C000605;04/11/2019;Москва;store;small_business;FALSE
+C000606;10/10/2021;Московская область;online;individual;FALSE
+C000607;05/03/2020;Москва;store;individual;TRUE
+C000608;14/07/2022;Томская область;online;individual;FALSE
+C000609;24/10/2020;Томская область;online;individual;FALSE
+C000610;16/07/2023;Новосибирская область;partner;individual;FALSE
+C000611;03/07/2022;Московская область;online;individual;FALSE
+C000612;24/07/2020;Москва;store;individual;FALSE
+C000613;29/01/2025;Красноярский край;partner;individual;FALSE
+C000614;30/04/2022;Новосибирская область;store;individual;FALSE
+C000615;16/09/2024;Томская область;store;individual;FALSE
+C000616;13/12/2020;Москва;online;individual;FALSE
+C000617;16/04/2019;Томская область;store;individual;FALSE
+C000618;12/04/2023;Томская область;online;individual;FALSE
+C000619;10/01/2021;Московская область;partner;individual;FALSE
+C000620;08/07/2021;Новосибирская область;partner;individual;FALSE
+C000621;05/05/2021;Новосибирская область;store;individual;FALSE
+C000622;08/06/2022;Москва;store;individual;FALSE
+C000623;04/08/2022;Новосибирская область;partner;individual;FALSE
+C000624;07/11/2019;Томская область;online;individual;FALSE
+C000625;13/04/2023;Томская область;store;individual;FALSE
+C000626;19/08/2022;Московская область;partner;individual;FALSE
+C000627;10/07/2023;Новосибирская область;online;individual;FALSE
+C000628;13/01/2022;Томская область;online;individual;FALSE
+C000629;05/09/2020;Москва;store;individual;FALSE
+C000630;09/03/2020;Москва;store;individual;FALSE
+C000631;10/10/2022;Красноярский край;online;individual;FALSE
+C000632;07/03/2024;Новосибирская область;store;individual;FALSE
+C000633;09/02/2021;Москва;store;individual;FALSE
+C000634;11/09/2023;Томская область;online;individual;FALSE
+C000635;05/10/2021;Новосибирская область;store;individual;FALSE
+C000636;17/05/2022;Московская область;online;small_business;TRUE
+C000637;14/02/2025;Новосибирская область;partner;individual;FALSE
+C000638;01/11/2021;Московская область;online;individual;FALSE
+C000639;14/06/2025;Томская область;online;individual;FALSE
+C000640;04/04/2025;Красноярский край;store;individual;FALSE
+C000641;12/10/2020;Москва;online;individual;FALSE
+C000642;25/10/2023;Москва;online;individual;FALSE
+C000643;04/06/2021;Новосибирская область;store;individual;FALSE
+C000644;07/10/2022;Томская область;store;individual;FALSE
+C000645;11/08/2021;Красноярский край;online;individual;FALSE
+C000646;09/06/2025;Московская область;store;small_business;FALSE
+C000647;29/04/2019;Новосибирская область;partner;individual;FALSE
+C000648;29/05/2021;Москва;online;individual;FALSE
+C000649;03/06/2019;Москва;online;individual;FALSE
+C000650;13/02/2020;Томская область;store;individual;FALSE
+C000651;23/04/2025;Томская область;online;individual;FALSE
+C000652;12/05/2019;Московская область;online;individual;FALSE
+C000653;01/05/2024;Московская область;store;individual;FALSE
+C000654;05/02/2023;Томская область;store;individual;FALSE
+C000655;25/05/2021;Новосибирская область;partner;individual;FALSE
+C000656;27/12/2021;Томская область;store;individual;FALSE
+C000657;06/04/2020;Москва;online;individual;FALSE
+C000658;23/01/2024;Московская область;store;individual;FALSE
+C000659;08/07/2019;Новосибирская область;online;individual;FALSE
+C000660;06/02/2023;Московская область;partner;individual;FALSE
+C000661;13/05/2022;Москва;partner;individual;FALSE
+C000662;03/07/2019;Красноярский край;partner;individual;FALSE
+C000663;23/12/2021;Новосибирская область;online;individual;FALSE
+C000664;26/06/2020;Новосибирская область;online;individual;FALSE
+C000665;13/09/2022;Новосибирская область;partner;individual;FALSE
+C000666;16/11/2021;Москва;online;individual;FALSE
+C000667;04/02/2019;Новосибирская область;store;individual;FALSE
+C000668;31/05/2025;Красноярский край;store;individual;FALSE
+C000669;27/12/2022;Красноярский край;store;individual;FALSE
+C000670;13/03/2019;Новосибирская область;online;individual;FALSE
+C000671;12/09/2021;Москва;online;individual;FALSE
+C000672;17/07/2022;Красноярский край;partner;individual;FALSE
+C000673;28/12/2024;Новосибирская область;online;individual;FALSE
+C000674;21/11/2021;Москва;online;individual;FALSE
+C000675;29/03/2023;Новосибирская область;store;individual;FALSE
+C000676;20/01/2020;Новосибирская область;store;individual;FALSE
+C000677;20/08/2023;Красноярский край;partner;individual;FALSE
+C000678;27/08/2024;Красноярский край;online;individual;FALSE
+C000679;27/03/2019;Новосибирская область;store;individual;FALSE
+C000680;18/05/2025;Томская область;online;individual;FALSE
+C000681;21/06/2025;Москва;online;individual;FALSE
+C000682;18/05/2021;Томская область;online;individual;FALSE
+C000683;19/12/2020;Томская область;online;individual;FALSE
+C000684;05/06/2023;Томская область;online;individual;FALSE
+C000685;17/05/2022;Москва;store;individual;FALSE
+C000686;28/08/2022;Красноярский край;online;individual;FALSE
+C000687;13/10/2020;Московская область;store;small_business;FALSE
+C000688;24/05/2025;Красноярский край;online;individual;FALSE
+C000689;05/10/2024;Томская область;online;individual;FALSE
+C000690;14/09/2023;Красноярский край;partner;individual;FALSE
+C000691;16/09/2023;Красноярский край;store;individual;FALSE
+C000692;07/07/2024;Новосибирская область;partner;individual;FALSE
+C000693;25/10/2024;Москва;store;small_business;FALSE
+C000694;07/03/2024;Новосибирская область;online;individual;FALSE
+C000695;17/06/2023;Томская область;store;individual;FALSE
+C000696;16/10/2021;Красноярский край;store;individual;FALSE
+C000697;12/11/2021;Московская область;store;individual;FALSE
+C000698;21/08/2021;Красноярский край;online;individual;FALSE
+C000699;29/05/2025;Новосибирская область;online;individual;FALSE
+C000700;12/07/2024;Москва;online;individual;FALSE
+C000701;18/01/2023;Красноярский край;partner;individual;FALSE
+C000702;02/02/2020;Новосибирская область;store;individual;FALSE
+C000703;24/02/2024;Новосибирская область;partner;individual;FALSE
+C000704;01/06/2024;Московская область;online;individual;FALSE
+C000705;16/02/2021;Москва;store;individual;FALSE
+C000706;09/07/2021;Новосибирская область;partner;individual;FALSE
+C000707;15/05/2020;Московская область;online;individual;FALSE
+C000708;26/01/2019;Томская область;online;individual;FALSE
+C000709;02/03/2020;Томская область;store;individual;FALSE
+C000710;13/12/2022;Московская область;online;individual;FALSE
+C000711;13/08/2020;Московская область;online;individual;FALSE
+C000712;25/07/2024;Новосибирская область;online;individual;FALSE
+C000713;28/10/2021;Московская область;store;individual;FALSE
+C000714;13/02/2019;Красноярский край;online;small_business;FALSE
+C000715;24/04/2019;Новосибирская область;online;individual;FALSE
+C000716;16/12/2021;Новосибирская область;online;individual;TRUE
+C000717;17/04/2022;Москва;partner;small_business;FALSE
+C000718;29/01/2025;Москва;online;individual;FALSE
+C000719;02/01/2025;Томская область;online;individual;FALSE
+C000720;25/11/2019;Московская область;store;individual;FALSE
+C000721;29/01/2024;Московская область;store;individual;FALSE
+C000722;18/05/2023;Московская область;store;individual;FALSE
+C000723;26/02/2020;Красноярский край;store;individual;FALSE
+C000724;20/01/2023;Московская область;online;individual;FALSE
+C000725;30/01/2020;Москва;online;individual;FALSE
+C000726;25/06/2023;Москва;store;individual;FALSE
+C000727;01/02/2024;Московская область;partner;individual;FALSE
+C000728;22/10/2022;Московская область;online;individual;FALSE
+C000729;21/04/2019;Москва;online;individual;FALSE
+C000730;23/12/2022;Новосибирская область;store;individual;FALSE
+C000731;06/03/2021;Москва;store;individual;FALSE
+C000732;27/03/2025;Новосибирская область;store;individual;FALSE
+C000733;05/08/2024;Москва;online;individual;FALSE
+C000734;12/03/2024;Московская область;online;individual;FALSE
+C000735;22/04/2023;Новосибирская область;online;individual;TRUE
+C000736;23/03/2024;Новосибирская область;online;individual;FALSE
+C000737;03/01/2024;Москва;online;individual;FALSE
+C000738;13/04/2025;Новосибирская область;store;individual;FALSE
+C000739;28/02/2021;Томская область;store;individual;FALSE
+C000740;17/11/2020;Новосибирская область;partner;individual;FALSE
+C000741;04/04/2022;Красноярский край;partner;individual;FALSE
+C000742;25/09/2019;Новосибирская область;partner;small_business;FALSE
+C000743;04/03/2021;Московская область;online;individual;FALSE
+C000744;01/12/2021;Московская область;online;individual;FALSE
+C000745;08/10/2023;Московская область;online;small_business;FALSE
+C000746;15/11/2021;Томская область;online;small_business;FALSE
+C000747;25/12/2020;Томская область;partner;individual;FALSE
+C000748;12/10/2022;Красноярский край;online;small_business;FALSE
+C000749;21/12/2023;Москва;online;individual;FALSE
+C000750;08/09/2022;Томская область;store;individual;FALSE
+C000751;01/12/2021;Новосибирская область;online;individual;FALSE
+C000752;13/06/2023;Москва;online;individual;FALSE
+C000753;25/04/2024;Новосибирская область;online;individual;FALSE
+C000754;21/08/2019;Томская область;online;individual;FALSE
+C000755;17/07/2022;Красноярский край;online;individual;FALSE
+C000756;23/11/2024;Московская область;online;individual;FALSE
+C000757;17/03/2022;Томская область;store;individual;FALSE
+C000758;24/12/2023;Красноярский край;store;small_business;FALSE
+C000759;16/02/2025;Московская область;store;individual;FALSE
+C000760;04/12/2022;Красноярский край;store;individual;FALSE
+C000761;21/06/2020;Красноярский край;store;individual;FALSE
+C000762;22/08/2021;Новосибирская область;online;individual;FALSE
+C000763;27/10/2019;Москва;online;small_business;FALSE
+C000764;08/02/2025;Томская область;store;small_business;FALSE
+C000765;24/04/2021;Москва;online;individual;FALSE
+C000766;18/01/2020;Красноярский край;store;individual;FALSE
+C000767;10/04/2019;Томская область;store;individual;FALSE
+C000768;09/07/2025;Красноярский край;online;individual;TRUE
+C000769;10/11/2020;Красноярский край;online;small_business;FALSE
+C000770;18/09/2023;Московская область;online;individual;FALSE
+C000771;10/04/2022;Московская область;store;individual;FALSE
+C000772;04/06/2023;Новосибирская область;store;individual;FALSE
+C000773;21/06/2022;Новосибирская область;online;individual;FALSE
+C000774;25/10/2021;Томская область;store;individual;FALSE
+C000775;09/12/2019;Красноярский край;store;individual;FALSE
+C000776;04/01/2022;Москва;online;individual;FALSE
+C000777;02/05/2022;Новосибирская область;store;individual;TRUE
+C000778;28/08/2024;Красноярский край;store;individual;FALSE
+C000779;01/06/2019;Москва;partner;individual;FALSE
+C000780;18/03/2025;Томская область;store;individual;FALSE
+C000781;08/12/2022;Московская область;store;individual;FALSE
+C000782;17/10/2022;Новосибирская область;store;individual;TRUE
+C000783;19/10/2019;Новосибирская область;online;individual;FALSE
+C000784;23/11/2020;Москва;store;individual;FALSE
+C000785;09/07/2021;Томская область;partner;small_business;FALSE
+C000786;14/09/2024;Томская область;online;individual;FALSE
+C000787;30/09/2019;Новосибирская область;store;individual;FALSE
+C000788;09/11/2019;Москва;store;individual;FALSE
+C000789;28/08/2024;Красноярский край;online;individual;FALSE
+C000790;09/04/2020;Московская область;partner;individual;FALSE
+C000791;01/06/2023;Московская область;online;individual;FALSE
+C000792;13/08/2024;Томская область;store;individual;FALSE
+C000793;30/10/2022;Московская область;store;individual;FALSE
+C000794;02/02/2024;Московская область;partner;individual;FALSE
+C000795;26/01/2019;Новосибирская область;store;individual;FALSE
+C000796;30/05/2025;Томская область;partner;individual;FALSE
+C000797;17/06/2023;Новосибирская область;store;individual;FALSE
+C000798;15/10/2021;Москва;online;individual;FALSE
+C000799;12/09/2019;Москва;store;individual;FALSE
+C000800;03/01/2023;Красноярский край;online;small_business;FALSE
+C000801;18/03/2019;Москва;online;individual;FALSE
+C000802;01/11/2020;Московская область;partner;small_business;FALSE
+C000803;24/05/2024;Москва;store;individual;FALSE
+C000804;26/12/2019;Москва;store;individual;FALSE
+C000805;20/05/2020;Московская область;partner;individual;FALSE
+C000806;27/09/2024;Московская область;online;individual;FALSE
+C000807;16/07/2019;Московская область;store;individual;FALSE
+C000808;19/08/2025;Новосибирская область;online;individual;FALSE
+C000809;01/04/2022;Красноярский край;store;individual;FALSE
+C000810;16/01/2021;Москва;partner;individual;FALSE
+C000811;05/01/2022;Красноярский край;store;individual;FALSE
+C000812;10/03/2023;Московская область;online;individual;FALSE
+C000813;13/07/2019;Московская область;store;small_business;FALSE
+C000814;31/12/2024;Московская область;online;individual;FALSE
+C000815;24/09/2022;Новосибирская область;store;small_business;FALSE
+C000816;09/06/2021;Томская область;store;individual;FALSE
+C000817;10/09/2021;Новосибирская область;online;individual;FALSE
+C000818;03/12/2021;Московская область;online;individual;FALSE
+C000819;14/11/2019;Московская область;online;individual;FALSE
+C000820;24/09/2019;Томская область;partner;individual;FALSE
+C000821;18/11/2021;Москва;store;individual;FALSE
+C000822;11/04/2019;Москва;store;individual;FALSE
+C000823;05/06/2023;Красноярский край;online;individual;FALSE
+C000824;05/11/2020;Новосибирская область;online;individual;FALSE
+C000825;27/09/2022;Красноярский край;store;individual;FALSE
+C000826;27/02/2025;Московская область;online;individual;FALSE
+C000827;01/10/2020;Московская область;online;individual;FALSE
+C000828;28/02/2019;Московская область;online;individual;FALSE
+C000829;16/01/2023;Томская область;online;individual;FALSE
+C000830;11/11/2021;Томская область;online;individual;FALSE
+C000831;27/06/2024;Красноярский край;store;individual;FALSE
+C000832;13/01/2023;Москва;partner;individual;FALSE
+C000833;10/06/2025;Москва;store;individual;FALSE
+C000834;06/01/2019;Новосибирская область;store;small_business;FALSE
+C000835;19/03/2021;Москва;store;individual;FALSE
+C000836;12/05/2021;Красноярский край;online;individual;FALSE
+C000837;28/11/2024;Московская область;partner;individual;FALSE
+C000838;08/08/2024;Московская область;store;individual;FALSE
+C000839;07/02/2020;Красноярский край;online;individual;FALSE
+C000840;28/07/2020;Москва;store;individual;FALSE
+C000841;05/01/2021;Новосибирская область;store;individual;FALSE
+C000842;29/07/2022;Новосибирская область;store;individual;FALSE
+C000843;16/02/2024;Московская область;online;individual;FALSE
+C000844;14/10/2024;Новосибирская область;store;individual;FALSE
+C000845;15/03/2021;Томская область;partner;individual;FALSE
+C000846;28/01/2019;Томская область;online;individual;FALSE
+C000847;11/11/2022;Томская область;store;individual;FALSE
+C000848;16/04/2025;Москва;online;individual;FALSE
+C000849;26/08/2022;Московская область;online;individual;FALSE
+C000850;13/09/2022;Москва;online;individual;FALSE
+C000851;06/02/2019;Новосибирская область;online;individual;FALSE
+C000852;27/12/2022;Томская область;store;individual;FALSE
+C000853;08/06/2019;Московская область;partner;individual;TRUE
+C000854;15/11/2020;Москва;online;individual;FALSE
+C000855;14/08/2019;Московская область;store;individual;FALSE
+C000856;22/09/2020;Москва;online;individual;FALSE
+C000857;19/04/2022;Красноярский край;partner;individual;FALSE
+C000858;08/08/2021;Томская область;store;individual;TRUE
+C000859;16/02/2021;Москва;online;individual;FALSE
+C000860;15/06/2025;Красноярский край;online;individual;FALSE
+C000861;12/09/2024;Новосибирская область;online;individual;FALSE
+C000862;06/08/2025;Красноярский край;online;individual;FALSE
+C000863;21/05/2021;Томская область;store;individual;FALSE
+C000864;19/10/2023;Московская область;online;individual;FALSE
+C000865;11/06/2020;Новосибирская область;online;individual;FALSE
+C000866;05/05/2019;Москва;store;individual;FALSE
+C000867;18/06/2023;Красноярский край;store;individual;FALSE
+C000868;02/05/2025;Красноярский край;store;individual;FALSE
+C000869;16/04/2021;Красноярский край;online;individual;FALSE
+C000870;09/09/2021;Московская область;store;individual;FALSE
+C000871;17/02/2021;Томская область;online;individual;FALSE
+C000872;05/04/2025;Московская область;online;individual;FALSE
+C000873;15/06/2021;Новосибирская область;online;individual;FALSE
+C000874;12/07/2019;Красноярский край;online;individual;FALSE
+C000875;04/01/2019;Томская область;online;individual;FALSE
+C000876;05/07/2023;Томская область;online;individual;FALSE
+C000877;20/10/2023;Московская область;store;individual;TRUE
+C000878;01/04/2021;Московская область;store;individual;FALSE
+C000879;20/12/2024;Москва;store;individual;FALSE
+C000880;29/10/2020;Московская область;partner;individual;FALSE
+C000881;29/06/2019;Томская область;online;individual;FALSE
+C000882;27/04/2019;Томская область;online;individual;FALSE
+C000883;01/04/2024;Новосибирская область;partner;individual;FALSE
+C000884;14/05/2020;Московская область;store;individual;FALSE
+C000885;12/07/2025;Томская область;online;individual;FALSE
+C000886;21/10/2024;Московская область;store;individual;FALSE
+C000887;20/12/2024;Москва;store;individual;FALSE
+C000888;12/09/2021;Красноярский край;store;individual;FALSE
+C000889;15/12/2019;Томская область;online;individual;FALSE
+C000890;21/07/2021;Томская область;partner;individual;FALSE
+C000891;28/03/2022;Томская область;store;individual;FALSE
+C000892;03/09/2020;Томская область;online;individual;FALSE
+C000893;13/04/2019;Москва;online;individual;TRUE
+C000894;11/06/2025;Томская область;store;individual;FALSE
+C000895;13/06/2024;Красноярский край;store;individual;FALSE
+C000896;13/07/2024;Новосибирская область;store;individual;FALSE
+C000897;22/06/2021;Томская область;store;individual;FALSE
+C000898;02/11/2024;Новосибирская область;online;individual;FALSE
+C000899;08/05/2020;Новосибирская область;partner;individual;FALSE
+C000900;01/09/2020;Московская область;online;individual;FALSE
+C000901;29/05/2022;Московская область;online;individual;FALSE
+C000902;18/03/2022;Московская область;store;individual;TRUE
+C000903;24/09/2019;Москва;online;individual;FALSE
+C000904;30/10/2024;Москва;online;individual;FALSE
+C000905;14/09/2020;Новосибирская область;online;individual;FALSE
+C000906;30/09/2022;Красноярский край;store;individual;FALSE
+C000907;01/04/2019;Красноярский край;partner;individual;FALSE
+C000908;28/07/2022;Московская область;online;individual;FALSE
+C000909;02/01/2020;Москва;online;individual;FALSE
+C000910;03/11/2024;Новосибирская область;online;individual;FALSE
+C000911;08/05/2020;Московская область;online;individual;FALSE
+C000912;07/10/2023;Московская область;online;individual;FALSE
+C000913;07/11/2019;Московская область;online;individual;FALSE
+C000914;21/10/2019;Московская область;store;individual;FALSE
+C000915;05/09/2022;Московская область;online;individual;FALSE
+C000916;31/07/2024;Москва;online;individual;FALSE
+C000917;21/02/2022;Томская область;online;individual;FALSE
+C000918;28/08/2024;Красноярский край;store;individual;FALSE
+C000919;14/10/2024;Томская область;partner;individual;FALSE
+C000920;20/11/2019;Томская область;online;individual;FALSE
+C000921;27/10/2023;Новосибирская область;online;individual;FALSE
+C000922;02/04/2022;Московская область;online;individual;FALSE
+C000923;24/03/2020;Томская область;store;individual;FALSE
+C000924;22/08/2024;Московская область;store;small_business;FALSE
+C000925;08/07/2023;Новосибирская область;online;individual;FALSE
+C000926;19/07/2021;Томская область;online;individual;FALSE
+C000927;12/03/2024;Новосибирская область;store;individual;FALSE
+C000928;15/06/2019;Новосибирская область;store;individual;FALSE
+C000929;04/10/2022;Московская область;store;individual;FALSE
+C000930;06/03/2025;Москва;online;individual;FALSE
+C000931;05/04/2024;Новосибирская область;partner;individual;FALSE
+C000932;19/09/2024;Новосибирская область;online;individual;FALSE
+C000933;12/07/2022;Московская область;online;individual;FALSE
+C000934;08/04/2019;Новосибирская область;online;individual;FALSE
+C000935;08/07/2023;Томская область;online;individual;FALSE
+C000936;09/10/2019;Новосибирская область;partner;individual;FALSE
+C000937;31/03/2024;Красноярский край;store;individual;FALSE
+C000938;24/06/2019;Московская область;store;individual;TRUE
+C000939;17/06/2023;Новосибирская область;store;individual;FALSE
+C000940;25/06/2024;Новосибирская область;online;individual;FALSE
+C000941;12/03/2019;Москва;online;individual;FALSE
+C000942;10/05/2023;Томская область;online;individual;FALSE
+C000943;14/05/2023;Новосибирская область;partner;individual;FALSE
+C000944;27/08/2020;Новосибирская область;online;individual;FALSE
+C000945;22/08/2021;Москва;online;individual;FALSE
+C000946;29/11/2019;Красноярский край;partner;individual;FALSE
+C000947;29/03/2021;Московская область;store;individual;FALSE
+C000948;30/03/2025;Новосибирская область;online;small_business;FALSE
+C000949;31/03/2025;Новосибирская область;partner;small_business;FALSE
+C000950;16/01/2025;Красноярский край;store;individual;FALSE
+C000951;04/11/2019;Томская область;online;individual;FALSE
+C000952;13/07/2023;Московская область;partner;individual;FALSE
+C000953;04/12/2019;Москва;online;individual;FALSE
+C000954;15/06/2020;Новосибирская область;partner;small_business;FALSE
+C000955;12/11/2021;Московская область;store;individual;FALSE
+C000956;16/02/2025;Новосибирская область;store;individual;FALSE
+C000957;11/09/2023;Томская область;online;individual;FALSE
+C000958;14/03/2021;Московская область;partner;individual;FALSE
+C000959;01/03/2020;Томская область;store;individual;FALSE
+C000960;20/01/2020;Москва;store;individual;FALSE
+C000961;04/01/2019;Красноярский край;online;small_business;FALSE
+C000962;27/12/2024;Красноярский край;partner;individual;FALSE
+C000963;23/08/2022;Красноярский край;partner;individual;FALSE
+C000964;13/09/2021;Московская область;store;individual;FALSE
+C000965;04/11/2022;Москва;online;individual;FALSE
+C000966;12/01/2021;Московская область;store;individual;FALSE
+C000967;02/07/2025;Томская область;online;individual;FALSE
+C000968;30/01/2023;Москва;online;individual;FALSE
+C000969;11/08/2023;Московская область;partner;individual;FALSE
+C000970;08/08/2020;Новосибирская область;store;individual;FALSE
+C000971;04/05/2019;Московская область;store;individual;FALSE
+C000972;28/08/2020;Красноярский край;online;small_business;FALSE
+C000973;17/03/2020;Москва;partner;individual;FALSE
+C000974;26/02/2024;Московская область;online;individual;FALSE
+C000975;09/03/2024;Томская область;online;individual;FALSE
+C000976;20/06/2021;Московская область;online;individual;FALSE
+C000977;24/01/2020;Новосибирская область;online;individual;FALSE
+C000978;15/01/2024;Томская область;store;individual;FALSE
+C000979;30/07/2019;Томская область;store;small_business;FALSE
+C000980;12/01/2021;Московская область;online;small_business;FALSE
+C000981;05/10/2022;Томская область;online;individual;FALSE
+C000982;06/11/2019;Москва;store;individual;FALSE
+C000983;19/10/2019;Новосибирская область;online;individual;FALSE
+C000984;29/12/2019;Томская область;online;individual;FALSE
+C000985;26/10/2021;Новосибирская область;partner;individual;FALSE
+C000986;27/07/2025;Томская область;store;individual;FALSE
+C000987;30/03/2021;Москва;store;individual;FALSE
+C000988;09/08/2022;Новосибирская область;online;individual;FALSE
+C000989;15/12/2024;Московская область;online;individual;FALSE
+C000990;04/10/2023;Москва;online;individual;FALSE
+C000991;21/12/2021;Москва;partner;individual;FALSE
+C000992;21/12/2019;Красноярский край;partner;individual;FALSE
+C000993;31/10/2022;Москва;online;individual;FALSE
+C000994;20/05/2022;Томская область;partner;small_business;FALSE
+C000995;02/10/2022;Москва;store;individual;FALSE
+C000996;10/11/2019;Московская область;store;individual;FALSE
+C000997;26/05/2019;Новосибирская область;online;individual;FALSE
+C000998;14/08/2023;Московская область;store;individual;FALSE
+C000999;12/05/2022;Красноярский край;store;individual;FALSE
+C001000;20/08/2024;Томская область;store;individual;FALSE
+C001001;04/12/2019;Москва;online;individual;FALSE
+C001002;15/04/2019;Томская область;partner;individual;FALSE
+C001003;03/11/2022;Новосибирская область;online;individual;FALSE
+C001004;06/02/2020;Новосибирская область;online;individual;FALSE
+C001005;30/01/2025;Томская область;online;individual;FALSE
+C001006;03/07/2024;Красноярский край;online;individual;FALSE
+C001007;08/08/2023;Московская область;partner;individual;FALSE
+C001008;09/06/2022;Московская область;online;individual;FALSE
+C001009;16/11/2023;Новосибирская область;store;individual;FALSE
+C001010;02/05/2024;Красноярский край;store;individual;FALSE
+C001011;30/06/2021;Красноярский край;online;individual;FALSE
+C001012;01/04/2022;Москва;store;individual;FALSE
+C001013;31/10/2020;Томская область;store;individual;FALSE
+C001014;23/04/2021;Новосибирская область;online;individual;FALSE
+C001015;22/04/2020;Томская область;online;individual;TRUE
+C001016;22/06/2025;Томская область;partner;individual;FALSE
+C001017;27/05/2019;Красноярский край;store;individual;FALSE
+C001018;30/07/2024;Красноярский край;store;individual;FALSE
+C001019;08/04/2021;Москва;partner;small_business;FALSE
+C001020;08/09/2019;Новосибирская область;online;small_business;TRUE
+C001021;26/12/2019;Томская область;online;individual;FALSE
+C001022;21/09/2022;Москва;online;individual;FALSE
+C001023;23/03/2020;Томская область;store;individual;FALSE
+C001024;19/04/2025;Московская область;online;individual;FALSE
+C001025;16/12/2020;Московская область;online;small_business;FALSE
+C001026;18/02/2019;Москва;partner;individual;FALSE
+C001027;27/04/2020;Красноярский край;partner;individual;FALSE
+C001028;05/04/2023;Томская область;online;individual;FALSE
+C001029;27/04/2024;Москва;online;individual;FALSE
+C001030;13/12/2021;Томская область;online;individual;FALSE
+C001031;06/04/2021;Московская область;store;individual;FALSE
+C001032;15/02/2025;Московская область;online;small_business;FALSE
+C001033;04/06/2023;Московская область;store;individual;FALSE
+C001034;18/04/2021;Московская область;store;individual;FALSE
+C001035;29/11/2023;Красноярский край;partner;individual;FALSE
+C001036;14/02/2023;Москва;online;individual;FALSE
+C001037;29/08/2022;Красноярский край;online;individual;FALSE
+C001038;18/08/2020;Москва;online;individual;FALSE
+C001039;01/02/2022;Новосибирская область;store;individual;FALSE
+C001040;14/03/2021;Красноярский край;online;small_business;FALSE
+C001041;02/04/2019;Москва;online;individual;FALSE
+C001042;30/09/2024;Новосибирская область;partner;individual;TRUE
+C001043;09/12/2022;Красноярский край;store;individual;FALSE
+C001044;13/01/2024;Красноярский край;store;individual;FALSE
+C001045;24/11/2020;Красноярский край;online;individual;FALSE
+C001046;22/09/2022;Томская область;store;individual;FALSE
+C001047;08/02/2019;Московская область;partner;individual;FALSE
+C001048;06/09/2019;Москва;online;individual;FALSE
+C001049;13/06/2021;Томская область;partner;individual;FALSE
+C001050;15/09/2022;Москва;store;individual;FALSE
+C001051;06/05/2023;Московская область;store;individual;FALSE
+C001052;09/11/2019;Красноярский край;online;individual;FALSE
+C001053;28/05/2022;Москва;online;individual;FALSE
+C001054;30/06/2021;Московская область;online;individual;FALSE
+C001055;11/06/2019;Томская область;online;individual;FALSE
+C001056;30/05/2023;Красноярский край;partner;individual;FALSE
+C001057;31/10/2021;Красноярский край;store;small_business;FALSE
+C001058;27/08/2023;Томская область;online;individual;FALSE
+C001059;16/12/2022;Новосибирская область;online;individual;FALSE
+C001060;13/09/2020;Москва;online;individual;FALSE
+C001061;25/08/2024;Красноярский край;partner;individual;FALSE
+C001062;03/09/2021;Томская область;store;individual;FALSE
+C001063;14/10/2020;Новосибирская область;store;individual;FALSE
+C001064;17/02/2023;Красноярский край;partner;individual;FALSE
+C001065;12/06/2023;Московская область;online;individual;FALSE
+C001066;12/11/2023;Московская область;partner;individual;FALSE
+C001067;21/04/2019;Красноярский край;online;individual;FALSE
+C001068;19/08/2025;Красноярский край;online;individual;FALSE
+C001069;21/04/2021;Новосибирская область;online;individual;FALSE
+C001070;23/02/2025;Красноярский край;store;individual;TRUE
+C001071;15/02/2025;Москва;store;individual;FALSE
+C001072;06/03/2019;Красноярский край;online;individual;FALSE
+C001073;25/08/2025;Томская область;partner;individual;FALSE
+C001074;24/02/2023;Красноярский край;store;individual;FALSE
+C001075;29/10/2021;Москва;store;individual;FALSE
+C001076;11/08/2024;Томская область;partner;individual;FALSE
+C001077;21/05/2024;Московская область;partner;individual;FALSE
+C001078;19/08/2025;Новосибирская область;partner;individual;FALSE
+C001079;30/03/2019;Москва;online;individual;FALSE
+C001080;30/09/2020;Красноярский край;store;individual;FALSE
+C001081;17/04/2022;Томская область;store;individual;FALSE
+C001082;30/04/2022;Московская область;online;individual;FALSE
+C001083;05/01/2024;Томская область;online;individual;FALSE
+C001084;22/10/2020;Новосибирская область;partner;individual;FALSE
+C001085;07/06/2019;Томская область;store;individual;FALSE
+C001086;05/10/2023;Московская область;online;individual;FALSE
+C001087;11/07/2020;Красноярский край;partner;individual;FALSE
+C001088;31/05/2025;Томская область;online;individual;FALSE
+C001089;06/08/2023;Красноярский край;online;individual;FALSE
+C001090;23/10/2019;Красноярский край;store;individual;FALSE
+C001091;31/08/2024;Новосибирская область;online;small_business;FALSE
+C001092;25/11/2020;Томская область;online;individual;FALSE
+C001093;28/02/2022;Москва;online;individual;FALSE
+C001094;29/07/2023;Красноярский край;partner;individual;FALSE
+C001095;06/07/2021;Томская область;online;individual;TRUE
+C001096;16/04/2023;Москва;online;individual;FALSE
+C001097;25/12/2022;Новосибирская область;store;individual;FALSE
+C001098;05/11/2022;Москва;store;individual;FALSE
+C001099;28/12/2021;Московская область;store;individual;FALSE
+C001100;28/10/2023;Москва;online;individual;FALSE
+C001101;21/10/2021;Москва;online;small_business;FALSE
+C001102;06/07/2023;Красноярский край;online;individual;FALSE
+C001103;11/04/2022;Новосибирская область;online;individual;FALSE
+C001104;28/04/2021;Московская область;online;individual;FALSE
+C001105;01/12/2020;Томская область;online;individual;FALSE
+C001106;13/04/2023;Красноярский край;online;individual;FALSE
+C001107;29/12/2020;Томская область;online;small_business;FALSE
+C001108;03/03/2024;Томская область;online;individual;FALSE
+C001109;03/01/2021;Московская область;store;individual;FALSE
+C001110;19/10/2024;Новосибирская область;store;small_business;FALSE
+C001111;08/12/2023;Томская область;store;individual;FALSE
+C001112;25/07/2024;Томская область;online;individual;FALSE
+C001113;25/12/2021;Московская область;online;individual;FALSE
+C001114;20/09/2021;Московская область;online;individual;FALSE
+C001115;14/05/2023;Новосибирская область;store;individual;FALSE
+C001116;24/10/2024;Новосибирская область;online;individual;FALSE
+C001117;11/10/2023;Красноярский край;partner;individual;FALSE
+C001118;13/02/2024;Томская область;online;individual;FALSE
+C001119;19/11/2024;Москва;store;individual;FALSE
+C001120;03/08/2025;Красноярский край;online;individual;FALSE
+C001121;23/01/2021;Новосибирская область;online;individual;FALSE
+C001122;05/03/2021;Новосибирская область;partner;individual;FALSE
+C001123;08/05/2022;Красноярский край;store;individual;FALSE
+C001124;17/05/2023;Томская область;store;individual;FALSE
+C001125;19/12/2019;Красноярский край;store;individual;TRUE
+C001126;11/12/2020;Московская область;online;individual;FALSE
+C001127;20/07/2021;Томская область;online;individual;FALSE
+C001128;26/02/2025;Московская область;online;individual;FALSE
+C001129;09/11/2020;Красноярский край;online;individual;FALSE
+C001130;26/07/2022;Красноярский край;partner;individual;FALSE
+C001131;29/12/2021;Москва;online;individual;FALSE
+C001132;02/09/2022;Томская область;online;individual;FALSE
+C001133;21/04/2023;Красноярский край;store;individual;FALSE
+C001134;10/06/2022;Томская область;store;small_business;FALSE
+C001135;04/06/2020;Томская область;online;individual;FALSE
+C001136;15/08/2021;Москва;partner;individual;FALSE
+C001137;04/05/2019;Москва;store;individual;FALSE
+C001138;11/01/2022;Красноярский край;store;individual;FALSE
+C001139;27/05/2025;Красноярский край;online;individual;FALSE
+C001140;16/03/2021;Москва;partner;individual;FALSE
+C001141;17/08/2021;Москва;store;individual;FALSE
+C001142;25/08/2025;Москва;store;individual;TRUE
+C001143;25/05/2021;Красноярский край;store;individual;FALSE
+C001144;14/01/2022;Красноярский край;online;individual;FALSE
+C001145;14/09/2024;Москва;store;individual;FALSE
+C001146;01/11/2021;Московская область;online;small_business;FALSE
+C001147;01/11/2020;Новосибирская область;online;individual;FALSE
+C001148;19/01/2022;Томская область;online;individual;FALSE
+C001149;19/02/2022;Новосибирская область;online;individual;FALSE
+C001150;30/08/2025;Красноярский край;online;individual;FALSE
+C001151;15/03/2025;Москва;store;individual;TRUE
+C001152;22/05/2024;Новосибирская область;online;individual;FALSE
+C001153;16/07/2025;Красноярский край;partner;individual;FALSE
+C001154;01/06/2022;Томская область;online;individual;FALSE
+C001155;22/08/2019;Томская область;online;individual;FALSE
+C001156;13/03/2020;Москва;online;individual;FALSE
+C001157;27/12/2020;Красноярский край;partner;individual;FALSE
+C001158;25/12/2022;Москва;online;individual;FALSE
+C001159;01/07/2019;Новосибирская область;online;individual;FALSE
+C001160;19/02/2021;Томская область;online;individual;FALSE
+C001161;27/11/2023;Томская область;store;individual;FALSE
+C001162;31/12/2024;Новосибирская область;store;individual;FALSE
+C001163;09/02/2020;Красноярский край;store;individual;FALSE
+C001164;01/03/2022;Красноярский край;online;individual;FALSE
+C001165;20/02/2024;Москва;partner;individual;FALSE
+C001166;07/02/2022;Новосибирская область;online;individual;FALSE
+C001167;31/05/2019;Красноярский край;store;individual;FALSE
+C001168;26/10/2019;Московская область;online;individual;FALSE
+C001169;06/03/2022;Новосибирская область;online;individual;FALSE
+C001170;25/12/2019;Москва;partner;individual;FALSE
+C001171;07/01/2025;Красноярский край;store;individual;FALSE
+C001172;16/09/2020;Московская область;store;individual;FALSE
+C001173;22/12/2022;Московская область;store;small_business;FALSE
+C001174;17/08/2024;Московская область;online;small_business;FALSE
+C001175;01/11/2022;Красноярский край;online;individual;FALSE
+C001176;18/08/2025;Томская область;store;individual;FALSE
+C001177;12/12/2020;Томская область;online;individual;FALSE
+C001178;14/08/2025;Москва;store;individual;FALSE
+C001179;30/11/2024;Красноярский край;online;individual;FALSE
+C001180;22/03/2019;Новосибирская область;store;individual;FALSE
+C001181;10/10/2020;Новосибирская область;store;small_business;FALSE
+C001182;01/03/2021;Новосибирская область;store;individual;FALSE
+C001183;30/12/2022;Красноярский край;online;individual;FALSE
+C001184;05/04/2023;Красноярский край;online;individual;FALSE
+C001185;01/02/2021;Красноярский край;store;individual;FALSE
+C001186;30/10/2024;Московская область;online;individual;FALSE
+C001187;12/10/2023;Томская область;store;small_business;FALSE
+C001188;21/12/2024;Москва;partner;individual;FALSE
+C001189;24/11/2024;Москва;store;small_business;TRUE
+C001190;02/07/2020;Томская область;store;small_business;FALSE
+C001191;30/07/2023;Томская область;online;individual;TRUE
+C001192;10/07/2021;Москва;online;individual;FALSE
+C001193;28/04/2019;Новосибирская область;partner;individual;FALSE
+C001194;05/01/2024;Томская область;online;individual;FALSE
+C001195;16/01/2020;Московская область;partner;individual;FALSE
+C001196;21/09/2024;Красноярский край;online;individual;FALSE
+C001197;03/06/2020;Московская область;store;individual;FALSE
+C001198;26/02/2024;Новосибирская область;store;individual;FALSE
+C001199;12/06/2024;Москва;online;individual;FALSE
+C001200;19/08/2021;Томская область;online;individual;FALSE
+C001201;26/04/2021;Красноярский край;partner;individual;FALSE
+C001202;30/05/2021;Москва;online;individual;FALSE
+C001203;28/09/2021;Томская область;online;individual;FALSE
+C001204;02/05/2025;Новосибирская область;online;individual;FALSE
+C001205;12/06/2019;Красноярский край;partner;individual;FALSE
+C001206;11/02/2023;Москва;online;individual;FALSE
+C001207;05/04/2022;Москва;store;small_business;FALSE
+C001208;05/11/2024;Московская область;store;individual;FALSE
+C001209;06/02/2020;Томская область;online;individual;FALSE
+C001210;24/06/2021;Томская область;partner;individual;FALSE
+C001211;16/07/2024;Томская область;online;individual;FALSE
+C001212;11/05/2023;Москва;online;individual;FALSE
+C001213;23/03/2023;Московская область;partner;individual;FALSE
+C001214;20/09/2023;Томская область;store;individual;FALSE
+C001215;25/05/2025;Томская область;online;individual;FALSE
+C001216;16/09/2021;Новосибирская область;store;individual;FALSE
+C001217;04/02/2019;Томская область;online;individual;FALSE
+C001218;31/10/2023;Томская область;online;individual;FALSE
+C001219;12/11/2024;Московская область;online;individual;FALSE
+C001220;28/10/2019;Томская область;store;individual;FALSE
+C001221;30/09/2023;Красноярский край;online;individual;FALSE
+C001222;19/04/2025;Красноярский край;store;individual;FALSE
+C001223;17/10/2024;Москва;partner;individual;FALSE
+C001224;18/01/2019;Москва;online;small_business;FALSE
+C001225;19/09/2022;Красноярский край;store;individual;FALSE
+C001226;12/05/2019;Новосибирская область;store;individual;FALSE
+C001227;20/06/2023;Новосибирская область;online;individual;FALSE
+C001228;29/06/2025;Московская область;partner;individual;FALSE
+C001229;19/09/2023;Томская область;online;individual;FALSE
+C001230;09/04/2023;Москва;online;individual;FALSE
+C001231;23/11/2022;Московская область;store;individual;FALSE
+C001232;27/05/2025;Томская область;online;individual;FALSE
+C001233;25/04/2023;Красноярский край;store;individual;FALSE
+C001234;30/10/2019;Москва;online;individual;FALSE
+C001235;27/11/2023;Новосибирская область;store;small_business;FALSE
+C001236;16/06/2022;Томская область;online;individual;FALSE
+C001237;04/06/2025;Новосибирская область;online;individual;FALSE
+C001238;02/02/2019;Московская область;online;individual;FALSE
+C001239;13/05/2025;Томская область;online;individual;FALSE
+C001240;18/04/2020;Новосибирская область;store;individual;FALSE
+C001241;03/07/2023;Красноярский край;online;small_business;TRUE
+C001242;29/07/2020;Красноярский край;store;individual;FALSE
+C001243;13/10/2022;Московская область;store;individual;FALSE
+C001244;08/08/2022;Москва;online;individual;FALSE
+C001245;28/06/2024;Московская область;store;individual;FALSE
+C001246;13/07/2025;Томская область;store;individual;FALSE
+C001247;16/11/2019;Новосибирская область;online;individual;FALSE
+C001248;14/04/2024;Томская область;online;individual;FALSE
+C001249;28/05/2024;Москва;online;small_business;FALSE
+C001250;20/01/2025;Новосибирская область;store;individual;FALSE
+C001251;28/03/2025;Новосибирская область;store;small_business;FALSE
+C001252;23/11/2019;Московская область;partner;individual;FALSE
+C001253;30/11/2023;Томская область;store;individual;FALSE
+C001254;24/12/2024;Московская область;online;individual;FALSE
+C001255;21/05/2021;Московская область;partner;individual;FALSE
+C001256;12/07/2019;Томская область;store;individual;FALSE
+C001257;12/10/2024;Новосибирская область;online;individual;FALSE
+C001258;18/05/2022;Томская область;store;individual;FALSE
+C001259;16/03/2021;Московская область;online;individual;FALSE
+C001260;26/09/2019;Новосибирская область;partner;individual;FALSE
+C001261;26/09/2022;Москва;online;individual;FALSE
+C001262;17/09/2020;Москва;online;individual;FALSE
+C001263;29/03/2020;Московская область;online;individual;FALSE
+C001264;27/05/2021;Красноярский край;online;small_business;FALSE
+C001265;23/05/2022;Новосибирская область;store;individual;FALSE
+C001266;11/10/2024;Новосибирская область;online;individual;FALSE
+C001267;22/01/2020;Москва;online;individual;FALSE
+C001268;29/09/2020;Томская область;online;individual;FALSE
+C001269;21/02/2019;Новосибирская область;online;individual;FALSE
+C001270;14/08/2021;Томская область;store;individual;FALSE
+C001271;11/01/2023;Московская область;store;individual;FALSE
+C001272;26/11/2024;Новосибирская область;online;individual;FALSE
+C001273;12/05/2021;Томская область;partner;individual;FALSE
+C001274;18/10/2021;Томская область;partner;individual;FALSE
+C001275;10/10/2022;Москва;store;small_business;FALSE
+C001276;10/06/2024;Московская область;online;individual;FALSE
+C001277;01/08/2023;Красноярский край;store;individual;FALSE
+C001278;21/08/2019;Московская область;partner;individual;FALSE
+C001279;22/04/2020;Томская область;online;individual;FALSE
+C001280;06/02/2021;Московская область;online;individual;FALSE
+C001281;13/08/2020;Москва;online;individual;FALSE
+C001282;14/04/2021;Москва;online;individual;FALSE
+C001283;27/02/2020;Томская область;store;individual;FALSE
+C001284;29/07/2021;Красноярский край;store;individual;FALSE
+C001285;01/06/2020;Московская область;online;individual;FALSE
+C001286;27/09/2020;Красноярский край;online;individual;FALSE
+C001287;21/06/2024;Московская область;store;individual;FALSE
+C001288;03/10/2021;Московская область;store;individual;FALSE
+C001289;29/05/2019;Москва;online;individual;FALSE
+C001290;10/07/2021;Красноярский край;online;individual;FALSE
+C001291;01/03/2021;Новосибирская область;partner;individual;FALSE
+C001292;08/01/2021;Москва;store;individual;FALSE
+C001293;28/10/2024;Томская область;online;individual;FALSE
+C001294;06/06/2019;Московская область;partner;individual;FALSE
+C001295;12/01/2025;Красноярский край;store;individual;FALSE
+C001296;19/06/2019;Новосибирская область;partner;individual;FALSE
+C001297;23/02/2019;Московская область;online;individual;FALSE
+C001298;14/08/2022;Томская область;online;individual;FALSE
+C001299;28/10/2023;Томская область;online;individual;FALSE
+C001300;03/08/2019;Новосибирская область;online;individual;FALSE
+C001301;02/11/2020;Московская область;store;individual;TRUE
+C001302;27/01/2022;Томская область;online;individual;FALSE
+C001303;21/07/2019;Новосибирская область;online;individual;FALSE
+C001304;20/08/2022;Новосибирская область;online;individual;FALSE
+C001305;21/05/2024;Московская область;store;individual;FALSE
+C001306;15/05/2019;Москва;online;individual;FALSE
+C001307;18/07/2023;Новосибирская область;store;individual;FALSE
+C001308;13/06/2025;Красноярский край;store;individual;FALSE
+C001309;13/04/2020;Московская область;online;individual;FALSE
+C001310;06/12/2023;Москва;online;individual;FALSE
+C001311;09/11/2020;Томская область;online;individual;FALSE
+C001312;15/05/2024;Новосибирская область;online;individual;FALSE
+C001313;24/05/2025;Томская область;store;individual;FALSE
+C001314;18/06/2021;Новосибирская область;store;individual;FALSE
+C001315;12/07/2021;Москва;online;individual;FALSE
+C001316;13/12/2020;Томская область;partner;individual;FALSE
+C001317;02/08/2024;Московская область;online;individual;FALSE
+C001318;14/12/2024;Томская область;online;individual;FALSE
+C001319;09/10/2019;Московская область;online;individual;FALSE
+C001320;30/03/2020;Красноярский край;store;individual;FALSE
+C001321;06/04/2022;Новосибирская область;online;individual;FALSE
+C001322;15/06/2024;Москва;partner;individual;FALSE
+C001323;07/10/2022;Новосибирская область;online;individual;FALSE
+C001324;12/10/2023;Москва;store;individual;FALSE
+C001325;12/01/2022;Москва;online;individual;FALSE
+C001326;06/07/2019;Московская область;online;individual;FALSE
+C001327;06/05/2024;Красноярский край;online;individual;FALSE
+C001328;31/12/2024;Красноярский край;store;individual;FALSE
+C001329;31/08/2022;Москва;online;individual;FALSE
+C001330;18/03/2020;Томская область;online;individual;FALSE
+C001331;09/09/2019;Московская область;partner;individual;FALSE
+C001332;28/05/2019;Новосибирская область;online;individual;FALSE
+C001333;04/06/2019;Москва;partner;individual;FALSE
+C001334;19/11/2020;Новосибирская область;partner;individual;FALSE
+C001335;29/03/2021;Новосибирская область;online;individual;FALSE
+C001336;19/12/2023;Красноярский край;store;individual;FALSE
+C001337;16/05/2025;Москва;online;individual;FALSE
+C001338;16/10/2023;Томская область;online;individual;FALSE
+C001339;05/03/2021;Новосибирская область;partner;individual;FALSE
+C001340;11/12/2019;Томская область;online;individual;FALSE
+C001341;19/03/2021;Московская область;online;individual;FALSE
+C001342;06/01/2025;Томская область;online;individual;FALSE
+C001343;22/08/2023;Красноярский край;store;individual;TRUE
+C001344;29/10/2023;Новосибирская область;partner;individual;FALSE
+C001345;18/05/2019;Москва;store;individual;FALSE
+C001346;06/02/2022;Новосибирская область;store;small_business;FALSE
+C001347;08/02/2023;Томская область;online;individual;FALSE
+C001348;16/11/2019;Новосибирская область;store;small_business;FALSE
+C001349;16/02/2023;Красноярский край;online;small_business;FALSE
+C001350;25/12/2021;Красноярский край;online;individual;FALSE
+C001351;18/11/2024;Московская область;online;individual;FALSE
+C001352;23/01/2023;Новосибирская область;online;individual;FALSE
+C001353;01/08/2020;Новосибирская область;store;individual;FALSE
+C001354;10/01/2025;Московская область;online;individual;FALSE
+C001355;29/05/2020;Томская область;online;individual;FALSE
+C001356;10/03/2021;Томская область;store;individual;FALSE
+C001357;10/03/2021;Московская область;store;individual;FALSE
+C001358;15/11/2024;Москва;online;individual;FALSE
+C001359;14/11/2022;Новосибирская область;online;individual;FALSE
+C001360;29/10/2022;Москва;store;individual;FALSE
+C001361;13/02/2025;Московская область;online;individual;FALSE
+C001362;28/08/2024;Москва;online;individual;FALSE
+C001363;27/10/2022;Московская область;store;individual;FALSE
+C001364;11/02/2024;Москва;store;individual;FALSE
+C001365;10/07/2020;Московская область;online;individual;FALSE
+C001366;28/12/2023;Новосибирская область;store;individual;FALSE
+C001367;19/09/2022;Московская область;store;individual;TRUE
+C001368;02/04/2024;Красноярский край;online;individual;FALSE
+C001369;25/02/2023;Томская область;store;individual;FALSE
+C001370;21/05/2021;Томская область;store;individual;FALSE
+C001371;15/09/2019;Московская область;online;individual;FALSE
+C001372;16/08/2024;Томская область;store;individual;FALSE
+C001373;17/04/2022;Красноярский край;store;individual;FALSE
+C001374;15/03/2023;Новосибирская область;store;individual;FALSE
+C001375;24/06/2020;Москва;online;individual;FALSE
+C001376;07/08/2025;Красноярский край;online;individual;FALSE
+C001377;02/09/2020;Москва;store;individual;FALSE
+C001378;05/08/2023;Московская область;store;individual;FALSE
+C001379;14/09/2020;Новосибирская область;online;small_business;FALSE
+C001380;11/05/2024;Московская область;online;individual;FALSE
+C001381;13/07/2020;Красноярский край;store;small_business;FALSE
+C001382;09/06/2021;Красноярский край;partner;individual;FALSE
+C001383;08/03/2025;Московская область;partner;individual;FALSE
+C001384;01/03/2023;Московская область;partner;individual;FALSE
+C001385;01/04/2022;Новосибирская область;store;individual;FALSE
+C001386;23/02/2023;Московская область;partner;individual;FALSE
+C001387;10/05/2025;Московская область;store;individual;FALSE
+C001388;06/08/2022;Красноярский край;store;individual;FALSE
+C001389;08/01/2021;Московская область;online;individual;FALSE
+C001390;22/01/2024;Московская область;online;individual;FALSE
+C001391;21/11/2021;Московская область;online;individual;FALSE
+C001392;07/09/2024;Московская область;store;individual;FALSE
+C001393;03/01/2024;Москва;store;individual;FALSE
+C001394;12/11/2023;Томская область;partner;individual;FALSE
+C001395;26/02/2019;Новосибирская область;store;individual;FALSE
+C001396;01/11/2024;Томская область;store;individual;FALSE
+C001397;14/03/2020;Новосибирская область;store;individual;FALSE
+C001398;17/11/2019;Томская область;partner;individual;FALSE
+C001399;14/05/2020;Томская область;store;individual;FALSE
+C001400;06/01/2020;Москва;online;individual;FALSE
+C001401;04/07/2024;Московская область;partner;individual;FALSE
+C001402;04/08/2022;Московская область;store;small_business;FALSE
+C001403;11/12/2020;Москва;store;individual;FALSE
+C001404;02/06/2022;Москва;store;small_business;FALSE
+C001405;12/05/2023;Москва;store;individual;FALSE
+C001406;26/12/2021;Москва;online;individual;FALSE
+C001407;15/04/2024;Москва;store;individual;FALSE
+C001408;13/09/2021;Томская область;online;individual;FALSE
+C001409;14/10/2024;Москва;store;individual;FALSE
+C001410;30/09/2021;Новосибирская область;store;individual;FALSE
+C001411;04/08/2021;Москва;online;individual;FALSE
+C001412;21/09/2022;Новосибирская область;online;individual;FALSE
+C001413;17/02/2022;Москва;online;individual;FALSE
+C001414;29/05/2021;Томская область;online;small_business;FALSE
+C001415;19/11/2023;Москва;online;individual;FALSE
+C001416;17/05/2023;Томская область;partner;individual;FALSE
+C001417;20/03/2025;Московская область;store;individual;FALSE
+C001418;01/07/2021;Московская область;partner;individual;FALSE
+C001419;15/10/2024;Красноярский край;online;individual;FALSE
+C001420;02/01/2025;Новосибирская область;store;individual;FALSE
+C001421;26/06/2024;Москва;store;individual;FALSE
+C001422;11/08/2023;Томская область;store;small_business;FALSE
+C001423;12/10/2024;Томская область;online;individual;FALSE
+C001424;10/06/2019;Московская область;store;small_business;FALSE
+C001425;10/01/2024;Красноярский край;online;individual;FALSE
+C001426;10/12/2023;Новосибирская область;online;individual;FALSE
+C001427;11/06/2024;Москва;online;individual;FALSE
+C001428;03/06/2025;Московская область;online;individual;FALSE
+C001429;14/10/2022;Красноярский край;online;individual;FALSE
+C001430;08/01/2019;Красноярский край;online;individual;FALSE
+C001431;24/08/2024;Московская область;partner;individual;FALSE
+C001432;21/06/2020;Красноярский край;store;individual;FALSE
+C001433;25/05/2023;Московская область;online;individual;FALSE
+C001434;14/12/2020;Красноярский край;store;individual;FALSE
+C001435;24/04/2023;Москва;online;individual;FALSE
+C001436;18/06/2024;Томская область;store;individual;FALSE
+C001437;15/08/2020;Московская область;online;individual;FALSE
+C001438;02/05/2021;Красноярский край;online;individual;FALSE
+C001439;22/02/2023;Москва;online;small_business;FALSE
+C001440;28/08/2021;Новосибирская область;store;individual;FALSE
+C001441;03/09/2021;Новосибирская область;online;individual;FALSE
+C001442;04/02/2020;Новосибирская область;partner;individual;FALSE
+C001443;22/04/2022;Новосибирская область;online;individual;FALSE
+C001444;21/04/2019;Томская область;online;individual;FALSE
+C001445;08/09/2024;Томская область;store;small_business;FALSE
+C001446;05/04/2019;Москва;store;individual;FALSE
+C001447;09/09/2019;Красноярский край;store;individual;FALSE
+C001448;19/05/2022;Московская область;store;individual;FALSE
+C001449;02/11/2024;Томская область;online;individual;FALSE
+C001450;18/02/2023;Томская область;online;individual;FALSE
+C001451;16/12/2024;Новосибирская область;online;individual;FALSE
+C001452;22/05/2024;Красноярский край;online;individual;FALSE
+C001453;01/07/2022;Красноярский край;store;individual;FALSE
+C001454;15/08/2024;Новосибирская область;partner;individual;FALSE
+C001455;22/10/2024;Москва;store;individual;FALSE
+C001456;27/02/2022;Новосибирская область;partner;individual;FALSE
+C001457;27/07/2020;Московская область;store;individual;FALSE
+C001458;19/01/2019;Томская область;online;individual;FALSE
+C001459;17/05/2022;Томская область;online;individual;FALSE
+C001460;23/02/2020;Москва;online;individual;TRUE
+C001461;06/04/2022;Московская область;online;individual;FALSE
+C001462;13/01/2025;Московская область;store;individual;FALSE
+C001463;03/09/2020;Томская область;store;individual;FALSE
+C001464;13/10/2019;Москва;online;small_business;FALSE
+C001465;14/05/2023;Красноярский край;store;individual;FALSE
+C001466;21/02/2019;Красноярский край;store;individual;FALSE
+C001467;24/07/2022;Московская область;online;individual;FALSE
+C001468;19/12/2020;Москва;store;individual;FALSE
+C001469;27/05/2021;Новосибирская область;store;individual;FALSE
+C001470;28/09/2019;Красноярский край;store;individual;FALSE
+C001471;24/02/2021;Красноярский край;online;individual;FALSE
+C001472;13/05/2024;Новосибирская область;store;individual;FALSE
+C001473;30/04/2023;Новосибирская область;online;individual;TRUE
+C001474;03/09/2023;Московская область;online;individual;FALSE
+C001475;22/02/2023;Московская область;partner;individual;FALSE
+C001476;27/08/2020;Красноярский край;store;small_business;FALSE
+C001477;30/06/2023;Московская область;partner;individual;FALSE
+C001478;22/01/2023;Красноярский край;online;individual;FALSE
+C001479;06/09/2019;Москва;online;individual;FALSE
+C001480;01/11/2021;Новосибирская область;store;individual;FALSE
+C001481;18/05/2021;Москва;store;individual;FALSE
+C001482;11/04/2022;Новосибирская область;online;individual;FALSE
+C001483;07/04/2020;Красноярский край;online;small_business;FALSE
+C001484;12/02/2019;Московская область;online;individual;FALSE
+C001485;19/06/2024;Новосибирская область;store;individual;FALSE
+C001486;20/08/2022;Красноярский край;online;individual;FALSE
+C001487;14/06/2019;Москва;online;individual;FALSE
+C001488;04/12/2024;Томская область;store;individual;FALSE
+C001489;08/04/2022;Новосибирская область;store;individual;FALSE
+C001490;13/02/2021;Томская область;store;individual;FALSE
+C001491;26/07/2021;Красноярский край;online;individual;FALSE
+C001492;26/04/2020;Томская область;partner;individual;FALSE
+C001493;29/09/2024;Томская область;online;individual;FALSE
+C001494;18/04/2020;Московская область;online;individual;FALSE
+C001495;03/10/2023;Красноярский край;partner;individual;FALSE
+C001496;29/03/2019;Томская область;partner;small_business;FALSE
+C001497;02/06/2021;Новосибирская область;store;individual;FALSE
+C001498;06/06/2020;Красноярский край;store;individual;FALSE
+C001499;30/01/2025;Москва;online;individual;FALSE
+C001500;17/03/2020;Томская область;store;individual;FALSE
+C001501;13/01/2022;Томская область;online;individual;FALSE
+C001502;08/08/2020;Московская область;store;individual;FALSE
+C001503;24/08/2023;Томская область;online;individual;FALSE
+C001504;09/06/2025;Московская область;online;small_business;FALSE
+C001505;03/06/2020;Московская область;partner;individual;FALSE
+C001506;14/09/2021;Москва;online;individual;FALSE
+C001507;26/08/2020;Томская область;online;individual;FALSE
+C001508;03/11/2019;Красноярский край;store;individual;FALSE
+C001509;18/01/2020;Новосибирская область;partner;individual;FALSE
+C001510;30/05/2021;Москва;online;individual;FALSE
+C001511;07/04/2023;Москва;store;individual;FALSE
+C001512;20/11/2024;Москва;store;individual;TRUE
+C001513;08/01/2024;Новосибирская область;store;individual;TRUE
+C001514;01/09/2021;Красноярский край;store;individual;FALSE
+C001515;28/12/2023;Москва;store;individual;FALSE
+C001516;29/02/2024;Красноярский край;store;individual;FALSE
+C001517;20/10/2023;Новосибирская область;store;individual;FALSE
+C001518;06/06/2021;Новосибирская область;online;individual;FALSE
+C001519;18/02/2024;Томская область;partner;individual;FALSE
+C001520;18/05/2025;Московская область;online;individual;FALSE
+C001521;28/06/2020;Москва;online;individual;FALSE
+C001522;07/02/2019;Томская область;partner;individual;FALSE
+C001523;20/05/2022;Новосибирская область;online;individual;FALSE
+C001524;02/05/2022;Томская область;partner;individual;FALSE
+C001525;14/08/2019;Новосибирская область;online;individual;FALSE
+C001526;11/10/2023;Новосибирская область;online;individual;FALSE
+C001527;22/08/2019;Томская область;partner;individual;FALSE
+C001528;09/12/2022;Красноярский край;online;individual;FALSE
+C001529;24/12/2022;Красноярский край;partner;small_business;FALSE
+C001530;04/10/2023;Московская область;online;individual;FALSE
+C001531;01/01/2020;Красноярский край;store;individual;FALSE
+C001532;11/02/2024;Новосибирская область;online;individual;FALSE
+C001533;27/05/2025;Красноярский край;online;small_business;FALSE
+C001534;05/01/2019;Москва;store;individual;FALSE
+C001535;08/10/2022;Томская область;partner;individual;TRUE
+C001536;07/08/2025;Новосибирская область;partner;individual;FALSE
+C001537;13/09/2021;Московская область;store;individual;FALSE
+C001538;23/10/2024;Московская область;online;individual;FALSE
+C001539;16/10/2024;Томская область;store;individual;FALSE
+C001540;03/03/2020;Томская область;store;individual;FALSE
+C001541;20/08/2023;Новосибирская область;online;individual;FALSE
+C001542;16/08/2021;Московская область;partner;individual;FALSE
+C001543;23/08/2024;Москва;online;individual;FALSE
+C001544;24/11/2023;Новосибирская область;store;individual;FALSE
+C001545;30/08/2023;Красноярский край;store;individual;FALSE
+C001546;02/11/2024;Новосибирская область;store;individual;FALSE
+C001547;19/02/2024;Московская область;store;small_business;FALSE
+C001548;04/06/2020;Томская область;partner;individual;FALSE
+C001549;07/12/2022;Красноярский край;online;individual;FALSE
+C001550;19/11/2023;Москва;online;individual;FALSE
+C001551;19/03/2020;Красноярский край;online;individual;FALSE
+C001552;07/10/2023;Томская область;online;individual;FALSE
+C001553;28/03/2023;Новосибирская область;partner;individual;FALSE
+C001554;07/11/2024;Новосибирская область;store;small_business;FALSE
+C001555;26/09/2019;Новосибирская область;online;individual;FALSE
+C001556;12/10/2021;Томская область;online;individual;FALSE
+C001557;24/03/2022;Томская область;store;individual;FALSE
+C001558;16/03/2023;Москва;online;individual;FALSE
+C001559;20/09/2020;Москва;store;individual;FALSE
+C001560;16/04/2025;Московская область;online;individual;FALSE
+C001561;08/09/2023;Москва;partner;individual;FALSE
+C001562;11/08/2021;Красноярский край;partner;individual;FALSE
+C001563;15/06/2024;Новосибирская область;store;individual;FALSE
+C001564;16/09/2019;Москва;partner;individual;FALSE
+C001565;12/10/2021;Москва;partner;individual;FALSE
+C001566;28/10/2022;Москва;online;individual;FALSE
+C001567;08/06/2021;Томская область;partner;individual;FALSE
+C001568;24/08/2025;Новосибирская область;online;individual;FALSE
+C001569;09/05/2024;Красноярский край;store;individual;FALSE
+C001570;20/01/2020;Новосибирская область;online;small_business;FALSE
+C001571;10/09/2023;Москва;store;individual;FALSE
+C001572;15/09/2022;Московская область;store;individual;FALSE
+C001573;27/09/2020;Томская область;store;individual;FALSE
+C001574;14/11/2019;Новосибирская область;online;individual;FALSE
+C001575;29/10/2019;Московская область;online;small_business;FALSE
+C001576;30/04/2025;Московская область;store;individual;FALSE
+C001577;06/02/2021;Новосибирская область;online;individual;FALSE
+C001578;23/08/2019;Новосибирская область;online;individual;FALSE
+C001579;27/11/2023;Томская область;store;individual;FALSE
+C001580;24/12/2023;Москва;online;individual;FALSE
+C001581;19/05/2023;Москва;store;individual;FALSE
+C001582;06/08/2022;Новосибирская область;online;individual;FALSE
+C001583;17/07/2024;Томская область;online;individual;FALSE
+C001584;25/03/2020;Томская область;store;individual;FALSE
+C001585;11/11/2024;Москва;partner;individual;TRUE
+C001586;07/01/2024;Москва;store;individual;FALSE
+C001587;15/11/2021;Новосибирская область;online;individual;FALSE
+C001588;18/02/2019;Новосибирская область;store;individual;FALSE
+C001589;03/08/2025;Московская область;partner;individual;FALSE
+C001590;23/07/2019;Красноярский край;store;individual;FALSE
+C001591;24/11/2022;Томская область;online;individual;FALSE
+C001592;03/07/2025;Москва;partner;individual;FALSE
+C001593;31/07/2022;Томская область;online;individual;FALSE
+C001594;18/08/2019;Московская область;partner;individual;FALSE
+C001595;11/01/2021;Красноярский край;store;individual;FALSE
+C001596;08/06/2023;Московская область;online;individual;FALSE
+C001597;21/08/2021;Красноярский край;store;individual;FALSE
+C001598;28/09/2020;Московская область;partner;small_business;FALSE
+C001599;14/05/2024;Московская область;partner;individual;FALSE
+C001600;09/12/2021;Московская область;online;individual;FALSE
+C001601;17/01/2019;Томская область;partner;individual;FALSE
+C001602;12/06/2020;Томская область;online;individual;FALSE
+C001603;20/04/2022;Красноярский край;store;individual;FALSE
+C001604;01/07/2020;Москва;online;individual;FALSE
+C001605;22/07/2023;Москва;online;individual;FALSE
+C001606;11/08/2021;Новосибирская область;store;individual;FALSE
+C001607;07/08/2019;Москва;online;individual;FALSE
+C001608;21/03/2021;Красноярский край;store;individual;FALSE
+C001609;21/03/2023;Московская область;store;individual;FALSE
+C001610;21/06/2023;Москва;store;individual;TRUE
+C001611;10/11/2022;Новосибирская область;store;individual;FALSE
+C001612;02/05/2019;Новосибирская область;partner;individual;TRUE
+C001613;15/05/2021;Красноярский край;online;individual;FALSE
+C001614;17/11/2024;Московская область;online;individual;FALSE
+C001615;25/09/2020;Москва;store;individual;FALSE
+C001616;25/03/2025;Красноярский край;partner;individual;FALSE
+C001617;26/02/2023;Москва;online;individual;FALSE
+C001618;14/02/2019;Новосибирская область;partner;individual;FALSE
+C001619;28/05/2021;Красноярский край;online;individual;FALSE
+C001620;09/12/2022;Московская область;partner;individual;FALSE
+C001621;29/06/2020;Новосибирская область;partner;individual;FALSE
+C001622;20/10/2020;Красноярский край;store;individual;FALSE
+C001623;12/09/2022;Новосибирская область;store;individual;FALSE
+C001624;07/09/2021;Томская область;partner;individual;FALSE
+C001625;28/08/2022;Томская область;online;individual;FALSE
+C001626;11/10/2021;Москва;partner;individual;FALSE
+C001627;15/09/2024;Красноярский край;partner;individual;FALSE
+C001628;06/09/2024;Москва;online;individual;FALSE
+C001629;29/06/2023;Москва;online;individual;TRUE
+C001630;15/08/2019;Томская область;online;individual;FALSE
+C001631;01/10/2021;Красноярский край;store;individual;FALSE
+C001632;12/05/2020;Москва;online;individual;FALSE
+C001633;17/01/2022;Новосибирская область;online;individual;FALSE
+C001634;14/06/2024;Москва;online;individual;FALSE
+C001635;14/12/2023;Красноярский край;online;individual;FALSE
+C001636;12/12/2022;Красноярский край;online;individual;FALSE
+C001637;31/03/2025;Новосибирская область;online;small_business;FALSE
+C001638;21/06/2024;Новосибирская область;online;individual;FALSE
+C001639;30/11/2023;Красноярский край;partner;individual;FALSE
+C001640;14/07/2025;Москва;store;small_business;FALSE
+C001641;07/08/2020;Томская область;online;individual;FALSE
+C001642;26/12/2021;Москва;online;individual;FALSE
+C001643;07/11/2019;Красноярский край;partner;individual;FALSE
+C001644;23/06/2019;Новосибирская область;store;individual;FALSE
+C001645;14/06/2019;Московская область;store;individual;FALSE
+C001646;05/10/2024;Томская область;online;individual;FALSE
+C001647;25/11/2019;Московская область;partner;individual;FALSE
+C001648;22/08/2019;Московская область;store;individual;FALSE
+C001649;05/05/2020;Москва;store;individual;FALSE
+C001650;15/12/2023;Красноярский край;online;individual;FALSE
+C001651;25/09/2019;Москва;store;individual;FALSE
+C001652;30/01/2025;Москва;store;individual;FALSE
+C001653;03/05/2025;Москва;partner;individual;FALSE
+C001654;13/01/2022;Московская область;store;individual;FALSE
+C001655;19/08/2020;Красноярский край;online;individual;FALSE
+C001656;18/10/2022;Томская область;partner;individual;FALSE
+C001657;22/09/2020;Томская область;online;individual;FALSE
+C001658;19/02/2023;Красноярский край;partner;individual;FALSE
+C001659;14/08/2024;Томская область;online;individual;FALSE
+C001660;30/11/2024;Томская область;online;individual;FALSE
+C001661;14/11/2020;Москва;online;individual;FALSE
+C001662;26/04/2021;Московская область;online;individual;FALSE
+C001663;25/04/2024;Московская область;online;individual;FALSE
+C001664;21/10/2019;Москва;store;individual;FALSE
+C001665;23/09/2024;Московская область;online;individual;FALSE
+C001666;10/02/2019;Красноярский край;partner;individual;FALSE
+C001667;23/05/2022;Московская область;store;individual;FALSE
+C001668;06/12/2020;Москва;online;individual;FALSE
+C001669;06/08/2024;Томская область;online;individual;FALSE
+C001670;30/07/2024;Томская область;store;individual;FALSE
+C001671;21/07/2023;Москва;online;individual;FALSE
+C001672;19/12/2021;Московская область;store;individual;FALSE
+C001673;10/02/2024;Новосибирская область;store;individual;FALSE
+C001674;24/11/2020;Красноярский край;store;individual;FALSE
+C001675;20/02/2024;Москва;store;individual;FALSE
+C001676;23/04/2022;Московская область;online;individual;FALSE
+C001677;04/03/2025;Московская область;store;individual;FALSE
+C001678;21/09/2023;Московская область;store;small_business;FALSE
+C001679;09/04/2025;Москва;store;individual;FALSE
+C001680;25/08/2022;Томская область;partner;individual;FALSE
+C001681;29/04/2024;Новосибирская область;store;individual;FALSE
+C001682;11/01/2024;Томская область;online;individual;FALSE
+C001683;09/05/2020;Московская область;store;individual;FALSE
+C001684;31/10/2020;Красноярский край;online;individual;FALSE
+C001685;03/04/2021;Московская область;online;individual;FALSE
+C001686;14/11/2020;Томская область;online;individual;FALSE
+C001687;18/01/2022;Московская область;online;individual;FALSE
+C001688;09/07/2025;Московская область;online;individual;FALSE
+C001689;25/02/2019;Красноярский край;online;individual;FALSE
+C001690;15/10/2022;Новосибирская область;partner;individual;FALSE
+C001691;19/03/2024;Новосибирская область;online;individual;FALSE
+C001692;29/06/2022;Новосибирская область;store;small_business;FALSE
+C001693;22/04/2023;Москва;store;individual;FALSE
+C001694;11/08/2021;Новосибирская область;store;individual;FALSE
+C001695;31/05/2020;Москва;online;individual;FALSE
+C001696;09/07/2023;Москва;online;individual;FALSE
+C001697;18/01/2019;Москва;partner;individual;FALSE
+C001698;03/01/2022;Новосибирская область;partner;small_business;FALSE
+C001699;27/06/2022;Новосибирская область;store;individual;FALSE
+C001700;31/01/2021;Красноярский край;online;individual;FALSE
+C001701;25/10/2023;Москва;online;individual;FALSE
+C001702;22/01/2024;Новосибирская область;store;individual;FALSE
+C001703;07/09/2022;Томская область;online;individual;FALSE
+C001704;19/04/2019;Красноярский край;online;individual;FALSE
+C001705;12/02/2022;Красноярский край;partner;individual;FALSE
+C001706;25/02/2022;Москва;online;individual;FALSE
+C001707;30/06/2021;Томская область;online;individual;FALSE
+C001708;31/01/2022;Москва;online;small_business;FALSE
+C001709;18/06/2022;Красноярский край;store;individual;FALSE
+C001710;28/05/2020;Москва;store;individual;FALSE
+C001711;16/07/2023;Новосибирская область;store;individual;FALSE
+C001712;21/11/2019;Новосибирская область;store;individual;FALSE
+C001713;17/10/2023;Новосибирская область;online;small_business;FALSE
+C001714;23/06/2019;Московская область;online;individual;FALSE
+C001715;16/05/2022;Московская область;store;individual;FALSE
+C001716;12/01/2025;Москва;online;small_business;FALSE
+C001717;05/04/2023;Москва;store;individual;FALSE
+C001718;06/05/2019;Московская область;store;individual;FALSE
+C001719;04/12/2023;Томская область;store;individual;FALSE
+C001720;06/12/2024;Красноярский край;online;individual;FALSE
+C001721;03/07/2020;Москва;store;individual;FALSE
+C001722;21/05/2021;Красноярский край;online;individual;FALSE
+C001723;30/10/2022;Новосибирская область;online;individual;FALSE
+C001724;05/08/2024;Москва;store;individual;TRUE
+C001725;02/01/2019;Москва;online;individual;FALSE
+C001726;11/07/2021;Томская область;online;individual;FALSE
+C001727;07/11/2022;Красноярский край;partner;individual;FALSE
+C001728;30/03/2019;Москва;online;individual;FALSE
+C001729;24/07/2025;Московская область;partner;individual;FALSE
+C001730;01/07/2021;Томская область;store;individual;FALSE
+C001731;28/05/2022;Москва;online;individual;FALSE
+C001732;13/10/2023;Красноярский край;store;individual;FALSE
+C001733;15/08/2020;Томская область;online;individual;FALSE
+C001734;08/03/2024;Московская область;partner;individual;FALSE
+C001735;05/04/2024;Красноярский край;store;individual;FALSE
+C001736;04/12/2024;Московская область;online;individual;FALSE
+C001737;05/02/2020;Москва;online;individual;FALSE
+C001738;03/02/2024;Москва;partner;individual;FALSE
+C001739;01/09/2019;Красноярский край;online;individual;FALSE
+C001740;20/08/2020;Московская область;store;small_business;FALSE
+C001741;07/08/2021;Новосибирская область;partner;individual;FALSE
+C001742;07/03/2021;Москва;store;individual;FALSE
+C001743;01/06/2023;Красноярский край;partner;individual;FALSE
+C001744;19/02/2019;Московская область;online;individual;FALSE
+C001745;25/08/2025;Москва;online;individual;FALSE
+C001746;31/01/2023;Москва;online;individual;FALSE
+C001747;11/03/2025;Красноярский край;online;individual;FALSE
+C001748;19/04/2022;Красноярский край;online;individual;FALSE
+C001749;16/01/2021;Новосибирская область;partner;individual;FALSE
+C001750;04/08/2023;Москва;store;individual;FALSE
+C001751;06/11/2022;Новосибирская область;store;individual;TRUE
+C001752;22/05/2022;Красноярский край;online;individual;FALSE
+C001753;30/10/2022;Томская область;store;individual;FALSE
+C001754;16/07/2020;Новосибирская область;store;individual;FALSE
+C001755;08/03/2023;Томская область;online;individual;FALSE
+C001756;03/04/2024;Красноярский край;store;individual;FALSE
+C001757;12/09/2024;Новосибирская область;store;individual;FALSE
+C001758;21/12/2022;Красноярский край;online;individual;FALSE
+C001759;26/05/2020;Новосибирская область;online;individual;FALSE
+C001760;16/05/2025;Новосибирская область;online;individual;FALSE
+C001761;26/12/2019;Москва;store;individual;FALSE
+C001762;06/03/2020;Томская область;online;small_business;FALSE
+C001763;23/09/2020;Красноярский край;partner;individual;TRUE
+C001764;29/12/2023;Москва;store;individual;FALSE
+C001765;02/06/2021;Москва;online;individual;FALSE
+C001766;14/03/2023;Красноярский край;store;individual;FALSE
+C001767;23/11/2020;Новосибирская область;online;individual;FALSE
+C001768;06/08/2022;Томская область;online;individual;FALSE
+C001769;21/04/2020;Московская область;store;small_business;FALSE
+C001770;20/01/2020;Красноярский край;store;individual;FALSE
+C001771;27/01/2020;Красноярский край;store;individual;FALSE
+C001772;21/05/2021;Москва;online;individual;FALSE
+C001773;09/12/2022;Красноярский край;store;individual;FALSE
+C001774;04/07/2021;Москва;partner;individual;FALSE
+C001775;02/06/2019;Красноярский край;online;individual;FALSE
+C001776;06/10/2024;Москва;online;individual;FALSE
+C001777;20/07/2025;Москва;online;individual;FALSE
+C001778;07/10/2019;Томская область;online;individual;FALSE
+C001779;22/05/2022;Новосибирская область;store;individual;FALSE
+C001780;10/05/2021;Московская область;store;individual;FALSE
+C001781;16/02/2020;Красноярский край;store;individual;FALSE
+C001782;22/02/2021;Новосибирская область;partner;individual;FALSE
+C001783;16/08/2021;Москва;store;small_business;FALSE
+C001784;26/09/2024;Новосибирская область;store;individual;FALSE
+C001785;16/07/2019;Москва;store;individual;FALSE
+C001786;11/06/2021;Московская область;partner;individual;FALSE
+C001787;02/12/2024;Красноярский край;store;individual;FALSE
+C001788;03/03/2020;Московская область;partner;individual;FALSE
+C001789;20/11/2019;Московская область;partner;individual;FALSE
+C001790;14/04/2024;Москва;online;small_business;FALSE
+C001791;09/10/2023;Томская область;partner;individual;FALSE
+C001792;23/06/2024;Новосибирская область;online;individual;FALSE
+C001793;23/03/2024;Московская область;partner;individual;FALSE
+C001794;10/10/2023;Новосибирская область;online;individual;FALSE
+C001795;07/11/2021;Москва;online;individual;FALSE
+C001796;11/06/2024;Новосибирская область;online;individual;FALSE
+C001797;03/12/2023;Томская область;online;individual;FALSE
+C001798;23/07/2025;Томская область;online;individual;FALSE
+C001799;10/08/2025;Красноярский край;online;individual;FALSE
+C001800;23/12/2022;Московская область;online;individual;FALSE
+C001801;23/10/2021;Московская область;online;small_business;FALSE
+C001802;13/06/2022;Новосибирская область;store;individual;FALSE
+C001803;30/03/2022;Новосибирская область;online;individual;FALSE
+C001804;05/04/2023;Новосибирская область;online;individual;FALSE
+C001805;03/01/2025;Новосибирская область;store;individual;FALSE
+C001806;16/11/2024;Московская область;online;individual;FALSE
+C001807;04/08/2023;Московская область;online;individual;FALSE
+C001808;30/10/2024;Новосибирская область;online;small_business;FALSE
+C001809;22/04/2022;Новосибирская область;store;individual;FALSE
+C001810;21/05/2025;Новосибирская область;store;individual;FALSE
+C001811;02/02/2021;Томская область;partner;individual;FALSE
+C001812;09/03/2022;Красноярский край;store;individual;FALSE
+C001813;30/10/2023;Московская область;partner;individual;FALSE
+C001814;11/06/2022;Новосибирская область;store;individual;FALSE
+C001815;01/08/2024;Новосибирская область;store;individual;FALSE
+C001816;06/05/2025;Томская область;online;individual;FALSE
+C001817;09/08/2024;Томская область;online;small_business;FALSE
+C001818;30/08/2025;Москва;store;individual;FALSE
+C001819;21/03/2022;Московская область;partner;individual;FALSE
+C001820;23/12/2024;Московская область;store;individual;FALSE
+C001821;06/09/2021;Москва;store;individual;FALSE
+C001822;01/03/2022;Москва;partner;individual;TRUE
+C001823;25/04/2020;Московская область;store;individual;FALSE
+C001824;22/07/2025;Томская область;online;individual;FALSE
+C001825;28/02/2025;Московская область;online;small_business;FALSE
+C001826;29/02/2024;Томская область;online;small_business;FALSE
+C001827;05/04/2025;Томская область;partner;individual;FALSE
+C001828;07/03/2024;Томская область;online;individual;FALSE
+C001829;27/07/2021;Московская область;online;individual;FALSE
+C001830;19/07/2023;Москва;store;individual;FALSE
+C001831;06/06/2023;Томская область;online;individual;FALSE
+C001832;27/10/2024;Красноярский край;online;small_business;FALSE
+C001833;04/09/2019;Томская область;store;individual;FALSE
+C001834;13/04/2020;Красноярский край;online;individual;FALSE
+C001835;25/06/2021;Новосибирская область;online;individual;FALSE
+C001836;05/10/2023;Новосибирская область;online;small_business;FALSE
+C001837;20/10/2019;Томская область;online;individual;FALSE
+C001838;04/12/2021;Томская область;store;individual;FALSE
+C001839;24/08/2022;Новосибирская область;store;individual;FALSE
+C001840;02/06/2024;Московская область;store;individual;FALSE
+C001841;26/05/2020;Новосибирская область;partner;individual;FALSE
+C001842;14/12/2024;Московская область;online;individual;FALSE
+C001843;16/04/2023;Томская область;online;individual;FALSE
+C001844;29/04/2023;Томская область;store;individual;FALSE
+C001845;20/10/2021;Московская область;store;individual;FALSE
+C001846;19/04/2021;Новосибирская область;store;individual;FALSE
+C001847;13/10/2020;Красноярский край;store;individual;FALSE
+C001848;25/12/2021;Красноярский край;store;individual;FALSE
+C001849;09/12/2023;Томская область;partner;individual;FALSE
+C001850;01/11/2024;Московская область;online;individual;FALSE
+C001851;13/05/2019;Новосибирская область;store;individual;FALSE
+C001852;30/01/2022;Красноярский край;online;individual;FALSE
+C001853;15/10/2023;Москва;online;individual;FALSE
+C001854;05/04/2021;Томская область;online;individual;FALSE
+C001855;06/01/2021;Московская область;online;individual;FALSE
+C001856;07/04/2019;Москва;online;individual;FALSE
+C001857;02/09/2021;Московская область;online;individual;FALSE
+C001858;15/04/2021;Новосибирская область;store;individual;FALSE
+C001859;12/02/2019;Красноярский край;store;individual;FALSE
+C001860;27/11/2024;Москва;online;individual;FALSE
+C001861;28/03/2020;Москва;online;individual;FALSE
+C001862;04/01/2020;Москва;store;individual;FALSE
+C001863;30/08/2023;Новосибирская область;partner;individual;FALSE
+C001864;31/12/2020;Москва;store;individual;FALSE
+C001865;27/04/2021;Новосибирская область;online;individual;FALSE
+C001866;03/06/2023;Красноярский край;store;individual;FALSE
+C001867;28/05/2019;Москва;store;individual;FALSE
+C001868;19/12/2022;Московская область;online;individual;FALSE
+C001869;20/04/2020;Новосибирская область;online;individual;FALSE
+C001870;28/03/2025;Красноярский край;online;individual;FALSE
+C001871;24/09/2021;Москва;store;individual;FALSE
+C001872;30/04/2024;Московская область;store;individual;FALSE
+C001873;29/01/2025;Красноярский край;store;individual;FALSE
+C001874;24/02/2020;Томская область;store;individual;FALSE
+C001875;17/04/2022;Красноярский край;online;individual;FALSE
+C001876;10/02/2020;Красноярский край;online;individual;FALSE
+C001877;09/08/2023;Томская область;online;individual;FALSE
+C001878;27/07/2019;Новосибирская область;online;individual;FALSE
+C001879;03/04/2024;Новосибирская область;online;individual;FALSE
+C001880;27/02/2022;Томская область;partner;individual;FALSE
+C001881;06/01/2022;Новосибирская область;store;individual;FALSE
+C001882;31/10/2022;Красноярский край;online;individual;FALSE
+C001883;22/09/2019;Московская область;store;individual;FALSE
+C001884;18/09/2020;Томская область;store;individual;FALSE
+C001885;07/02/2025;Томская область;online;individual;FALSE
+C001886;19/03/2025;Томская область;online;individual;FALSE
+C001887;28/05/2019;Томская область;store;individual;FALSE
+C001888;17/04/2025;Москва;online;small_business;FALSE
+C001889;16/02/2024;Москва;online;individual;FALSE
+C001890;18/11/2019;Московская область;partner;individual;FALSE
+C001891;23/03/2020;Красноярский край;online;individual;FALSE
+C001892;12/09/2019;Томская область;store;individual;FALSE
+C001893;18/02/2024;Московская область;partner;individual;FALSE
+C001894;01/08/2020;Москва;online;individual;FALSE
+C001895;14/09/2022;Томская область;partner;individual;FALSE
+C001896;24/09/2020;Красноярский край;store;individual;FALSE
+C001897;17/01/2021;Новосибирская область;store;individual;FALSE
+C001898;28/10/2019;Красноярский край;store;small_business;FALSE
+C001899;13/02/2020;Москва;online;small_business;FALSE
+C001900;07/09/2020;Красноярский край;store;individual;FALSE
+C001901;19/08/2025;Новосибирская область;online;individual;FALSE
+C001902;27/04/2023;Новосибирская область;partner;small_business;FALSE
+C001903;22/01/2024;Москва;store;individual;FALSE
+C001904;07/12/2020;Красноярский край;online;individual;FALSE
+C001905;24/08/2024;Томская область;store;individual;FALSE
+C001906;25/05/2019;Москва;online;individual;FALSE
+C001907;03/02/2021;Московская область;store;individual;FALSE
+C001908;20/03/2019;Томская область;online;individual;FALSE
+C001909;09/07/2023;Московская область;online;individual;FALSE
+C001910;26/07/2019;Красноярский край;online;individual;FALSE
+C001911;21/01/2023;Красноярский край;store;individual;FALSE
+C001912;24/06/2020;Новосибирская область;partner;individual;FALSE
+C001913;06/12/2024;Московская область;store;individual;FALSE
+C001914;31/10/2024;Москва;online;individual;FALSE
+C001915;11/09/2024;Томская область;store;individual;FALSE
+C001916;07/11/2019;Томская область;store;individual;FALSE
+C001917;04/06/2022;Красноярский край;partner;individual;FALSE
+C001918;27/01/2023;Московская область;store;individual;FALSE
+C001919;11/12/2023;Москва;partner;small_business;FALSE
+C001920;25/06/2022;Новосибирская область;store;individual;FALSE
+C001921;25/08/2023;Москва;store;individual;FALSE
+C001922;14/12/2023;Новосибирская область;online;individual;FALSE
+C001923;23/02/2023;Москва;store;individual;FALSE
+C001924;06/09/2020;Московская область;online;individual;FALSE
+C001925;21/03/2025;Красноярский край;partner;individual;FALSE
+C001926;26/07/2022;Московская область;partner;individual;FALSE
+C001927;04/07/2023;Томская область;store;individual;FALSE
+C001928;23/09/2021;Новосибирская область;store;individual;FALSE
+C001929;15/03/2020;Москва;online;individual;FALSE
+C001930;11/02/2022;Красноярский край;online;individual;FALSE
+C001931;16/06/2024;Томская область;store;individual;FALSE
+C001932;23/10/2023;Красноярский край;online;individual;FALSE
+C001933;06/09/2020;Томская область;store;individual;FALSE
+C001934;19/09/2021;Московская область;online;individual;FALSE
+C001935;17/08/2024;Москва;online;individual;FALSE
+C001936;28/03/2024;Московская область;store;individual;FALSE
+C001937;08/10/2019;Московская область;online;individual;FALSE
+C001938;02/08/2023;Томская область;store;individual;FALSE
+C001939;20/12/2021;Новосибирская область;online;individual;FALSE
+C001940;01/09/2020;Московская область;online;individual;FALSE
+C001941;22/08/2023;Москва;store;individual;FALSE
+C001942;25/02/2020;Томская область;store;individual;FALSE
+C001943;11/12/2023;Новосибирская область;online;individual;FALSE
+C001944;29/04/2025;Москва;online;individual;FALSE
+C001945;03/11/2021;Томская область;online;individual;FALSE
+C001946;09/01/2025;Новосибирская область;store;individual;FALSE
+C001947;01/11/2021;Томская область;store;individual;FALSE
+C001948;26/03/2019;Новосибирская область;online;individual;FALSE
+C001949;20/09/2021;Томская область;online;small_business;FALSE
+C001950;25/12/2020;Томская область;store;individual;TRUE
+C001951;02/10/2023;Московская область;online;individual;FALSE
+C001952;02/06/2021;Новосибирская область;partner;individual;FALSE
+C001953;23/06/2022;Новосибирская область;store;small_business;FALSE
+C001954;22/05/2020;Москва;store;individual;FALSE
+C001955;17/05/2021;Томская область;store;individual;FALSE
+C001956;13/04/2023;Красноярский край;online;individual;FALSE
+C001957;21/01/2020;Красноярский край;store;individual;FALSE
+C001958;29/12/2019;Новосибирская область;online;individual;FALSE
+C001959;11/03/2019;Красноярский край;online;individual;FALSE
+C001960;27/03/2025;Новосибирская область;online;individual;FALSE
+C001961;20/12/2019;Москва;partner;individual;FALSE
+C001962;16/12/2023;Новосибирская область;store;individual;FALSE
+C001963;09/08/2021;Новосибирская область;online;individual;FALSE
+C001964;07/07/2023;Московская область;partner;individual;FALSE
+C001965;03/02/2020;Томская область;partner;individual;FALSE
+C001966;16/04/2023;Новосибирская область;partner;individual;FALSE
+C001967;26/08/2019;Томская область;store;individual;FALSE
+C001968;15/06/2022;Москва;online;individual;FALSE
+C001969;01/07/2023;Красноярский край;store;individual;FALSE
+C001970;09/11/2024;Томская область;store;small_business;FALSE
+C001971;27/02/2025;Красноярский край;store;individual;FALSE
+C001972;07/02/2023;Московская область;store;individual;FALSE
+C001973;12/04/2021;Московская область;store;individual;FALSE
+C001974;18/02/2023;Московская область;partner;individual;FALSE
+C001975;10/02/2025;Московская область;online;individual;FALSE
+C001976;22/02/2020;Московская область;online;individual;FALSE
+C001977;20/02/2020;Томская область;online;individual;FALSE
+C001978;10/08/2022;Новосибирская область;store;individual;FALSE
+C001979;27/04/2023;Томская область;online;individual;FALSE
+C001980;09/06/2019;Красноярский край;store;individual;FALSE
+C001981;11/06/2025;Красноярский край;store;individual;FALSE
+C001982;23/09/2019;Москва;online;individual;FALSE
+C001983;15/02/2020;Томская область;online;individual;FALSE
+C001984;22/08/2021;Красноярский край;online;individual;FALSE
+C001985;10/10/2024;Московская область;online;individual;FALSE
+C001986;16/12/2020;Томская область;partner;individual;FALSE
+C001987;12/06/2024;Новосибирская область;online;individual;FALSE
+C001988;12/06/2024;Томская область;store;individual;FALSE
+C001989;14/06/2020;Московская область;online;individual;FALSE
+C001990;31/10/2020;Красноярский край;online;individual;FALSE
+C001991;10/07/2024;Томская область;online;individual;FALSE
+C001992;22/07/2024;Московская область;online;individual;FALSE
+C001993;30/12/2020;Новосибирская область;online;individual;FALSE
+C001994;10/02/2020;Новосибирская область;online;individual;FALSE
+C001995;25/07/2020;Красноярский край;store;individual;FALSE
+C001996;06/12/2022;Новосибирская область;store;individual;FALSE
+C001997;10/10/2023;Томская область;store;individual;FALSE
+C001998;24/07/2024;Томская область;store;individual;FALSE
+C001999;30/06/2022;Красноярский край;store;individual;FALSE
+C002000;10/12/2024;Красноярский край;online;individual;FALSE
+C002001;24/10/2025;Новосибирская область;online;individual;FALSE
+C002002;28/10/2025;Новосибирская область;store;individual;FALSE
+C002003;11/10/2025;Москва;store;individual;FALSE
+C002004;06/10/2025;Москва;online;individual;FALSE
+C002005;12/10/2025;Москва;online;individual;FALSE
+C002006;27/10/2025;Новосибирская область;store;individual;FALSE
+C002007;18/10/2025;Москва;partner;individual;FALSE
+C002008;27/10/2025;Москва;partner;individual;FALSE
+C002009;02/10/2025;Томская область;store;individual;FALSE
+C002010;17/10/2025;Москва;store;individual;FALSE
+C002011;03/10/2025;Московская область;partner;small_business;FALSE
+C002012;22/10/2025;Москва;online;individual;FALSE
+C002013;16/10/2025;Новосибирская область;online;individual;FALSE
+C002014;27/10/2025;Красноярский край;store;individual;FALSE
+C002015;03/10/2025;Москва;online;individual;FALSE
+C002016;02/10/2025;Москва;partner;individual;FALSE
+C002017;28/10/2025;Красноярский край;online;individual;FALSE
+C002018;31/10/2025;Москва;online;individual;FALSE
+C002019;12/10/2025;Томская область;store;small_business;FALSE
+C002020;29/10/2025;Томская область;online;individual;FALSE
+C002021;25/10/2025;Новосибирская область;online;individual;FALSE
+C002022;31/10/2025;Красноярский край;online;individual;FALSE
+C002023;08/10/2025;Московская область;store;individual;FALSE
+C002024;05/10/2025;Томская область;partner;individual;FALSE
+C002025;09/10/2025;Московская область;online;individual;FALSE
+C002026;02/10/2025;Московская область;online;individual;FALSE
+C002027;29/10/2025;Красноярский край;online;individual;FALSE
+C002028;16/10/2025;Москва;store;individual;FALSE
+C002029;17/10/2025;Томская область;online;individual;FALSE
+C002030;16/10/2025;Томская область;online;individual;FALSE
+C002031;06/10/2025;Москва;store;individual;FALSE
+C002032;20/10/2025;Московская область;store;individual;FALSE
+C002033;31/10/2025;Москва;online;individual;FALSE
+C002034;18/10/2025;Москва;partner;individual;FALSE
+C002035;05/10/2025;Новосибирская область;store;individual;FALSE
+C002036;23/10/2025;Томская область;store;individual;FALSE
+C002037;23/10/2025;Томская область;online;individual;FALSE
+C002038;21/10/2025;Москва;store;individual;FALSE
+C002039;14/10/2025;Москва;partner;individual;FALSE
+C002040;04/10/2025;Красноярский край;partner;small_business;FALSE
+C002041;12/10/2025;Томская область;online;individual;FALSE
+C002042;14/10/2025;Новосибирская область;online;individual;FALSE
+C002043;20/10/2025;Москва;partner;individual;FALSE
+C002044;31/10/2025;Москва;store;individual;FALSE
+C002045;25/10/2025;Красноярский край;store;individual;FALSE
+C002046;31/10/2025;Московская область;online;individual;FALSE
+C002047;14/10/2025;Томская область;store;individual;FALSE
+C002048;28/10/2025;Томская область;online;individual;FALSE
+C002049;16/10/2025;Новосибирская область;store;individual;FALSE
+C002050;26/10/2025;Красноярский край;online;individual;FALSE
+C002051;09/11/2025;Томская область;partner;individual;FALSE
+C002052;30/11/2025;Москва;online;individual;FALSE
+C002053;15/11/2025;Красноярский край;store;individual;FALSE
+C002054;03/11/2025;Московская область;online;individual;FALSE
+C002055;18/11/2025;Московская область;partner;individual;FALSE
+C002056;18/11/2025;Красноярский край;online;individual;FALSE
+C002057;07/11/2025;Красноярский край;online;individual;FALSE
+C002058;28/11/2025;Красноярский край;store;individual;FALSE
+C002059;09/11/2025;Новосибирская область;store;individual;FALSE
+C002060;27/11/2025;Томская область;store;individual;FALSE
+C002061;22/11/2025;Томская область;partner;individual;FALSE
+C002062;26/11/2025;Московская область;online;individual;FALSE
+C002063;13/11/2025;Красноярский край;store;individual;FALSE
+C002064;19/11/2025;Москва;online;small_business;FALSE
+C002065;30/11/2025;Томская область;partner;individual;FALSE
+C002066;19/11/2025;Томская область;store;individual;FALSE
+C002067;27/11/2025;Красноярский край;store;individual;FALSE
+C002068;26/11/2025;Красноярский край;online;individual;FALSE
+C002069;12/11/2025;Новосибирская область;store;individual;FALSE
+C002070;18/11/2025;Томская область;store;individual;FALSE
+C002071;12/11/2025;Томская область;partner;small_business;FALSE
+C002072;24/11/2025;Московская область;store;individual;FALSE
+C002073;06/11/2025;Красноярский край;online;individual;FALSE
+C002074;14/11/2025;Томская область;online;individual;FALSE
+C002075;19/11/2025;Москва;online;individual;FALSE
+C002076;12/11/2025;Москва;online;individual;FALSE
+C002077;30/11/2025;Новосибирская область;online;individual;FALSE
+C002078;04/11/2025;Московская область;online;individual;FALSE
+C002079;14/11/2025;Москва;online;individual;FALSE
+C002080;23/11/2025;Московская область;store;individual;FALSE
+C002081;03/11/2025;Красноярский край;online;individual;FALSE
+C002082;06/11/2025;Новосибирская область;online;individual;FALSE
+C002083;14/11/2025;Новосибирская область;store;individual;FALSE
+C002084;14/11/2025;Красноярский край;partner;individual;FALSE
+C002085;13/11/2025;Москва;store;individual;FALSE
+C002086;26/11/2025;Томская область;online;individual;FALSE
+C002087;17/11/2025;Новосибирская область;partner;individual;FALSE
+C002088;13/11/2025;Новосибирская область;store;individual;FALSE
+C002089;09/11/2025;Томская область;online;small_business;FALSE
+C002090;29/11/2025;Красноярский край;online;individual;FALSE
+C002091;07/11/2025;Московская область;store;individual;FALSE
+C002092;19/11/2025;Красноярский край;partner;individual;FALSE
+C002093;21/11/2025;Московская область;store;individual;FALSE
+C002094;27/11/2025;Томская область;online;individual;FALSE
+C002095;13/11/2025;Красноярский край;store;individual;FALSE
+C002096;12/11/2025;Московская область;online;individual;FALSE
+C002097;11/11/2025;Москва;store;individual;FALSE
+C002098;28/11/2025;Московская область;online;individual;FALSE
+C002099;17/11/2025;Красноярский край;store;individual;FALSE
+C002100;26/11/2025;Новосибирская область;partner;individual;FALSE
+C002101;07/12/2025;Томская область;store;individual;FALSE
+C002102;15/12/2025;Томская область;store;individual;FALSE
+C002103;16/12/2025;Красноярский край;partner;individual;FALSE
+C002104;21/12/2025;Москва;partner;small_business;FALSE
+C002105;19/12/2025;Московская область;partner;individual;FALSE
+C002106;12/12/2025;Новосибирская область;store;individual;FALSE
+C002107;09/12/2025;Красноярский край;online;individual;FALSE
+C002108;28/12/2025;Красноярский край;online;individual;FALSE
+C002109;20/12/2025;Красноярский край;partner;individual;FALSE
+C002110;04/12/2025;Томская область;online;individual;FALSE
+C002111;07/12/2025;Красноярский край;online;individual;FALSE
+C002112;12/12/2025;Новосибирская область;online;individual;FALSE
+C002113;16/12/2025;Красноярский край;store;individual;FALSE
+C002114;24/12/2025;Красноярский край;online;individual;FALSE
+C002115;14/12/2025;Москва;online;individual;FALSE
+C002116;31/12/2025;Томская область;store;individual;FALSE
+C002117;10/12/2025;Московская область;online;individual;FALSE
+C002118;16/12/2025;Красноярский край;store;individual;FALSE
+C002119;05/12/2025;Московская область;partner;individual;FALSE
+C002120;05/12/2025;Красноярский край;store;individual;FALSE
+C002121;21/12/2025;Москва;online;individual;FALSE
+C002122;14/12/2025;Томская область;online;individual;FALSE
+C002123;03/12/2025;Красноярский край;online;individual;FALSE
+C002124;23/12/2025;Московская область;online;individual;FALSE
+C002125;08/12/2025;Томская область;partner;individual;FALSE
+C002126;09/12/2025;Москва;online;individual;FALSE
+C002127;05/12/2025;Томская область;store;individual;FALSE
+C002128;22/12/2025;Красноярский край;partner;small_business;FALSE
+C002129;27/12/2025;Новосибирская область;store;individual;FALSE
+C002130;28/12/2025;Московская область;online;individual;FALSE
+C002131;16/12/2025;Томская область;partner;individual;FALSE
+C002132;05/12/2025;Томская область;online;individual;FALSE
+C002133;31/12/2025;Красноярский край;online;individual;FALSE
+C002134;10/12/2025;Красноярский край;online;individual;FALSE
+C002135;14/12/2025;Москва;online;individual;FALSE
+C002136;16/12/2025;Москва;online;individual;FALSE
+C002137;09/12/2025;Новосибирская область;store;small_business;FALSE
+C002138;30/12/2025;Новосибирская область;store;individual;FALSE
+C002139;31/12/2025;Красноярский край;store;individual;FALSE
+C002140;03/12/2025;Новосибирская область;online;individual;FALSE
+C002141;13/12/2025;Томская область;store;individual;FALSE
+C002142;08/12/2025;Московская область;partner;individual;FALSE
+C002143;22/12/2025;Красноярский край;online;individual;TRUE
+C002144;08/12/2025;Москва;store;individual;FALSE
+C002145;30/12/2025;Томская область;online;individual;FALSE
+C002146;12/12/2025;Новосибирская область;online;small_business;FALSE
+C002147;11/12/2025;Московская область;online;individual;FALSE
+C002148;08/12/2025;Московская область;online;individual;FALSE
+C002149;17/12/2025;Московская область;online;individual;FALSE
+C002150;16/12/2025;Москва;store;individual;FALSE
+C002151;04/01/2026;Красноярский край;online;individual;FALSE
+C002152;05/01/2026;Московская область;partner;individual;FALSE
+C002153;22/01/2026;Московская область;store;individual;FALSE
+C002154;18/01/2026;Москва;partner;individual;FALSE
+C002155;18/01/2026;Москва;partner;individual;FALSE
+C002156;06/01/2026;Новосибирская область;store;individual;FALSE
+C002157;10/01/2026;Красноярский край;store;individual;FALSE
+C002158;04/01/2026;Новосибирская область;online;individual;FALSE
+C002159;23/01/2026;Красноярский край;online;individual;FALSE
+C002160;30/01/2026;Томская область;store;individual;FALSE
+C002161;20/01/2026;Красноярский край;partner;individual;FALSE
+C002162;12/01/2026;Новосибирская область;partner;individual;FALSE
+C002163;08/01/2026;Новосибирская область;online;small_business;FALSE
+C002164;26/01/2026;Москва;online;individual;FALSE
+C002165;10/01/2026;Новосибирская область;online;individual;FALSE
+C002166;09/01/2026;Московская область;store;individual;FALSE
+C002167;31/01/2026;Томская область;partner;individual;FALSE
+C002168;07/01/2026;Новосибирская область;online;individual;FALSE
+C002169;15/01/2026;Москва;partner;individual;FALSE
+C002170;20/01/2026;Москва;partner;individual;FALSE
+C002171;07/01/2026;Москва;online;individual;FALSE
+C002172;25/01/2026;Томская область;store;individual;FALSE
+C002173;14/01/2026;Новосибирская область;partner;individual;FALSE
+C002174;18/01/2026;Томская область;store;individual;FALSE
+C002175;13/01/2026;Москва;online;individual;FALSE
+C002176;12/01/2026;Красноярский край;store;individual;FALSE
+C002177;25/01/2026;Новосибирская область;partner;individual;FALSE
+C002178;13/01/2026;Москва;store;individual;FALSE
+C002179;15/01/2026;Новосибирская область;online;individual;FALSE
+C002180;03/01/2026;Москва;store;individual;FALSE
+C002181;18/01/2026;Московская область;store;small_business;FALSE
+C002182;21/01/2026;Московская область;store;small_business;FALSE
+C002183;03/01/2026;Московская область;store;individual;FALSE
+C002184;09/01/2026;Томская область;store;individual;FALSE
+C002185;27/01/2026;Москва;online;individual;FALSE
+C002186;12/01/2026;Москва;online;individual;FALSE
+C002187;19/01/2026;Красноярский край;online;individual;FALSE
+C002188;30/01/2026;Московская область;store;individual;FALSE
+C002189;06/01/2026;Красноярский край;store;individual;FALSE
+C002190;08/01/2026;Новосибирская область;store;individual;FALSE
+C002191;07/01/2026;Москва;online;individual;FALSE
+C002192;23/01/2026;Новосибирская область;online;individual;FALSE
+C002193;22/01/2026;Красноярский край;online;individual;FALSE
+C002194;17/01/2026;Московская область;online;individual;FALSE
+C002195;05/01/2026;Томская область;online;small_business;FALSE
+C002196;25/01/2026;Новосибирская область;online;individual;FALSE
+C002197;27/01/2026;Москва;store;individual;FALSE
+C002198;07/01/2026;Москва;online;individual;FALSE
+C002199;19/01/2026;Москва;store;individual;FALSE
+C002200;21/01/2026;Московская область;online;individual;FALSE
+C002201;10/02/2026;Красноярский край;online;individual;FALSE
+C002202;18/02/2026;Красноярский край;store;individual;FALSE
+C002203;08/02/2026;Московская область;store;individual;FALSE
+C002204;12/02/2026;Московская область;store;individual;FALSE
+C002205;06/02/2026;Томская область;partner;small_business;FALSE
+C002206;15/02/2026;Москва;partner;individual;FALSE
+C002207;09/02/2026;Красноярский край;store;individual;FALSE
+C002208;27/02/2026;Новосибирская область;online;individual;FALSE
+C002209;19/02/2026;Москва;online;individual;FALSE
+C002210;11/02/2026;Московская область;online;individual;FALSE
+C002211;02/02/2026;Московская область;partner;individual;FALSE
+C002212;07/02/2026;Москва;online;individual;FALSE
+C002213;05/02/2026;Московская область;store;individual;FALSE
+C002214;03/02/2026;Красноярский край;online;individual;FALSE
+C002215;16/02/2026;Томская область;online;individual;FALSE
+C002216;22/02/2026;Новосибирская область;store;individual;FALSE
+C002217;20/02/2026;Москва;store;individual;FALSE
+C002218;14/02/2026;Новосибирская область;online;small_business;FALSE
+C002219;19/02/2026;Москва;store;individual;FALSE
+C002220;17/02/2026;Томская область;online;individual;FALSE
+C002221;12/02/2026;Новосибирская область;online;individual;FALSE
+C002222;26/02/2026;Красноярский край;partner;individual;FALSE
+C002223;28/02/2026;Новосибирская область;store;individual;FALSE
+C002224;24/02/2026;Красноярский край;partner;individual;FALSE
+C002225;03/02/2026;Москва;partner;individual;FALSE
+C002226;07/02/2026;Москва;online;individual;TRUE
+C002227;19/02/2026;Томская область;online;individual;FALSE
+C002228;18/02/2026;Московская область;online;individual;FALSE
+C002229;28/02/2026;Томская область;store;small_business;FALSE
+C002230;10/02/2026;Красноярский край;online;individual;FALSE
+C002231;17/02/2026;Московская область;partner;individual;FALSE
+C002232;05/02/2026;Новосибирская область;store;individual;FALSE
+C002233;16/02/2026;Красноярский край;online;individual;FALSE
+C002234;16/02/2026;Томская область;online;individual;FALSE
+C002235;24/02/2026;Томская область;store;individual;FALSE
+C002236;02/02/2026;Новосибирская область;store;individual;FALSE
+C002237;14/02/2026;Московская область;online;individual;FALSE
+C002238;14/02/2026;Московская область;online;individual;FALSE
+C002239;02/02/2026;Московская область;store;individual;FALSE
+C002240;13/02/2026;Томская область;online;individual;FALSE
+C002241;12/02/2026;Москва;online;individual;FALSE
+C002242;28/02/2026;Красноярский край;online;individual;FALSE
+C002243;05/02/2026;Москва;online;individual;FALSE
+C002244;18/02/2026;Московская область;store;individual;FALSE
+C002245;02/02/2026;Москва;store;individual;FALSE
+C002246;26/02/2026;Новосибирская область;store;individual;FALSE
+C002247;27/02/2026;Новосибирская область;online;individual;FALSE
+C002248;06/02/2026;Красноярский край;store;individual;FALSE
+C002249;18/02/2026;Красноярский край;store;individual;FALSE
+C002250;28/02/2026;Красноярский край;online;individual;FALSE
+C002251;24/03/2026;Москва;online;individual;FALSE
+C002252;24/03/2026;Москва;store;individual;FALSE
+C002253;22/03/2026;Новосибирская область;online;individual;FALSE
+C002254;27/03/2026;Новосибирская область;online;individual;FALSE
+C002255;04/03/2026;Москва;partner;individual;FALSE
+C002256;31/03/2026;Московская область;online;individual;FALSE
+C002257;12/03/2026;Москва;online;individual;FALSE
+C002258;24/03/2026;Московская область;online;individual;FALSE
+C002259;21/03/2026;Новосибирская область;online;individual;FALSE
+C002260;17/03/2026;Томская область;online;individual;FALSE
+C002261;27/03/2026;Красноярский край;store;small_business;FALSE
+C002262;16/03/2026;Москва;online;small_business;FALSE
+C002263;07/03/2026;Новосибирская область;store;individual;FALSE
+C002264;11/03/2026;Москва;online;individual;FALSE
+C002265;18/03/2026;Красноярский край;partner;individual;FALSE
+C002266;03/03/2026;Новосибирская область;store;individual;FALSE
+C002267;24/03/2026;Московская область;online;individual;TRUE
+C002268;02/03/2026;Красноярский край;store;individual;FALSE
+C002269;23/03/2026;Московская область;store;individual;FALSE
+C002270;28/03/2026;Московская область;partner;individual;FALSE
+C002271;07/03/2026;Красноярский край;partner;individual;FALSE
+C002272;29/03/2026;Новосибирская область;store;individual;FALSE
+C002273;03/03/2026;Томская область;online;individual;FALSE
+C002274;24/03/2026;Московская область;online;individual;FALSE
+C002275;31/03/2026;Красноярский край;partner;individual;FALSE
+C002276;27/03/2026;Новосибирская область;partner;small_business;FALSE
+C002277;14/03/2026;Томская область;store;individual;FALSE
+C002278;12/03/2026;Красноярский край;partner;individual;FALSE
+C002279;19/03/2026;Московская область;store;individual;FALSE
+C002280;07/03/2026;Москва;online;individual;FALSE
+C002281;24/03/2026;Новосибирская область;store;individual;FALSE
+C002282;29/03/2026;Красноярский край;partner;individual;FALSE
+C002283;19/03/2026;Московская область;store;individual;FALSE
+C002284;10/03/2026;Московская область;online;individual;FALSE
+C002285;23/03/2026;Московская область;online;individual;FALSE
+C002286;16/03/2026;Москва;online;individual;FALSE
+C002287;20/03/2026;Московская область;store;individual;FALSE
+C002288;04/03/2026;Томская область;partner;individual;FALSE
+C002289;26/03/2026;Москва;online;small_business;FALSE
+C002290;19/03/2026;Московская область;online;individual;FALSE
+C002291;11/03/2026;Красноярский край;online;individual;FALSE
+C002292;12/03/2026;Новосибирская область;online;individual;FALSE
+C002293;27/03/2026;Красноярский край;online;individual;FALSE
+C002294;20/03/2026;Красноярский край;online;small_business;FALSE
+C002295;27/03/2026;Красноярский край;partner;individual;FALSE
+C002296;06/03/2026;Москва;online;individual;FALSE
+C002297;22/03/2026;Томская область;online;small_business;FALSE
+C002298;15/03/2026;Красноярский край;online;individual;FALSE
+C002299;24/03/2026;Москва;store;individual;FALSE
+C002300;08/03/2026;Томская область;store;individual;FALSE
+C002301;02/04/2026;Московская область;online;small_business;FALSE
+C002302;10/04/2026;Томская область;online;individual;FALSE
+C002303;24/04/2026;Московская область;online;individual;FALSE
+C002304;29/04/2026;Красноярский край;partner;individual;FALSE
+C002305;06/04/2026;Москва;online;individual;FALSE
+C002306;29/04/2026;Томская область;online;individual;FALSE
+C002307;03/04/2026;Красноярский край;online;individual;FALSE
+C002308;15/04/2026;Томская область;store;individual;FALSE
+C002309;21/04/2026;Томская область;store;individual;FALSE
+C002310;08/04/2026;Москва;online;small_business;FALSE
+C002311;17/04/2026;Красноярский край;online;individual;FALSE
+C002312;25/04/2026;Москва;store;individual;FALSE
+C002313;05/04/2026;Томская область;store;individual;FALSE
+C002314;16/04/2026;Красноярский край;online;small_business;FALSE
+C002315;29/04/2026;Новосибирская область;store;individual;FALSE
+C002316;12/04/2026;Красноярский край;store;small_business;FALSE
+C002317;24/04/2026;Томская область;online;individual;FALSE
+C002318;19/04/2026;Новосибирская область;online;individual;FALSE
+C002319;23/04/2026;Москва;partner;individual;FALSE
+C002320;27/04/2026;Москва;online;individual;FALSE
+C002321;06/04/2026;Новосибирская область;store;individual;FALSE
+C002322;24/04/2026;Москва;partner;individual;FALSE
+C002323;19/04/2026;Москва;partner;individual;FALSE
+C002324;05/04/2026;Красноярский край;store;individual;FALSE
+C002325;24/04/2026;Москва;online;individual;FALSE
+C002326;30/04/2026;Москва;online;small_business;FALSE
+C002327;04/04/2026;Новосибирская область;online;individual;FALSE
+C002328;29/04/2026;Москва;store;individual;FALSE
+C002329;28/04/2026;Москва;store;individual;FALSE
+C002330;29/04/2026;Новосибирская область;partner;individual;FALSE
+C002331;26/04/2026;Красноярский край;online;individual;FALSE
+C002332;27/04/2026;Московская область;online;individual;FALSE
+C002333;27/04/2026;Новосибирская область;store;individual;FALSE
+C002334;12/04/2026;Томская область;partner;small_business;FALSE
+C002335;14/04/2026;Московская область;store;individual;FALSE
+C002336;22/04/2026;Москва;online;individual;FALSE
+C002337;03/04/2026;Томская область;online;individual;FALSE
+C002338;20/04/2026;Красноярский край;store;individual;FALSE
+C002339;11/04/2026;Москва;store;individual;FALSE
+C002340;18/04/2026;Москва;partner;individual;FALSE
+C002341;08/04/2026;Новосибирская область;online;individual;FALSE
+C002342;23/04/2026;Красноярский край;store;individual;FALSE
+C002343;10/04/2026;Московская область;partner;individual;FALSE
+C002344;10/04/2026;Новосибирская область;partner;individual;FALSE
+C002345;07/04/2026;Москва;online;individual;FALSE
+C002346;28/04/2026;Новосибирская область;partner;individual;FALSE
+C002347;06/04/2026;Красноярский край;store;individual;FALSE
+C002348;09/04/2026;Томская область;store;individual;FALSE
+C002349;24/04/2026;Томская область;partner;individual;FALSE
+C002350;29/04/2026;Красноярский край;partner;individual;FALSE
+C002351;23/05/2026;Томская область;store;individual;FALSE
+C002352;27/05/2026;Московская область;online;individual;FALSE
+C002353;06/05/2026;Новосибирская область;partner;individual;FALSE
+C002354;02/05/2026;Московская область;online;individual;FALSE
+C002355;21/05/2026;Томская область;online;individual;FALSE
+C002356;09/05/2026;Новосибирская область;store;individual;FALSE
+C002357;04/05/2026;Московская область;store;individual;FALSE
+C002358;29/05/2026;Москва;online;individual;FALSE
+C002359;18/05/2026;Новосибирская область;store;individual;FALSE
+C002360;13/05/2026;Томская область;store;individual;FALSE
+C002361;12/05/2026;Томская область;store;individual;FALSE
+C002362;04/05/2026;Московская область;partner;small_business;FALSE
+C002363;15/05/2026;Томская область;store;individual;FALSE
+C002364;12/05/2026;Московская область;online;individual;FALSE
+C002365;27/05/2026;Томская область;store;individual;FALSE
+C002366;09/05/2026;Красноярский край;store;individual;FALSE
+C002367;09/05/2026;Московская область;store;individual;FALSE
+C002368;15/05/2026;Томская область;online;individual;FALSE
+C002369;08/05/2026;Красноярский край;online;individual;FALSE
+C002370;17/05/2026;Москва;online;individual;FALSE
+C002371;06/05/2026;Новосибирская область;online;individual;FALSE
+C002372;05/05/2026;Москва;partner;individual;FALSE
+C002373;15/05/2026;Новосибирская область;store;individual;FALSE
+C002374;18/05/2026;Красноярский край;online;individual;FALSE
+C002375;09/05/2026;Москва;online;individual;FALSE
+C002376;14/05/2026;Новосибирская область;online;individual;FALSE
+C002377;21/05/2026;Новосибирская область;online;individual;FALSE
+C002378;13/05/2026;Московская область;online;small_business;FALSE
+C002379;24/05/2026;Томская область;online;individual;FALSE
+C002380;26/05/2026;Москва;store;individual;FALSE
+C002381;09/05/2026;Новосибирская область;online;individual;FALSE
+C002382;08/05/2026;Московская область;online;small_business;FALSE
+C002383;20/05/2026;Московская область;store;individual;FALSE
+C002384;13/05/2026;Томская область;online;individual;FALSE
+C002385;08/05/2026;Красноярский край;online;individual;FALSE
+C002386;28/05/2026;Красноярский край;online;individual;FALSE
+C002387;08/05/2026;Новосибирская область;online;individual;FALSE
+C002388;25/05/2026;Красноярский край;store;small_business;TRUE
+C002389;15/05/2026;Москва;partner;individual;FALSE
+C002390;07/05/2026;Новосибирская область;store;individual;FALSE
+C002391;14/05/2026;Красноярский край;online;individual;FALSE
+C002392;04/05/2026;Новосибирская область;online;individual;FALSE
+C002393;19/05/2026;Московская область;online;individual;FALSE
+C002394;17/05/2026;Московская область;online;individual;FALSE
+C002395;24/05/2026;Московская область;store;small_business;FALSE
+C002396;28/05/2026;Томская область;online;individual;FALSE
+C002397;22/05/2026;Москва;store;individual;FALSE
+C002398;28/05/2026;Красноярский край;online;individual;FALSE
+C002399;07/05/2026;Томская область;online;individual;FALSE
+C002400;28/05/2026;Москва;online;individual;FALSE
+C002401;10/06/2026;Томская область;partner;small_business;FALSE
+C002402;03/06/2026;Новосибирская область;online;individual;FALSE
+C002403;06/06/2026;Московская область;store;individual;FALSE
+C002404;14/06/2026;Москва;store;individual;FALSE
+C002405;12/06/2026;Московская область;online;individual;FALSE
+C002406;22/06/2026;Красноярский край;online;individual;FALSE
+C002407;05/06/2026;Москва;online;small_business;FALSE
+C002408;05/06/2026;Новосибирская область;store;individual;FALSE
+C002409;22/06/2026;Московская область;store;individual;FALSE
+C002410;05/06/2026;Новосибирская область;store;individual;FALSE
+C002411;08/06/2026;Московская область;partner;individual;FALSE
+C002412;17/06/2026;Московская область;online;individual;FALSE
+C002413;04/06/2026;Московская область;online;individual;FALSE
+C002414;17/06/2026;Томская область;partner;individual;FALSE
+C002415;26/06/2026;Красноярский край;store;individual;FALSE
+C002416;26/06/2026;Москва;store;individual;FALSE
+C002417;03/06/2026;Новосибирская область;online;individual;FALSE
+C002418;24/06/2026;Москва;online;individual;FALSE
+C002419;16/06/2026;Томская область;online;individual;FALSE
+C002420;07/06/2026;Новосибирская область;online;individual;FALSE
+C002421;02/06/2026;Новосибирская область;store;individual;FALSE
+C002422;04/06/2026;Новосибирская область;online;individual;TRUE
+C002423;19/06/2026;Томская область;online;individual;FALSE
+C002424;22/06/2026;Москва;online;individual;FALSE
+C002425;20/06/2026;Красноярский край;online;individual;FALSE
+C002426;14/06/2026;Москва;store;individual;FALSE
+C002427;14/06/2026;Московская область;online;individual;FALSE
+C002428;20/06/2026;Московская область;store;individual;FALSE
+C002429;02/06/2026;Москва;online;individual;FALSE
+C002430;11/06/2026;Московская область;store;individual;FALSE
+C002431;27/06/2026;Москва;online;individual;FALSE
+C002432;06/06/2026;Новосибирская область;online;individual;TRUE
+C002433;10/06/2026;Красноярский край;online;individual;FALSE
+C002434;02/06/2026;Московская область;online;individual;FALSE
+C002435;15/06/2026;Московская область;partner;individual;FALSE
+C002436;30/06/2026;Москва;store;individual;FALSE
+C002437;26/06/2026;Новосибирская область;online;individual;FALSE
+C002438;06/06/2026;Московская область;online;individual;FALSE
+C002439;21/06/2026;Новосибирская область;online;individual;FALSE
+C002440;23/06/2026;Московская область;store;individual;FALSE
+C002441;11/06/2026;Московская область;store;individual;TRUE
+C002442;04/06/2026;Новосибирская область;store;individual;FALSE
+C002443;09/06/2026;Томская область;partner;individual;FALSE
+C002444;27/06/2026;Красноярский край;online;individual;FALSE
+C002445;22/06/2026;Томская область;store;individual;FALSE
+C002446;08/06/2026;Новосибирская область;store;individual;TRUE
+C002447;09/06/2026;Красноярский край;store;small_business;FALSE
+C002448;23/06/2026;Москва;online;individual;FALSE
+C002449;10/06/2026;Красноярский край;online;individual;FALSE
+C002450;26/06/2026;Москва;store;individual;FALSE
+C002451;05/07/2026;Москва;partner;individual;FALSE
+C002452;17/07/2026;Москва;store;individual;FALSE
+C002453;28/07/2026;Москва;store;individual;FALSE
+C002454;05/07/2026;Московская область;store;individual;FALSE
+C002455;30/07/2026;Москва;online;individual;FALSE
+C002456;06/07/2026;Московская область;store;individual;FALSE
+C002457;06/07/2026;Московская область;online;individual;FALSE
+C002458;06/07/2026;Москва;partner;individual;FALSE
+C002459;08/07/2026;Красноярский край;store;individual;FALSE
+C002460;18/07/2026;Томская область;online;individual;FALSE
+C002461;03/07/2026;Томская область;online;individual;FALSE
+C002462;03/07/2026;Красноярский край;store;individual;FALSE
+C002463;12/07/2026;Москва;partner;individual;FALSE
+C002464;11/07/2026;Томская область;online;individual;FALSE
+C002465;16/07/2026;Томская область;partner;individual;FALSE
+C002466;31/07/2026;Московская область;partner;individual;FALSE
+C002467;26/07/2026;Московская область;store;individual;FALSE
+C002468;18/07/2026;Московская область;online;individual;FALSE
+C002469;31/07/2026;Томская область;partner;individual;FALSE
+C002470;06/07/2026;Московская область;online;individual;FALSE
+C002471;14/07/2026;Томская область;store;small_business;FALSE
+C002472;02/07/2026;Московская область;store;individual;FALSE
+C002473;13/07/2026;Москва;store;individual;FALSE
+C002474;25/07/2026;Красноярский край;partner;individual;FALSE
+C002475;27/07/2026;Московская область;store;individual;FALSE
+C002476;25/07/2026;Новосибирская область;online;individual;FALSE
+C002477;05/07/2026;Новосибирская область;online;individual;FALSE
+C002478;03/07/2026;Москва;store;individual;FALSE
+C002479;06/07/2026;Томская область;partner;small_business;FALSE
+C002480;03/07/2026;Московская область;online;small_business;FALSE
+C002481;10/07/2026;Новосибирская область;store;individual;FALSE
+C002482;13/07/2026;Москва;store;individual;FALSE
+C002483;11/07/2026;Москва;online;individual;FALSE
+C002484;26/07/2026;Красноярский край;store;individual;FALSE
+C002485;20/07/2026;Томская область;online;individual;FALSE
+C002486;15/07/2026;Томская область;online;individual;FALSE
+C002487;16/07/2026;Московская область;online;individual;FALSE
+C002488;14/07/2026;Москва;partner;individual;FALSE
+C002489;27/07/2026;Новосибирская область;store;individual;FALSE
+C002490;24/07/2026;Томская область;online;individual;FALSE
+C002491;30/07/2026;Красноярский край;online;individual;FALSE
+C002492;12/07/2026;Красноярский край;online;individual;FALSE
+C002493;20/07/2026;Москва;online;individual;FALSE
+C002494;24/07/2026;Московская область;online;individual;FALSE
+C002495;18/07/2026;Московская область;online;individual;FALSE
+C002496;14/07/2026;Томская область;store;small_business;TRUE
+C002497;11/07/2026;Новосибирская область;store;individual;FALSE
+C002498;09/07/2026;Москва;online;individual;FALSE
+C002499;31/07/2026;Красноярский край;online;individual;FALSE
+C002500;06/07/2026;Московская область;store;individual;FALSE
+C002501;08/08/2026;Москва;partner;individual;TRUE
+C002502;05/08/2026;Новосибирская область;store;individual;FALSE
+C002503;10/08/2026;Москва;store;individual;FALSE
+C002504;23/08/2026;Москва;online;individual;FALSE
+C002505;13/08/2026;Московская область;store;individual;FALSE
+C002506;18/08/2026;Московская область;store;individual;FALSE
+C002507;13/08/2026;Москва;online;individual;FALSE
+C002508;06/08/2026;Москва;online;small_business;FALSE
+C002509;17/08/2026;Красноярский край;partner;individual;FALSE
+C002510;20/08/2026;Москва;partner;individual;FALSE
+C002511;07/08/2026;Москва;store;individual;FALSE
+C002512;09/08/2026;Новосибирская область;store;individual;FALSE
+C002513;31/08/2026;Новосибирская область;online;individual;FALSE
+C002514;02/08/2026;Красноярский край;online;individual;FALSE
+C002515;14/08/2026;Красноярский край;store;individual;TRUE
+C002516;31/08/2026;Красноярский край;online;individual;FALSE
+C002517;13/08/2026;Москва;store;individual;FALSE
+C002518;18/08/2026;Красноярский край;online;individual;FALSE
+C002519;30/08/2026;Новосибирская область;partner;individual;FALSE
+C002520;09/08/2026;Новосибирская область;online;individual;FALSE
+C002521;31/08/2026;Красноярский край;store;individual;FALSE
+C002522;31/08/2026;Красноярский край;online;individual;FALSE
+C002523;08/08/2026;Томская область;partner;small_business;FALSE
+C002524;05/08/2026;Новосибирская область;store;individual;FALSE
+C002525;04/08/2026;Томская область;online;individual;FALSE
+C002526;02/08/2026;Москва;store;small_business;FALSE
+C002527;09/08/2026;Красноярский край;online;individual;FALSE
+C002528;19/08/2026;Томская область;store;individual;FALSE
+C002529;03/08/2026;Новосибирская область;online;individual;FALSE
+C002530;25/08/2026;Москва;online;individual;FALSE
+C002531;21/08/2026;Новосибирская область;store;individual;FALSE
+C002532;28/08/2026;Новосибирская область;store;individual;FALSE
+C002533;12/08/2026;Московская область;online;individual;FALSE
+C002534;30/08/2026;Москва;store;individual;FALSE
+C002535;09/08/2026;Томская область;online;individual;FALSE
+C002536;28/08/2026;Москва;online;individual;FALSE
+C002537;20/08/2026;Новосибирская область;online;individual;FALSE
+C002538;22/08/2026;Томская область;online;individual;FALSE
+C002539;27/08/2026;Красноярский край;online;individual;FALSE
+C002540;19/08/2026;Московская область;store;individual;FALSE
+C002541;29/08/2026;Москва;online;individual;FALSE
+C002542;21/08/2026;Москва;store;individual;FALSE
+C002543;25/08/2026;Москва;online;individual;FALSE
+C002544;14/08/2026;Московская область;online;individual;FALSE
+C002545;22/08/2026;Новосибирская область;online;individual;FALSE
+C002546;24/08/2026;Красноярский край;store;individual;FALSE
+C002547;10/08/2026;Новосибирская область;partner;individual;FALSE
+C002548;18/08/2026;Новосибирская область;online;individual;FALSE
+C002549;14/08/2026;Красноярский край;online;individual;FALSE
+C002550;27/08/2026;Московская область;online;individual;FALSE
+C002551;03/09/2026;Новосибирская область;store;individual;FALSE
+C002552;02/09/2026;Москва;store;individual;FALSE
+C002553;26/09/2026;Новосибирская область;store;individual;FALSE
+C002554;10/09/2026;Москва;store;individual;FALSE
+C002555;22/09/2026;Москва;store;individual;FALSE
+C002556;14/09/2026;Новосибирская область;online;individual;FALSE
+C002557;22/09/2026;Москва;partner;individual;FALSE
+C002558;19/09/2026;Московская область;store;individual;FALSE
+C002559;26/09/2026;Томская область;partner;individual;FALSE
+C002560;05/09/2026;Московская область;partner;individual;FALSE
+C002561;16/09/2026;Новосибирская область;partner;individual;FALSE
+C002562;22/09/2026;Томская область;store;individual;FALSE
+C002563;22/09/2026;Томская область;online;individual;FALSE
+C002564;27/09/2026;Московская область;online;individual;FALSE
+C002565;21/09/2026;Томская область;store;individual;FALSE
+C002566;16/09/2026;Томская область;store;individual;FALSE
+C002567;06/09/2026;Московская область;online;individual;FALSE
+C002568;12/09/2026;Москва;store;individual;FALSE
+C002569;21/09/2026;Красноярский край;store;individual;FALSE
+C002570;12/09/2026;Томская область;online;individual;FALSE
+C002571;15/09/2026;Новосибирская область;store;individual;FALSE
+C002572;09/09/2026;Красноярский край;online;individual;FALSE
+C002573;10/09/2026;Томская область;partner;small_business;FALSE
+C002574;03/09/2026;Томская область;store;individual;FALSE
+C002575;05/09/2026;Московская область;online;individual;FALSE
+C002576;11/09/2026;Томская область;online;individual;FALSE
+C002577;03/09/2026;Московская область;online;individual;FALSE
+C002578;29/09/2026;Красноярский край;store;individual;FALSE
+C002579;29/09/2026;Москва;online;individual;FALSE
+C002580;21/09/2026;Новосибирская область;online;individual;FALSE
+C002581;12/09/2026;Московская область;online;individual;FALSE
+C002582;17/09/2026;Красноярский край;store;individual;FALSE
+C002583;14/09/2026;Московская область;online;individual;FALSE
+C002584;05/09/2026;Новосибирская область;store;individual;FALSE
+C002585;24/09/2026;Москва;online;individual;FALSE
+C002586;06/09/2026;Красноярский край;store;individual;FALSE
+C002587;14/09/2026;Москва;online;individual;FALSE
+C002588;15/09/2026;Красноярский край;online;individual;FALSE
+C002589;28/09/2026;Новосибирская область;partner;individual;FALSE
+C002590;14/09/2026;Красноярский край;online;individual;FALSE
+C002591;25/09/2026;Московская область;online;individual;FALSE
+C002592;17/09/2026;Томская область;store;individual;FALSE
+C002593;04/09/2026;Красноярский край;partner;individual;FALSE
+C002594;29/09/2026;Москва;online;individual;FALSE
+C002595;16/09/2026;Новосибирская область;store;individual;FALSE
+C002596;28/09/2026;Москва;partner;individual;FALSE
+C002597;20/09/2026;Красноярский край;online;small_business;FALSE
+C002598;27/09/2026;Красноярский край;online;individual;FALSE
+C002599;19/09/2026;Томская область;online;individual;FALSE
+C002600;25/09/2026;Красноярский край;store;individual;FALSE

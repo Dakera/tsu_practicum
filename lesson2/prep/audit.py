@@ -83,8 +83,8 @@ def customer_dates(events: pd.DataFrame) -> tuple[pd.Series, pd.Series]:
     return by_type["activation"], by_type["termination"]
 
 
-def audit_subscribers(df: pd.DataFrame, events: pd.DataFrame) -> Audit:
-    a = Audit("subscribers", df, ["customer_id"])
+def audit_subscribers(df: pd.DataFrame, events: pd.DataFrame, name: str = "subscribers") -> Audit:
+    a = Audit(name, df, ["customer_id"])
     d = a.df
     a.bad_format("customer_id", CUSTOMER_ID, "CNNNNNN")
     a.missing("activation_date")
@@ -100,8 +100,8 @@ def audit_subscribers(df: pd.DataFrame, events: pd.DataFrame) -> Audit:
     return a
 
 
-def audit_events(df: pd.DataFrame, ids: set) -> Audit:
-    a = Audit("contract_events", df, ["event_id"])
+def audit_events(df: pd.DataFrame, ids: set, name: str = "contract_events") -> Audit:
+    a = Audit(name, df, ["event_id"])
     d = a.df
     a.bad_format("event_id", r"E\d{7}", "ENNNNNNN")
     a.bad_format("event_date", r"\d{4}-\d{2}-\d{2}", "YYYY-MM-DD")
@@ -116,15 +116,16 @@ def audit_events(df: pd.DataFrame, ids: set) -> Audit:
     return a
 
 
-def audit_billing(df: pd.DataFrame, ids: set, events: pd.DataFrame) -> Audit:
-    a = Audit("billing", df, ["customer_id", "billing_month"])
+def audit_billing(df: pd.DataFrame, ids: set, events: pd.DataFrame, clean: bool = False) -> Audit:
+    a = Audit("billing_clean" if clean else "billing", df, ["customer_id", "billing_month"])
+    parse_ts = timeparse.parse_iso_offset if clean else (lambda s: timeparse.parse_local(s, BILLING_TS_FMT))
     d = a.df
     month = timeparse.parse_billing_month(d.billing_month)
     a.bad_format("customer_id", CUSTOMER_ID, "CNNNNNN")
     a.unknown_customer("customer_id", ids)
     a.bad_format("billing_month", r"\d{4}-\d{2}-01", "YYYY-MM-01")
     a.check("available_at", "Не первое число следующего месяца 00:00",
-            timeparse.parse_local(d.available_at, BILLING_TS_FMT) != month + pd.offsets.MonthBegin(1), relation=True)
+            parse_ts(d.available_at) != month + pd.offsets.MonthBegin(1), relation=True)
 
     a.not_in("tariff", set(TARIFF_FEE))
     fee = num(d.monthly_fee_rub)
@@ -168,6 +169,12 @@ def audit_billing(df: pd.DataFrame, ids: set, events: pd.DataFrame) -> Audit:
 
 
 def support_variant(system: str, schema: pd.DataFrame) -> dict:
+    if system == "clean":
+        return {"parse": timeparse.parse_iso_offset,
+                "ts_pattern": r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\+03:00", "ts_name": "ISO 8601 +03:00",
+                "topics": set(load.value_map(schema, "topic").values()) | {"unknown"},
+                "channels": set(load.value_map(schema, "channel").values()),
+                "window": ("2025-09-01", "2026-09-01")}
     if system == "legacy":
         return {"parse": lambda s: timeparse.parse_local(s, LEGACY_TS_FMT),
                 "ts_pattern": r"\d{2}\.\d{2}\.\d{4} \d{2}:\d{2}:\d{2}", "ts_name": "DD.MM.YYYY HH:MM:SS",
@@ -224,7 +231,8 @@ def audit_support(df: pd.DataFrame, system: str, schema: pd.DataFrame, ids: set,
     return a
 
 
-def run(sources: dict[str, pd.DataFrame]) -> pd.DataFrame:
+def run_raw(sources: dict[str, pd.DataFrame]) -> pd.DataFrame:
+    """Audit of the raw sources, before cleaning."""
     schema = load.read_support_schema()
     events = sources["contract_events"]
     ids = set(sources["subscribers"].customer_id)
@@ -241,5 +249,22 @@ def run(sources: dict[str, pd.DataFrame]) -> pd.DataFrame:
     records.append({"source": "support_legacy+current", "field": "ticket_id",
                     "problem": "Номер обращения есть в обеих системах", "rows": int(overlap.sum()),
                     "cells": None, "copies": None})
-    out = pd.DataFrame(records).astype({"rows": "Int64", "cells": "Int64", "copies": "Int64"})
-    return out
+    return to_frame(records)
+
+
+def run_clean(tables: dict[str, pd.DataFrame]) -> pd.DataFrame:
+    """The same checks on the prepared tables, read back from the written CSV files."""
+    schema = load.read_support_schema()
+    events = tables["contract_events_clean"]
+    ids = set(tables["subscribers_clean"].customer_id)
+    audits = [
+        audit_subscribers(tables["subscribers_clean"], events, "subscribers_clean"),
+        audit_events(events, ids, "contract_events_clean"),
+        audit_billing(tables["billing_clean"], ids, events, clean=True),
+        audit_support(tables["support_clean"], "clean", schema, ids, events),
+    ]
+    return to_frame([r for a in audits for r in a.records + [a.summary()]])
+
+
+def to_frame(records: list[dict]) -> pd.DataFrame:
+    return pd.DataFrame(records).astype({"rows": "Int64", "cells": "Int64", "copies": "Int64"})
