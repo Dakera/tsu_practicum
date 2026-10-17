@@ -108,4 +108,4 @@ def column_summary(name: str, df: pd.DataFrame) -> list[dict]:
 def build(sources: dict[str, pd.DataFrame]) -> tuple[pd.DataFrame, pd.DataFrame]:
     summary = pd.DataFrame([source_summary(n, df) for n, df in sources.items()])
     columns = pd.DataFrame([r for n, df in sources.items() for r in column_summary(n, df)])
-    return summary, columns
+    return summary, columns.astype({"unparsed_nonempty": "Int64"})

@@ -1,10 +1,10 @@
-"""Чтение исходных источников без преобразования значений.
+"""Read raw sources without converting any values.
 
-Все поля читаются как строки, пустое поле остаётся пустой строкой.
-Так дефекты исходных данных (десятичная запятая, ' basic ', 'X0001234')
-доходят до аудита в исходном виде, а не теряются при автоматическом
-приведении типов.
+Every field is read as a string and an empty field stays an empty string.
+This way source defects (decimal comma, ' basic ', 'X0001234') reach the
+audit unchanged instead of being lost to automatic type inference.
 """
+import re
 import sqlite3
 from pathlib import Path
 
@@ -20,16 +20,34 @@ def read_raw_csv(path: Path) -> pd.DataFrame:
 
 
 def read_support_current(db_path: Path) -> pd.DataFrame:
-    """Читает SQLite в режиме только чтения: файл базы не может быть изменён."""
+    """Open SQLite read-only so the database file cannot be modified."""
     query = SQL_SUPPORT_CURRENT.read_text(encoding="utf-8")
     with sqlite3.connect(f"file:{db_path.resolve()}?mode=ro", uri=True) as conn:
         df = pd.read_sql_query(query, conn, dtype=str)
     n_null = int(df.isna().sum().sum())
     if n_null:
-        # В текущей выгрузке пустые значения хранятся как ''. Если появится NULL,
-        # правила подсчёта пропусков нужно пересмотреть — останавливаемся.
+        # The current export stores missing values as ''. A NULL would change
+        # how missing values are counted, so stop instead of guessing.
         raise ValueError(f"support_current_raw содержит {n_null} NULL-ячеек; ожидались только пустые строки")
     return df
+
+
+def read_support_schema() -> pd.DataFrame:
+    """Field mapping between the legacy and current support systems (schema_support.csv)."""
+    return read_raw_csv(config.SUPPORT_SCHEMA)
+
+
+def legacy_renames(schema: pd.DataFrame) -> dict[str, str]:
+    return dict(zip(schema.legacy_field, schema.canonical_field))
+
+
+def value_map(schema: pd.DataFrame, field: str) -> dict[str, str]:
+    """Parse 'Русское название=code; ...' pairs from the rules column of a schema field."""
+    rules = schema.loc[schema.canonical_field == field, "rules"].item()
+    pairs = dict((ru.strip(), code) for ru, code in re.findall(r"([^;=.]+)=(\w+)", rules))
+    if not pairs:
+        raise ValueError(f"schema_support.csv: no value mapping found for {field}")
+    return pairs
 
 
 def load_sources() -> dict[str, pd.DataFrame]:

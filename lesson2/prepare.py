@@ -1,27 +1,37 @@
-"""Единый запуск подготовки данных второго занятия.
+"""Single entry point for the lesson 2 data preparation.
 
-Запуск из корня репозитория:
+Run from the repository root:
     python lesson2/prepare.py
 """
 import pandas as pd
 
-from prep import config, inventory, load
+from prep import audit, config, inventory, load
+
+
+def write(df: pd.DataFrame, name: str) -> None:
+    df.to_csv(config.OUTPUT / name, sep=";", index=False, encoding="utf-8-sig")
 
 
 def main() -> None:
     config.check_inputs()
     config.OUTPUT.mkdir(parents=True, exist_ok=True)
-
     sources = load.load_sources()
-    summary, columns = inventory.build(sources)
-    summary.to_csv(config.OUTPUT / "inventory_sources.csv", sep=";", index=False, encoding="utf-8-sig")
-    columns.to_csv(config.OUTPUT / "inventory_columns.csv", sep=";", index=False, encoding="utf-8-sig")
 
-    time_cols = columns.dropna(subset=["unparsed_nonempty"]).astype({"unparsed_nonempty": int})
-    with pd.option_context("display.width", 200, "display.max_columns", None, "display.max_colwidth", 60):
+    # Step 1: inventory
+    summary, columns = inventory.build(sources)
+    write(summary, "inventory_sources.csv")
+    write(columns, "inventory_columns.csv")
+
+    # Step 2: quality audit of the raw sources
+    audit_before = audit.run(sources)
+    write(audit_before, "audit_before.csv")
+
+    with pd.option_context("display.width", 220, "display.max_columns", None,
+                           "display.max_colwidth", 70, "display.max_rows", None):
         print(summary.drop(columns="read_method").to_string(index=False), end="\n\n")
-        print(columns[["source", "column", "observed_types"]].to_string(index=False), end="\n\n")
-        print(time_cols.drop(columns="observed_types").to_string(index=False))
+        print("Проблемы до очистки (строки с нулём не показаны, полный список — audit_before.csv):")
+        found = audit_before[(audit_before.rows > 0) | (audit_before.copies > 0)]
+        print(found.astype(object).fillna("").to_string(index=False))
 
 
 if __name__ == "__main__":

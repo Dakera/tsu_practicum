@@ -1,0 +1,123 @@
+﻿source;field;problem;rows;cells;copies
+subscribers;*;Полная повторная копия строки;;;0
+subscribers;customer_id;Один ключ, разные значения (конфликт);0;0;
+subscribers;customer_id;Формат не CNNNNNN;0;0;
+subscribers;activation_date;Пропуск;65;65;
+subscribers;activation_date;Формат не YYYY-MM-DD;0;0;
+subscribers;region;Значение вне ['Красноярский край', 'Москва', 'Московская область', 'Новосибирская область', 'Томская область'];0;0;
+subscribers;acquisition_channel;Значение вне ['online', 'partner', 'store'];0;0;
+subscribers;customer_segment;Значение вне ['individual', 'small_business'];0;0;
+subscribers;activation_date;Расходится с activation в журнале договора;0;;
+subscribers;activation_date;Нет activation в журнале договора;0;;
+subscribers;ИТОГО;Уникальных строк с хотя бы одной проблемой;65;65;0
+contract_events;*;Полная повторная копия строки;;;0
+contract_events;event_id;Один ключ, разные значения (конфликт);0;0;
+contract_events;event_id;Формат не ENNNNNNN;0;0;
+contract_events;event_date;Формат не YYYY-MM-DD;0;0;
+contract_events;event_type;Значение вне ['activation', 'termination'];0;0;
+contract_events;customer_id;Абонент не найден в реестре;0;0;
+contract_events;event_type;Больше одного события этого типа у абонента;0;;
+contract_events;event_date;Расторжение не позже подключения;0;;
+contract_events;ИТОГО;Уникальных строк с хотя бы одной проблемой;0;0;0
+billing;*;Полная повторная копия строки;;;150
+billing;customer_id+billing_month;Один ключ, разные значения (конфликт);0;0;
+billing;customer_id;Формат не CNNNNNN;0;0;
+billing;customer_id;Абонент не найден в реестре;0;0;
+billing;billing_month;Формат не YYYY-MM-01;400;400;
+billing;available_at;Не первое число следующего месяца 00:00;0;;
+billing;tariff;Значение вне ['Basic', 'Comfort', 'Premium'];200;200;
+billing;monthly_fee_rub;Не равна цене тарифа;0;;
+billing;monthly_fee_rub;Формат не N.NN;0;0;
+billing;charged_rub;Формат не N.NN;0;0;
+billing;paid_rub;Формат не N.NN;120;120;
+billing;opening_debt_rub;Формат не N.NN;0;0;
+billing;closing_debt_rub;Формат не N.NN;0;0;
+billing;traffic_gb;Формат не N.NN;0;0;
+billing;voice_minutes;Формат не целое;0;0;
+billing;active_days;Формат не целое;0;0;
+billing;payment_delay_days;Формат не целое;0;0;
+billing;tariff_changes_count;Формат не целое;0;0;
+billing;monthly_fee_rub;Пропуск;0;0;
+billing;charged_rub;Пропуск;0;0;
+billing;paid_rub;Пропуск;0;0;
+billing;opening_debt_rub;Пропуск;0;0;
+billing;closing_debt_rub;Пропуск;40;40;
+billing;traffic_gb;Пропуск;240;240;
+billing;voice_minutes;Пропуск;0;0;
+billing;active_days;Пропуск;0;0;
+billing;payment_delay_days;Пропуск;0;0;
+billing;tariff_changes_count;Пропуск;0;0;
+billing;monthly_fee_rub;Отрицательное значение;0;0;
+billing;charged_rub;Отрицательное значение;0;0;
+billing;paid_rub;Отрицательное значение;0;0;
+billing;opening_debt_rub;Отрицательное значение;0;0;
+billing;closing_debt_rub;Отрицательное значение;0;0;
+billing;traffic_gb;Отрицательное значение;0;0;
+billing;voice_minutes;Отрицательное значение;80;80;
+billing;active_days;Вне [0, дней в месяце];0;0;
+billing;payment_delay_days;Вне [0, дней в месяце];0;0;
+billing;tariff_changes_count;Значение вне ['0', '1'];0;0;
+billing;closing_debt_rub;opening + charged − paid ≠ closing (±0.005);0;;
+billing;opening_debt_rub;Не равен closing предыдущего месяца;0;;
+billing;opening_debt_rub;Не ноль в первой строке абонента;0;;
+billing;billing_month;Пропущен месяц перед этой строкой;0;;
+billing;billing_month;Месяц раньше месяца подключения;0;;
+billing;billing_month;Месяц начинается после расторжения;0;;
+billing;ИТОГО;Уникальных строк с хотя бы одной проблемой;1080;1080;150
+support_legacy;*;Полная повторная копия строки;;;30
+support_legacy;ticket_id;Один ключ, разные значения (конфликт);0;0;
+support_legacy;ticket_id;Формат не TNNNNNNN;0;0;
+support_legacy;customer_id;Пропуск;0;0;
+support_legacy;customer_id;Формат не CNNNNNN (без пробелов);0;0;
+support_legacy;customer_id;Абонент не найден в реестре;0;0;
+support_legacy;created_at;Пропуск;0;0;
+support_legacy;available_at;Пропуск;0;0;
+support_legacy;topic;Пропуск;0;0;
+support_legacy;channel;Пропуск;0;0;
+support_legacy;created_at;Формат не DD.MM.YYYY HH:MM:SS;0;0;
+support_legacy;available_at;Формат не DD.MM.YYYY HH:MM:SS;0;0;
+support_legacy;resolved_at;Формат не DD.MM.YYYY HH:MM:SS;0;0;
+support_legacy;resolution_available_at;Формат не DD.MM.YYYY HH:MM:SS;0;0;
+support_legacy;topic;Значение вне ['Дополнительные услуги', 'Качество связи', 'Оплата и начисления', 'Тариф'];0;0;
+support_legacy;channel;Значение вне ['Офис', 'Телефон', 'Чат'];0;0;
+support_legacy;satisfaction_score;Вне целых 1–5;0;0;
+support_legacy;created_at;Вне периода системы [2025-09-01, 2025-11-01);0;;
+support_legacy;available_at;Раньше created_at;0;;
+support_legacy;resolved_at;Раньше created_at;0;;
+support_legacy;resolution_available_at;Раньше resolved_at;0;;
+support_legacy;resolution_available_at;Раньше available_at;0;;
+support_legacy;resolved_at;Заполнено только одно из resolved_at / resolution_available_at;0;;
+support_legacy;available_at;Позже финальной выгрузки 2026-10-01;0;;
+support_legacy;satisfaction_score;Оценка без подтверждённого закрытия;0;;
+support_legacy;created_at;Создано до подключения абонента;0;;
+support_legacy;created_at;Создано после расторжения договора;0;;
+support_legacy;ИТОГО;Уникальных строк с хотя бы одной проблемой;0;0;30
+support_current;*;Полная повторная копия строки;;;100
+support_current;ticket_id;Один ключ, разные значения (конфликт);0;0;
+support_current;ticket_id;Формат не TNNNNNNN;20;20;
+support_current;customer_id;Пропуск;8;8;
+support_current;customer_id;Формат не CNNNNNN (без пробелов);30;30;
+support_current;customer_id;Абонент не найден в реестре;12;12;
+support_current;created_at;Пропуск;0;0;
+support_current;available_at;Пропуск;0;0;
+support_current;topic;Пропуск;120;120;
+support_current;channel;Пропуск;0;0;
+support_current;created_at;Формат не ISO 8601 с Z;40;40;
+support_current;available_at;Формат не ISO 8601 с Z;0;0;
+support_current;resolved_at;Формат не ISO 8601 с Z;0;0;
+support_current;resolution_available_at;Формат не ISO 8601 с Z;0;0;
+support_current;topic;Значение вне ['billing', 'network', 'services', 'tariff'];0;0;
+support_current;channel;Значение вне ['chat', 'office', 'phone'];0;0;
+support_current;satisfaction_score;Вне целых 1–5;25;25;
+support_current;created_at;Вне периода системы [2025-11-01, 2026-09-01);0;;
+support_current;available_at;Раньше created_at;20;;
+support_current;resolved_at;Раньше created_at;35;;
+support_current;resolution_available_at;Раньше resolved_at;0;;
+support_current;resolution_available_at;Раньше available_at;0;;
+support_current;resolved_at;Заполнено только одно из resolved_at / resolution_available_at;0;;
+support_current;available_at;Позже финальной выгрузки 2026-10-01;0;;
+support_current;satisfaction_score;Оценка без подтверждённого закрытия;0;;
+support_current;created_at;Создано до подключения абонента;0;;
+support_current;created_at;Создано после расторжения договора;0;;
+support_current;ИТОГО;Уникальных строк с хотя бы одной проблемой;290;255;100
+support_legacy+current;ticket_id;Номер обращения есть в обеих системах;0;;
