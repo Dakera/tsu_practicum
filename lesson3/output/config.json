@@ -1,0 +1,25 @@
+{
+  "unit_of_observation": "(customer_id, snapshot_at)",
+  "snapshot_moment": "T 00:00 Moscow time (+03:00), first day of a month",
+  "eda_dates": [
+    "2025-12-01",
+    "2026-01-01",
+    "2026-02-01",
+    "2026-03-01",
+    "2026-04-01",
+    "2026-05-01",
+    "2026-06-01",
+    "2026-07-01"
+  ],
+  "validation_dates": [
+    "2026-08-01"
+  ],
+  "test_dates": [
+    "2026-09-01"
+  ],
+  "active_base_rule": "activation < T and (no termination or termination >= T); state before the events dated T",
+  "horizon": "calendar month [T, first day of next month), end excluded",
+  "target": "termination inside the horizon; unknown (empty) when the horizon ends after outcomes_observed_before",
+  "outcomes_observed_before": "2026-10-01",
+  "feature_source": "customer_month row for billing month T-1 with available_at <= T"
+}

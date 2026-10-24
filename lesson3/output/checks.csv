@@ -1,0 +1,20 @@
+﻿check;passed;detail
+key (customer_id, snapshot_at) is unique;True;duplicates: 0
+active base matches an independent recount from raw events;True;"8 dates; rows 15696 vs 15696; churn 440 vs 440"
+base size and churn per T match the project charter;True;"total 15696 rows / 440 churn; charter 15696 / 440"
+activation date in events equals subscribers_clean;True;all customers
+billing_available_at <= snapshot_at and source month is T-1;True;15696 rows with a billing row
+every active customer has a billing row for T-1;True;rows without T-1 billing (kept, not dropped): 0
+termination date is not a column of eda_sample;True;columns: none
+boundary events on T and on the horizon end follow the rule;True;"activation on T excluded; termination on T = churn; termination on end_exclusive = not churn"
+horizon ending after 2026-10-01 gives an unknown label, not 0;True;T=2026-10-01: 2 rows, all labels empty
+debt identity closing = opening + charged - paid holds in eda rows;True;rows violating by more than 0.01 rub: 0
+group numerators and denominators add up to eda_sample;True;"7 tables; each sums to 15696 rows and 440 churn"
+debt >0 group recomputed directly from eda_sample;True;3661 rows, 276 churn, 1784 customers
+debt-within-strata tables cover every row with known debt once;True;"T, tariff, tenure_group, region; 15696 rows each"
+pooled failed rate uses sum(failed) / sum(probe);True;max gap to the naive mean of region rates: 0.245 p.p.
+network availability key (region, measurement_month, snapshot_at) is unique;True;40 rows, duplicates: 0
+a network report published after T is unknown at T;True;"24 late reports have no value at T; latest known report never later than month T-1"
+synthetic report: published at T is known, T + 1 minute is not;True;report_available_at <= snapshot_at
+rebuilding eda_sample from the inputs gives the same table;True;15696 rows, 35 columns
+rerun reproduces every generated file byte for byte;True;"34 files; first run, nothing to compare yet"

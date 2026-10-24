@@ -1,0 +1,36 @@
+﻿field;role;data_type;source;description;unit;missing_rows
+customer_id;ключ;object;subscribers_clean;"Идентификатор абонента; не признак";—;0
+snapshot_at;ключ;datetime64[s, UTC+03:00];конфигурация;Момент расчёта T: 00:00 МСК первого числа;дата и время;0
+source_billing_month;служебное;datetime64[ns];customer_month;Месяц биллинга, из которого взяты показатели (T−1);месяц;0
+billing_available_at;служебное;datetime64[ns, UTC+03:00];customer_month.available_at;"Момент доступности строки биллинга; ≤ snapshot_at";дата и время;0
+region;признак;object;subscribers_clean;Регион обслуживания, постоянный;—;0
+acquisition_channel;признак;object;subscribers_clean;Канал подключения, постоянный;—;0
+customer_segment;признак;object;subscribers_clean;Сегмент абонента, постоянный;—;0
+activation_date;служебное;datetime64[ns];subscribers_clean;"Дата подключения; используется для стажа";дата;0
+tenure_days;признак;int64;расчёт;Стаж на T: snapshot_at − activation_date;дни;0
+tariff;признак;object;customer_month;Тариф в месяце T−1;—;0
+monthly_fee_rub;признак;float64;customer_month;Абонентская плата тарифа в месяце T−1;руб.;0
+charged_rub;признак;float64;customer_month;Начислено за месяц T−1;руб.;0
+paid_rub;признак;float64;customer_month;Оплачено в месяце T−1;руб.;0
+opening_debt_rub;признак;float64;customer_month;Долг на начало месяца T−1;руб.;0
+closing_debt_rub;признак;float64;customer_month;"Долг на конец месяца T−1; 0 — долга нет";руб.;0
+traffic_gb;признак;float64;customer_month;"Трафик за месяц T−1; пусто — неизвестно, не 0";ГБ;147
+voice_minutes;признак;Int64;customer_month;"Минуты за месяц T−1; пусто — неизвестно или было некорректно";мин;50
+active_days;признак;Int64;customer_month;Активные дни в месяце T−1;дни;0
+payment_delay_days;признак;Int64;customer_month;Дни просрочки оплаты в месяце T−1;дни;0
+tariff_changes_count;признак;Int64;customer_month;Смены тарифа в месяце T−1;раз;0
+support_count;признак;Int64;customer_month;Обращения, созданные в месяце T−1 и известные к T;обращения;0
+support_network_count;признак;Int64;customer_month;Из них по теме network;обращения;0
+support_billing_count;признак;Int64;customer_month;Из них по теме billing;обращения;0
+support_unknown_topic_count;признак;Int64;customer_month;Из них с неизвестной темой;обращения;0
+support_resolved_count;признак;Int64;customer_month;Из них закрытые, закрытие известно к T;обращения;0
+support_score_count;признак;Int64;customer_month;Число оценок, известных к T;оценки;0
+support_score_mean;признак;float64;customer_month;"Средняя оценка; пусто — оценок не было";балл 1–5;12449
+closing_debt_restored;качество;bool;customer_month;"Долг восстановлен на этапе 2; не признак";—;0
+traffic_gb_missing;качество;bool;customer_month;"Трафик неизвестен; не признак";—;0
+voice_minutes_invalid;качество;bool;customer_month;"Минуты были отрицательными и переведены в пропуск; не признак";—;0
+activation_date_restored;качество;bool;subscribers_clean;"Дата подключения восстановлена по журналу; не признак";—;0
+support_flagged_count;качество;Int64;customer_month;"Обращения с некорректным закрытием или оценкой; не признак";обращения;0
+support_quarantined_linked_count;качество;Int64;customer_month;"Обращения из карантина этапа 2; не признак";обращения;0
+target_end_exclusive;метка;datetime64[s, UTC+03:00];конфигурация;Конец горизонта, не включён: 1-е число следующего месяца;дата и время;0
+churn_target;метка;Int64;contract_events_clean;"1 — termination в [snapshot_at, target_end_exclusive); пусто — исход не наблюдаем";0/1;0
