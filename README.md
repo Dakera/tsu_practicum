@@ -4,20 +4,10 @@
 
 | Этап | Отчёт | Код и результаты |
 |---|---|---|
-| 1. Устав проекта | [project_charter.md](lesson1/docs/project_charter.md) | ~~[01_charter_checks.ipynb](lesson1/notebooks/01_charter_checks.ipynb) — Google Colab~~ |
+| 1. Устав проекта | [project_charter.md](lesson1/docs/project_charter.md) | |
 | 2. Сбор и подготовка данных | [quality_report.md](lesson2/docs/quality_report.md) | [lesson2/](lesson2/README.md) |
 | 3. Разведочный анализ | [eda_report.md](lesson3/docs/eda_report.md) | [lesson3/](lesson3/README.md) |
 
 Ответы заказчика на вопросы по уставу: [client_answers.md](client_answers.md).
-
-## Запуск
-
-Из корня репозитория:
-
-```
-pip install -r requirements.txt
-python lesson2/prepare.py
-jupyter nbconvert --to notebook --execute --inplace lesson3/eda.ipynb
-```
 
 Исходные выгрузки каждого этапа не изменяются. Формат CSV: UTF-8 с BOM, разделитель `;`.
