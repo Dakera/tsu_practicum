@@ -13,14 +13,6 @@
 
 Исходники второго занятия лежат в `lesson2/data/` и `lesson2/schema_support.csv` и не изменяются. Текущие обращения читаются из SQLite, CSV-экспорт базы не используется.
 
-Запуск из корня репозитория (Python 3.10+):
-
-```bash
-python -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt      # Windows: .venv\Scripts\python.exe -m pip ...
-.venv/bin/python lesson2/prepare.py                      # Windows: .venv\Scripts\python.exe lesson2/prepare.py
-```
-
 | Результат (`lesson2/output/`) | Содержание |
 |---|---|
 | `subscribers_clean.csv`, `billing_clean.csv`, `contract_events_clean.csv`, `support_clean.csv` | Нормализованные таблицы |
@@ -34,7 +26,7 @@ python -m venv .venv
 
 Документы: [отчёт о качестве](lesson2/docs/quality_report.md), [словарь данных](lesson2/docs/data_dictionary.csv). Код: `lesson2/prepare.py` (точка входа) и модули `lesson2/prep/`: `load` → `inventory` → `audit` → `clean` → `merge` → `checks`.
 
-### Комплект сдачи
+### Навигация по пунктам
 
 | № | Требование задания | Где |
 |---|---|---|
