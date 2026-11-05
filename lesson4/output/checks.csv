@@ -1,0 +1,29 @@
+﻿check;passed;detail
+digital: key (customer_id, usage_month) is unique;True;24098 rows, duplicates: 0
+digital: every customer_id is in subscribers_clean;True;unknown ids: 0
+digital: (customer, month) pairs equal the billing pairs;True;no new customers and no new months
+digital: observation_status in {observed, not_enabled, export_gap};True;{'observed': 16991, 'not_enabled': 6120, 'export_gap': 987}
+digital: usage_month is a first day, Sep 2025 – Aug 2026;True;2025-09 … 2026-08
+digital: available_at is not earlier than the end of usage_month;True;delay after month end, hours: [0.0, 6.0, 24.0, 36.0]
+digital: observed rows have all counts, 1 <= observed_days <= month length, 0 <= failures <= attempts;True;16991 observed rows
+digital: not_enabled and export_gap rows have every count empty;True;7107 rows
+digital: observed_days equals billing active_days of the same month;True;normalisation by observed_days covers exactly the active contract days
+key (customer_id, snapshot_at) is unique in features, labels, split, audit;True;"duplicates: 0; all four layers share keys and row order"
+rows per T equal an independent recount from the raw log and the charter table;True;"10 dates; 19541 rows, 568 churn"
+labels of each part are fully observed before the next part starts;True;train ends 2026-08-01, validation ends 2026-09-01
+every used row of every source has available_at <= snapshot_at;True;max available_at of billing, support and digital rows in feature_audit.csv
+no label or termination column in features.csv;True;columns: none
+features at T do not change when records published after T are altered or added;True;"10 dates; billing, support (incl. late tickets of M-1), digital"
+changing future labels does not change features;True;"10 dates; labels differ, features equal"
+availability boundary: available_at = T is included, T + 1 s is excluded;True;"billing C000001: True; support C000002: True; digital C000013/C000001: True"
+"window rows = months since activation; short history is not padded";True;980 rows with < 3 months: {1: 500, 2: 480}
+one-month history: changes unknown, 3-month mean equals that month;True;500 rows with one month of history
+unknown traffic of M-2 gives an unknown change, not a substitute month;True;187 real rows with unknown M-2 traffic
+a removed month M-2 is not replaced by M-3 in the debt change;True;C000002 at 2026-07-01: debt_change empty, 2 months in the window
+"not_enabled, export_gap and late reports are unknown, not zero; 0 attempts gives an unknown rate";True;"unknown M-1: {'not_available': 9801, 'not_enabled': 2485, 'export_gap': 399}; measured zero sessions: 419; zero attempts with unknown rate: 984"
+preprocessor statistics come from train only and do not change on transform;True;"19 medians equal train medians; scale and categories unchanged after transform"
+unseen categories and a missing category in validation transform without refit;True;Ultra / Новая область / missing tariff / unseen digital status -> zero one-hot, other rows unchanged
+transform keeps rows aligned with keys;True;validation (1929, 45), row i = features row i of the validation part
+baseline TP@K and K reproduce with an independent pure-Python ranking;True;"TP@K per date [16, 19, 21, 22, 23, 26, 23, 25]; K = floor(0.1 * N) matches the charter table"
+rebuilding features, audit, labels and the transform gives identical results;True;features (19541, 26), audit (19541, 16), labels (19541, 4)
+all written files are byte-identical to the previous run;True;"12 files; changed: none"

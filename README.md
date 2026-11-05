@@ -7,6 +7,7 @@
 | 1. Устав проекта | [project_charter.md](lesson1/docs/project_charter.md) | |
 | 2. Сбор и подготовка данных | [quality_report.md](lesson2/docs/quality_report.md) | [lesson2/](lesson2/README.md) |
 | 3. Разведочный анализ | [eda_report.md](lesson3/docs/eda_report.md) | [lesson3/](lesson3/README.md) |
+| 4. Признаки и выбор метода | [modeling_plan.md](lesson4/docs/modeling_plan.md) | [lesson4/](lesson4/README.md) |
 
 Ответы заказчика на вопросы по уставу: [client_answers.md](client_answers.md).
 

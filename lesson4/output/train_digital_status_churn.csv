@@ -1,0 +1,5 @@
+﻿digital_status_prev;n_rows;n_churn;churn_rate
+observed;5487;166;0.0303
+not_enabled;2006;48;0.0239
+export_gap;306;6;0.0196
+not_available;7897;220;0.0279

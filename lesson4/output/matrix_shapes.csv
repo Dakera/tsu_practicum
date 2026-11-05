@@ -1,0 +1,4 @@
+﻿part;dates;rows;x_columns;customers;row_order;first_key;last_key;all_finite
+train;2025-12-01, 2026-01-01, 2026-02-01, 2026-03-01, 2026-04-01, 2026-05-01, 2026-06-01, 2026-07-01;15696;45;2319;как в features.csv: snapshot_at, затем customer_id;C000001 @ 2025-12-01;C002450 @ 2026-07-01;True
+validation;2026-08-01;1929;45;1929;как в features.csv: snapshot_at, затем customer_id;C000001 @ 2026-08-01;C002500 @ 2026-08-01;True
+test;2026-09-01;1916;45;1916;как в features.csv: snapshot_at, затем customer_id;C000001 @ 2026-09-01;C002550 @ 2026-09-01;True

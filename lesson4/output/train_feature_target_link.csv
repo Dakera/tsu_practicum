@@ -1,0 +1,20 @@
+﻿feature;group;n_known;n_missing;spearman_with_target;churn_rate_known;churn_rate_missing
+debt_prev_rub;биллинг;15696;0;0.1707;0.028;
+debt_change_rub;биллинг;15296;400;0.1324;0.0279;0.035
+payment_delay_prev_days;биллинг;15696;0;0.132;0.028;
+paid_to_charged_3m;биллинг;15696;0;-0.1217;0.028;
+debt_months_3m;биллинг;15696;0;0.1078;0.028;
+digital_payment_attempts_3m;цифровой источник;11351;4345;0.0206;0.0284;0.0272
+traffic_change_gb;история использования;15009;687;-0.0195;0.0281;0.0262
+digital_payment_failure_rate_3m;цифровой источник;10570;5126;0.0192;0.0289;0.0263
+digital_sessions_per_day_prev;цифровой источник;5487;10209;0.0151;0.0303;0.0268
+support_billing_count_3m;поддержка;15696;0;-0.0107;0.028;
+n_billing_months_3m;полнота;15696;0;-0.0106;0.028;
+digital_selfservice_per_day_3m;цифровой источник;11351;4345;0.0093;0.0284;0.0272
+digital_observed_months_3m;полнота;15696;0;0.0078;0.028;
+tenure_days;договор/сегмент;15696;0;-0.0057;0.028;
+n_traffic_known_3m;полнота;15696;0;-0.0049;0.028;
+digital_sessions_per_day_3m;цифровой источник;11351;4345;-0.0039;0.0284;0.0272
+support_count_3m;поддержка;15696;0;0.0033;0.028;
+traffic_gb_mean_3m;история использования;15690;6;-0.0021;0.028;0
+traffic_per_day_3m;история использования;15690;6;-0.0012;0.028;0
