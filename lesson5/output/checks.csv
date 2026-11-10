@@ -1,0 +1,22 @@
+﻿check;passed;detail
+input files are byte-identical to the lesson 4 delivery;True;"features.csv 85d558c06d06; labels.csv 1054edfb6907; split.csv e68d40faaf60"
+key (customer_id, snapshot_at) is filled and unique in each table;True;features 19541, labels 19541, split 19541 rows
+the three tables hold the same key set;True;19541 keys in each
+split is the lesson 4 temporal split, not reshuffled;True;"train 2025-12-01..2026-07-01 (8 dates), validation 2026-08-01, test 2026-09-01; one part per date"
+x_v1 is exactly the lesson 4 catalog list (include_in_X = yes);True;"24 features; keys, target, horizon end and audit fields are not among them"
+no row is lost in the join;True;train 15696 + validation 1929 + test 1916 (not loaded) = 19541
+active base and churn count on every train/validation date equal the lesson 4 independent recount;True;"9 dates; churn per date [48, 50, 52, 54, 56, 58, 60, 62, 63]"
+every train label is fully observed before validation starts;True;last train horizon ends 2026-07-31 21:00 UTC, validation T = 2026-07-31 21:00 UTC
+model input types: numeric columns are numbers, categorical are text;True;19 numeric + 5 text columns, order as in config.json
+both classes are present in train;True;"440 churners of 15696 rows (2.80%); validation 63 of 1929"
+baseline on train reproduces N, K, found and churned of lesson 4 on every date;True;found per date [16, 19, 21, 22, 23, 26, 23, 25], K [196, 197, 197, 196, 196, 195, 195, 194]
+preprocessing statistics come from train only;True;"19 medians equal train medians; boosting category codes equal train categories"
+unseen and missing categories in validation are scored without refit;True;4 changed rows get finite scores, the other rows keep their scores exactly (both methods)
+a row's score does not depend on row order;True;reversed validation gives the reversed scores (both methods)
+every experiment trained and converged without warnings;True;"6 experiments, 4 temporal folds each; warnings: none"
+test rows were not loaded, fitted on or scored;True;dates in memory: 2025-12-01..2026-08-01
+baseline and every model are ranked on the same base with the same K on each date;True;"7 approaches x 9 dates; K = floor(0.1 x N)"
+saved Pipeline reloads in a new process and reproduces keys, scores, ranks and top-K without fit;True;"Reloaded without fit; validation scores: 1929; expected match: True"
+metrics recomputed from the reloaded scores equal the metrics of the training run;True;"max |score difference| = 9.9e-17; found 18 of 63, K = 192"
+refitting the selected experiment from scratch gives identical validation scores;True;hgb_leaf4_nodig: 1929 scores are bit-identical
+deterministic outputs are byte-identical to the previous run;True;"6 files; changed: none"

@@ -1,0 +1,42 @@
+{
+  "selected_experiment": "hgb_leaf4_nodig",
+  "rule": [
+    "max validation macro Recall@K",
+    "tie: max pooled Recall@K over the temporal folds inside train",
+    "tie: max validation Average Precision",
+    "tie: first experiment in the order of this file"
+  ],
+  "decided_by": "validation Recall@K",
+  "ranking": [
+    "hgb_leaf4_nodig",
+    "hgb_leaf4",
+    "hgb_leaf8",
+    "lr_c1_nodig",
+    "lr_c1",
+    "lr_c01"
+  ],
+  "validation": {
+    "date": "2026-08-01",
+    "K": 192,
+    "churned": 63,
+    "baseline_found": 14,
+    "candidate_found": 18,
+    "additional_found": 4,
+    "found_only_by_candidate": 4,
+    "found_only_by_baseline": 0,
+    "sign_test_p": 0.125
+  },
+  "temporal_folds": {
+    "check_dates": [
+      "2026-04-01",
+      "2026-05-01",
+      "2026-06-01",
+      "2026-07-01"
+    ],
+    "churned": 236,
+    "baseline_found": 97,
+    "candidate_found": 92
+  },
+  "test_used": false,
+  "refit_on_train_plus_validation": false
+}

@@ -1,0 +1,113 @@
+{
+  "seed": 42,
+  "campaign_fraction": 0.1,
+  "prepared": "../lesson4/output",
+  "baseline_feature": "debt_prev_rub",
+  "feature_sets": {
+    "x_v1": {
+      "description": "all 24 features of lesson 4 (feature_catalog.csv, include_in_X = yes)",
+      "numeric_columns": [
+        "tenure_days",
+        "debt_prev_rub",
+        "debt_months_3m",
+        "debt_change_rub",
+        "paid_to_charged_3m",
+        "payment_delay_prev_days",
+        "traffic_gb_mean_3m",
+        "traffic_per_day_3m",
+        "traffic_change_gb",
+        "support_count_3m",
+        "support_billing_count_3m",
+        "digital_sessions_per_day_prev",
+        "digital_sessions_per_day_3m",
+        "digital_payment_attempts_3m",
+        "digital_payment_failure_rate_3m",
+        "digital_selfservice_per_day_3m",
+        "n_billing_months_3m",
+        "n_traffic_known_3m",
+        "digital_observed_months_3m"
+      ],
+      "categorical_columns": [
+        "tariff_prev",
+        "customer_segment",
+        "acquisition_channel",
+        "region",
+        "digital_status_prev"
+      ]
+    },
+    "x_v2_no_digital": {
+      "description": "x_v1 without the digital source: 5 digital features and 2 digital completeness indicators removed",
+      "numeric_columns": [
+        "tenure_days",
+        "debt_prev_rub",
+        "debt_months_3m",
+        "debt_change_rub",
+        "paid_to_charged_3m",
+        "payment_delay_prev_days",
+        "traffic_gb_mean_3m",
+        "traffic_per_day_3m",
+        "traffic_change_gb",
+        "support_count_3m",
+        "support_billing_count_3m",
+        "n_billing_months_3m",
+        "n_traffic_known_3m"
+      ],
+      "categorical_columns": [
+        "tariff_prev",
+        "customer_segment",
+        "acquisition_channel",
+        "region"
+      ]
+    }
+  },
+  "temporal_folds": [
+    {"train_end_inclusive": "2026-03-01", "check_date": "2026-04-01"},
+    {"train_end_inclusive": "2026-04-01", "check_date": "2026-05-01"},
+    {"train_end_inclusive": "2026-05-01", "check_date": "2026-06-01"},
+    {"train_end_inclusive": "2026-06-01", "check_date": "2026-07-01"}
+  ],
+  "selection_rule": [
+    "max validation macro Recall@K",
+    "tie: max pooled Recall@K over the temporal folds inside train",
+    "tie: max validation Average Precision",
+    "tie: first experiment in the order of this file"
+  ],
+  "experiments": [
+    {
+      "id": "lr_c01",
+      "family": "logistic_regression",
+      "feature_set": "x_v1",
+      "params": {"C": 0.1}
+    },
+    {
+      "id": "lr_c1",
+      "family": "logistic_regression",
+      "feature_set": "x_v1",
+      "params": {"C": 1.0}
+    },
+    {
+      "id": "hgb_leaf4",
+      "family": "hist_gradient_boosting",
+      "feature_set": "x_v1",
+      "params": {"max_leaf_nodes": 4, "max_iter": 100, "learning_rate": 0.05, "min_samples_leaf": 100, "l2_regularization": 1.0}
+    },
+    {
+      "id": "hgb_leaf8",
+      "family": "hist_gradient_boosting",
+      "feature_set": "x_v1",
+      "params": {"max_leaf_nodes": 8, "max_iter": 100, "learning_rate": 0.05, "min_samples_leaf": 100, "l2_regularization": 1.0}
+    },
+    {
+      "id": "lr_c1_nodig",
+      "family": "logistic_regression",
+      "feature_set": "x_v2_no_digital",
+      "params": {"C": 1.0}
+    },
+    {
+      "id": "hgb_leaf4_nodig",
+      "family": "hist_gradient_boosting",
+      "feature_set": "x_v2_no_digital",
+      "params": {"max_leaf_nodes": 4, "max_iter": 100, "learning_rate": 0.05, "min_samples_leaf": 100, "l2_regularization": 1.0}
+    }
+  ]
+}

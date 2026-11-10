@@ -1,0 +1,116 @@
+{
+  "selected_experiment": "hgb_leaf4_nodig",
+  "family": "hist_gradient_boosting",
+  "params": {
+    "max_leaf_nodes": 4,
+    "max_iter": 100,
+    "learning_rate": 0.05,
+    "min_samples_leaf": 100,
+    "l2_regularization": 1.0
+  },
+  "seed": 42,
+  "feature_set": "x_v2_no_digital",
+  "input_columns_in_order": [
+    {
+      "name": "tenure_days",
+      "dtype": "int64",
+      "missing": "NaN"
+    },
+    {
+      "name": "debt_prev_rub",
+      "dtype": "float64",
+      "missing": "NaN"
+    },
+    {
+      "name": "debt_months_3m",
+      "dtype": "int64",
+      "missing": "NaN"
+    },
+    {
+      "name": "debt_change_rub",
+      "dtype": "float64",
+      "missing": "NaN"
+    },
+    {
+      "name": "paid_to_charged_3m",
+      "dtype": "float64",
+      "missing": "NaN"
+    },
+    {
+      "name": "payment_delay_prev_days",
+      "dtype": "int64",
+      "missing": "NaN"
+    },
+    {
+      "name": "traffic_gb_mean_3m",
+      "dtype": "float64",
+      "missing": "NaN"
+    },
+    {
+      "name": "traffic_per_day_3m",
+      "dtype": "float64",
+      "missing": "NaN"
+    },
+    {
+      "name": "traffic_change_gb",
+      "dtype": "float64",
+      "missing": "NaN"
+    },
+    {
+      "name": "support_count_3m",
+      "dtype": "int64",
+      "missing": "NaN"
+    },
+    {
+      "name": "support_billing_count_3m",
+      "dtype": "int64",
+      "missing": "NaN"
+    },
+    {
+      "name": "n_billing_months_3m",
+      "dtype": "int64",
+      "missing": "NaN"
+    },
+    {
+      "name": "n_traffic_known_3m",
+      "dtype": "int64",
+      "missing": "NaN"
+    },
+    {
+      "name": "tariff_prev",
+      "dtype": "object (text)",
+      "missing": "NaN"
+    },
+    {
+      "name": "customer_segment",
+      "dtype": "object (text)",
+      "missing": "NaN"
+    },
+    {
+      "name": "acquisition_channel",
+      "dtype": "object (text)",
+      "missing": "NaN"
+    },
+    {
+      "name": "region",
+      "dtype": "object (text)",
+      "missing": "NaN"
+    }
+  ],
+  "score": "predict_proba column of class 1 (pipeline.classes_ == [0, 1])",
+  "fitted_on": "train, snapshots 2025-12-01..2026-07-01",
+  "campaign_fraction": 0.1,
+  "versions": {
+    "python": "3.14.7",
+    "pandas": "2.3.3",
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "data_version_sha256": {
+    "features.csv": "85d558c06d06606851bd15b2209e1b102d393173d01f9505c365a3331d5dd549",
+    "labels.csv": "1054edfb690781c42cc20d31a38b956b0b377437b0ec6b50ada79393868b3272",
+    "split.csv": "e68d40faaf604cfd339759dae27b0671b4feab3271f64c71f0cac3de7d65ecde"
+  },
+  "required_module": "none: scikit-learn classes only"
+}
