@@ -1,0 +1,14 @@
+{
+  "run_date": "2026-11-18",
+  "model": "hgb_leaf4_nodig",
+  "model_file": "../lesson5/output/model/candidate.joblib",
+  "pipeline_state": "8220fe2a6a50dced8dc4fe1fbc832fd4",
+  "versions": {
+    "python": "3.14.7",
+    "pandas": "2.3.3",
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "fit_calls": 0
+}

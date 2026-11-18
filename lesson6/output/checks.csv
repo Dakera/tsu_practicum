@@ -1,0 +1,13 @@
+﻿check;passed;detail
+the loaded model is the candidate selected at lesson 5, and lesson 5 did not use test;True;"hgb_leaf4_nodig; test_used = False"
+input tables are the ones the model was trained on;True;"features.csv 85d558c06d06; labels.csv 1054edfb6907; split.csv e68d40faaf60"
+scikit-learn version equals the version the model was saved with;True;1.9.1
+the loaded model reproduces the lesson 5 validation predictions without fit;True;"1929 rows; max |score difference| = 9.9e-17; ranks and top-K equal"
+validation metrics of lesson 5 are carried over unchanged;True;"baseline: 14 of 63, K = 192; hgb_leaf4_nodig: 18 of 63, K = 192"
+test base is the whole active base of the date and its keys are unique;True;"N = 1916, churned = 65; equal to the independent recount of lesson 4"
+model and baseline are compared on the same base with the same K;True;N = 1916, K = 191 for both
+baseline on test reproduces the charter value;True;"30 of 65 = 46.2%; charter (lesson 1): 46.2%"
+segment table covers the whole test base and the common top-K;True;groups [426, 1490], churned [40, 25], selected sum = K
+no fitting happened: the Pipeline state after all scoring equals the state at load;True;joblib.hash = 8220fe2a6a50
+reloading the same model on the same inputs gives the same contact list and metrics;True;191 contacts, found 30 of 65
+contact lists and the quality table equal the previous run of this notebook;True;both test lists (rank, selected) and all counts of the quality table are unchanged

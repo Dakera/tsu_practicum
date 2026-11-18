@@ -1,0 +1,15 @@
+{
+  "prepared": "../lesson4/output",
+  "model": "../lesson5/output/model/candidate.joblib",
+  "lesson5_output": "../lesson5/output",
+  "test_date": "2026-09-01",
+  "observation_end_exclusive": "2026-10-01T00:00:00+03:00",
+  "charter_baseline_test_recall_percent": 46.2,
+  "segment": {
+    "name": "debt_prev",
+    "feature": "debt_prev_rub",
+    "groups": {"positive": "долг > 0", "zero": "долга нет"}
+  },
+  "permutation": {"part": "validation", "repeats": 30, "seed": 42},
+  "explained_features": ["debt_prev_rub", "debt_change_rub", "tenure_days"]
+}

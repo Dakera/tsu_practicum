@@ -1,0 +1,5 @@
+﻿period;approach;snapshot_at;n_active;K;hits;n_churn;recall_at_K;precision_at_K;average_precision
+validation;baseline;2026-08-01;1929;192;14;63;0.222222;0.072917;0.058262
+validation;model;2026-08-01;1929;192;18;63;0.285714;0.09375;0.070162
+test;baseline;2026-09-01;1916;191;30;65;0.461538;0.157068;0.1166
+test;model;2026-09-01;1916;191;30;65;0.461538;0.157068;0.125168
